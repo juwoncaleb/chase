@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header {
+    padding-top: 10px;
+   
+}
+.div{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.phone {
+    height: 25px;
+    width: 20px;
+}
+.top_image{
+    margin-left: 30px;
+}
+.nav_link {
+    margin-right: 20px;
+    font-size: 18px;
+}
+.top_imag{
+    z-index: 1;
+}
+.start_btn {
+    background-color: black;
+    color: whitesmoke;
+    width: 150px;
+}
