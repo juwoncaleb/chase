@@ -2,9 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    background-color: #F9F9F9;
+
+}
 .header {
-    padding-top: 10px;
-   
+    padding-top: 15px;
+    background-color: #F9F9F9;
+
 }
 .div{
     padding-left: 5%;

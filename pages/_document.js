@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
-      <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet"/>
+      <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Italiana&display=swap" rel="stylesheet"/>
 
       <body>
         <Main />

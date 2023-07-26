@@ -15,7 +15,7 @@ export default function Header() {
       <div className='flex justify-evenly'>
        
         <button className='start_btn'>
-          Get Started
+          Talk to us
         </button>
       </div>
     </div>
