@@ -1,9 +1,9 @@
+import Faq from '@/component/Faq'
 import Image from 'next/image'
-import React, { useRef, useState } from 'react'
+import React, { useRef, useState, useEffect } from 'react'
 
 export default function LandingPage() {
-
-
+  
     return (
         <div>
             <div className='div mt-14'>
@@ -13,7 +13,7 @@ export default function LandingPage() {
                     <Image className='family' width='300' height='200' src='/t1.jpg' />
 
                 </div>
-                <p className='hero_text ml-10'>BUILDING REPUTABLE BRAND FOR IMPORTANT REAL ESTATE BUSINESS</p>
+                <p className='hero_text ml-10'>BUILDING REPUTABLE BRANDS FOR IMPORTANT REAL ESTATE BUSINESSES</p>
                 <div className='flex justify-around bt_img'>
                     <Image className='flat' width='330' height='100' src='/h5.jpg' />
                     <Image className='hh' width='290' height='200' src='/sold.jpg' />
@@ -102,30 +102,25 @@ export default function LandingPage() {
                     <input type="radio" name="testimonial" id="t-4" />
                     <input type="radio" name="testimonial" id="t-5" />
                     <div class="testimonials">
-                        <label class="item item_1" for="t-1">
-                            <img src="https://dummyimage.com/150" alt="picture" />
-                            <p>"Raw denim you probably haven't heard of them jean short austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
-                            <h2>- Princy, Web Developer</h2>
+                        <label class="item item_1 flex justify-around" for="t-1">
+                            <img src="./l1.png" alt="picture" />
+                            <p className='testimoal_text'>"Raw denim you probably haven't heard of them jean short austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
                         </label>
-                        <label class="item item_2" for="t-2">
-                            <img src="https://dummyimage.com/150" alt="picture" />
-                            <p>"Raw denim you probably haven't heard of them jean short austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
-                            <h2>- Princy, Web Developer</h2>
+                        <label class="item  flex justify-around item_2" for="t-2">
+                            <img src="./l2.png" alt="picture" />
+                            <p className='testimoal_text'>"Raw denim you probably haven't heard of them jean short austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
                         </label>
-                        <label class="item item_3" for="t-3">
-                            <img src="https://dummyimage.com/150" alt="picture" />
-                            <p>"Raw denim you probably haven't heard of them jean short austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
-                            <h2>- Princy, Web Developer</h2>
+                        <label class="item  flex justify-around item_3" for="t-3">
+                            <img src="./l3.png" alt="picture" />
+                            <p className='testimoal_text'>"Raw denim you probably haven't heard of them jean short austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
                         </label>
-                        <label class="item item_4" for="t-4">
-                            <img src="https://dummyimage.com/150" alt="picture" />
-                            <p>"Raw denim you probably haven't heard of them jean short austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
-                            <h2>- Princy, Web Developer</h2>
+                        <label class="item item_4  flex justify-around" for="t-4">
+                            <img className='luka' src="./luka.png" alt="picture" />
+                            <p className='testimoal_text'>"Raw denim you probably haven't heard of them jean short austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
                         </label>
-                        <label class="item item_5" for="t-5">
-                            <img src="https://dummyimage.com/150" alt="picture" />
-                            <p>"Raw denim you probably haven't heard of them jean short austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
-                            <h2>- Princy, Web Developer</h2>
+                        <label class="item flex justify-around item_5" for="t-5">
+                            <img src="./ff.png" alt="picture" />
+                            <p className='testimoal_text'>"Raw denim you probably haven't heard of them jean short austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
                         </label>
                     </div>
                     <div class="dots">
@@ -137,6 +132,145 @@ export default function LandingPage() {
                     </div>
                 </div>
             </div>
+            <div className='div'>
+                <div className='flex testimonal_Div  '>
+                    <div className='round_dot'>
+
+                    </div>
+                    <p className='what_we_do '>PRICING</p>
+                </div>
+                <hr className='what_we_do_line test_line' />
+            </div>
+            <div className='flex justify-center div'>
+                <div className='price_Card mr-10'>
+                    <p className='package'>Silver </p>
+                    <button className='start'>
+                        Get Started
+                    </button>
+                    <div className='price_con'>
+                        <div className='flex point'>
+                            <img className='ver' width="25" height="20" src="https://img.icons8.com/quill/50/FFFFFF/approval.png" alt="approval" />
+                            <p> Homepage, property listings page, contact form, and blog.
+                            </p>
+                        </div>
+                        <div className='flex point'>
+                            <img className='ver' width="25" height="20" src="https://img.icons8.com/quill/50/FFFFFF/approval.png" alt="approval" />
+
+
+                            <p> Content management system for properties  and Blogs.
+                            </p>
+                        </div>
+
+                        <div className='flex point'>
+                            <img className='ver' width="25" height="20" src="https://img.icons8.com/quill/50/FFFFFF/approval.png" alt="approval" />
+
+                            <p> SEO services, keyword research and page speed optimization.
+                            </p>
+                        </div>
+                        <div className='flex point'>
+                            <img className='ver' width="25" height="20" src="https://img.icons8.com/quill/50/FFFFFF/approval.png" alt="approval" />
+
+
+                            <p> Analytics email performance Tracking .</p>
+
+                        </div>
+                        <div className='flex point'>
+                            <img className='ver' width="25" height="20" src="https://img.icons8.com/quill/50/FFFFFF/approval.png" alt="approval" />
+
+                            <p>Inspection Date Schedule, Keep track of  clients' inspection appointments,  date, time, and location.
+
+                            </p>
+                        </div>
+                        <div className='flex point'>
+                            <img className='ver' width="25" height="20" src="https://img.icons8.com/quill/50/FFFFFF/approval.png" alt="approval" />
+
+                            <p>
+                                <span className='bill'> $1200/Quaterly</span> Standard maintenance  website backups, security updates, and bug fixes .
+
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div className='price_Card'>
+                    <p className='package_godl'>Gold</p>
+                    <button className='start'>
+                        Get Started
+                    </button>
+                    <div className='price_con'>
+                        <div className='flex point'>
+                            <img className='ver' width="25" height="20" src="https://img.icons8.com/quill/50/FFFFFF/approval.png" alt="approval" />
+
+
+                            <p>Complex website features, such as a property search, virtual tours, and mortgage calculators.
+                            </p>
+                        </div>
+                        <div className='flex point'>
+                            <img className='ver' width="25" height="20" src="https://img.icons8.com/quill/50/FFFFFF/approval.png" alt="approval" />
+
+
+                            <p> Content management system for properties  and Blogs.
+                            </p>
+                        </div>
+                        <div className='flex point'>
+                            <img className='ver' width="25" height="20" src="https://img.icons8.com/quill/50/FFFFFF/approval.png" alt="approval" />
+
+                            <p> Analytics email performance Tracking .</p>
+
+                        </div>
+
+                        <div className='flex point'>
+                            <img className='ver' width="25" height="20" src="https://img.icons8.com/quill/50/FFFFFF/approval.png" alt="approval" />
+
+                            <p> SEO services, keyword research and page speed optimization.
+                            </p>
+                        </div>
+
+                        <div className='flex point'>
+                            <img className='ver' width="25" height="20" src="https://img.icons8.com/quill/50/FFFFFF/approval.png" alt="approval" />
+
+                            <p>
+                                Client Management System , track Clients,   contact information,  interests, and  progress in the home buying process.
+                            </p>
+                        </div>
+
+
+
+                        <div className='flex point'>
+                            <img className='ver' width="25" height="20" src="https://img.icons8.com/quill/50/FFFFFF/approval.png" alt="approval" />
+
+                            <p>Employee Tracking System Track employee time, tasks, and performance.
+                                .</p>
+                        </div>
+
+                        <div className='flex point'>
+                            <img className='ver' width="25" height="20" src="https://img.icons8.com/quill/50/FFFFFF/approval.png" alt="approval" />
+
+                            <p>Inspection Date Schedule, Keep track of  clients' inspection appointments,  date, time, and location.
+
+                            </p>
+                        </div>
+                        <div className='flex point'>
+                            <img className='ver' width="25" height="20" src="https://img.icons8.com/quill/50/FFFFFF/approval.png" alt="approval" />
+
+
+                            <p className='mb-6'>
+                                <span className='bill'> $1500/Quaterly</span> : Standard maintenance, website backups, security updates, and bug fixes .
+
+                            </p>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+
+            </div>
+            <Faq />
+         
+
         </div >
 
     )

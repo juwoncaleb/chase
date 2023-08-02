@@ -29,7 +29,7 @@ body {
 
 .nav_link {
   margin-right: 20px;
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .top_imag {
@@ -42,13 +42,30 @@ body {
   width: 150px;
 }
 
+.footer {
+  color: whitesmoke;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer_line {
+  border: 2px solid white;
+  width: 100%;
+}
+
+.footer_icon {
+  margin-right: 20px;
+  height: 25px;
+  width: 25px;
+}
+
 .hero_text {
   font-family: "Cinzel Decorative", cursive;
   text-align: center;
-  font-size: 70px;
+  font-size: 60px;
   z-index: 2;
   position: relative;
-  bottom: 220px;
+  bottom: 250px;
   left: 40px;
 }
 
@@ -71,10 +88,16 @@ body {
   margin-right: 150px;
   margin-top: 100px;
   margin-bottom: 80px;
+  position: relative;
+  bottom: 80px;
 }
 
 .hh {
   height: 290px;
+}
+
+.point {
+  margin-top: 20px;
 }
 
 .round_dot {
@@ -83,7 +106,22 @@ body {
   height: 20px;
   margin-right: 20px;
   width: 20px;
-  margin-top: 18px;
+  margin-top: 12px;
+}
+
+.ver {
+  height: 25px;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.round_dot_2 {
+  border-radius: 50%;
+  background-color: white;
+  height: 10px;
+  margin-right: 10px;
+  width: 10px;
+  margin-top: 12px;
 }
 
 .what_we_do_line {
@@ -156,7 +194,7 @@ body {
 }
 
 .testimonials .item {
-  width: 450px;
+  width: 600px;
   padding: 30px;
   border-radius: 5px;
   position: absolute;
@@ -172,12 +210,14 @@ body {
 }
 
 .testimonials .item img {
-  width: 100px;
-  height: 100px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-radius: 50%;
-  border: 13px solid #3B344D;
+  width: 400px;
+}
+
+.testimoal_text {
+  text-align: left;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 70px;
 }
 
 .testimonials .item h2 {
@@ -278,11 +318,11 @@ body {
 }
 
 .testimonal_Div {
-  margin-top: 30px;
+  margin-top: 80px;
 }
 
 .test_line {
-  margin-bottom: 30px;
+  margin-bottom: 80px;
 }
 
 .item_1 {
@@ -304,4 +344,265 @@ body {
 
 .item_5 {
   background-color: mediumvioletred;
+}
+
+.package {
+  font-family: "Italiana", serif;
+  font-size: 50px;
+  font-weight: 700;
+  color: silver;
+}
+
+.priz {
+  font-family: "Italiana", serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: whitesmoke;
+}
+
+.package_godl {
+  font-family: "Italiana", serif;
+  font-size: 50px;
+  font-weight: 700;
+  color: gold;
+}
+
+.price_con {
+  max-width: 400px;
+  color: whitesmoke;
+  margin-top: 40px;
+}
+
+.price_Card {
+  background-color: black;
+  max-width: 650px;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.bill {
+  font-size: 18px;
+  font-weight: 600;
+  color: red;
+}
+
+.faq {
+  background-color: #252525;
+  color: whitesmoke !important;
+  margin-top: 130px;
+  padding-top: 70px;
+  border-radius: 50px;
+  padding-bottom: 30px;
+}
+
+.questions {
+  max-width: 70%;
+  text-align: justify;
+}
+
+.quest_head {
+  text-align: justify;
+  margin-left: 100px;
+}
+
+.qustion_header {
+  font-family: "Italiana", serif;
+  font-size: 46px;
+  font-weight: 600;
+}
+
+.start {
+  background-color: #A3FBA2;
+  color: black;
+  width: 150px;
+  height: 40px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.start_now {
+  background-color: #A3FBA2;
+  color: black;
+  width: 150px;
+  height: 50px;
+  font-weight: 700;
+  margin-top: 15px;
+  font-size: 25px !important;
+  margin-bottom: 15px;
+}
+
+.more {
+  font-family: "Italiana", serif;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.book_Call {
+  font-size: 20px;
+  font-weight: 400;
+  color: #A3FBA2;
+  margin-top: 10px;
+}
+
+.plus {
+  height: 20px;
+}
+
+.end {
+  padding: 80px 50px 80px;
+  background-color: rgb(0, 0, 0);
+  margin-top: 60px;
+}
+
+.End_note {
+  font-family: "Italiana", serif;
+  font-size: 45px;
+  font-weight: 600;
+  margin-top: 10px;
+  color: whitesmoke;
+}
+
+.we_div {
+  max-width: 350px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Della Respira", serif;
+  text-align: left;
+}
+
+.we_card {
+  border: 2px solid black !important;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.div_men {
+  margin-top: 70px;
+}
+
+.sop {
+  font-family: "Della Respira", serif !important;
+}
+
+.au {
+  background-color: red;
+}
+
+.we_cardee {
+  margin-top: 120px;
+}
+
+.last_Cta {
+  background-color: black;
+  color: white;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  padding: 20px 50px 70px;
+}
+
+.we_head {
+  margin-bottom: 130px;
+  font-size: 45px !important;
+}
+
+.we_img {
+  margin-top: 100px;
+}
+
+.we_card {
+  /* Add card styles here */
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  transition: background-color 0.3s, color 0.3s;
+  /* Add transition for background-color and color */
+}
+
+.we_card:hover,
+.we_card:active {
+  background-color: black;
+  color: #fff;
+  /* Change text color to white on hover and press */
+}
+
+.display_img {
+  width: 70%;
+}
+
+.ought {
+  color: red;
+  font-weight: 600;
+}
+
+.process {
+  margin-top: 180px;
+}
+
+.sub_card {
+  font-size: 16px;
+}
+
+.round_dot_white {
+  border-radius: 50%;
+  background-color: white;
+  height: 10px;
+  margin-right: 20px;
+  width: 10px;
+  margin-top: 12px;
+}
+
+.serv {
+  font-family: "Italiana", serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.intent_header {
+  font-family: "Italiana", serif;
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 48px;
+}
+
+.sub_button {
+  width: 150px;
+  font-weight: 500;
+  height: 38px;
+  font-size: 18px;
+  color: black;
+  background-color: white;
+}
+
+.chase {
+  font-family: "Italiana", serif;
+  font-size: 65px;
+  font-weight: 700;
+  margin-top: 48px;
+}
+
+.sub_cta {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.int_div {
+  margin-top: 130px;
+}
+
+.int_tex {
+  font-size: 20px;
+  font-weight: 300;
+  max-width: 600px;
+}
+
+.int_text_two {
+  margin-top: 25px;
+}
+
+.realImage {
+  border: 2px solid black;
 }/*# sourceMappingURL=global.css.map */

@@ -2,16 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+body {
     background-color: #F9F9F9;
 
 }
+
 .header {
     padding-top: 15px;
     background-color: #F9F9F9;
 
 }
-.div{
+
+.div {
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -20,18 +22,42 @@ body{
     height: 25px;
     width: 20px;
 }
-.top_image{
+
+.top_image {
     margin-left: 30px;
 }
+
 .nav_link {
     margin-right: 20px;
-    font-size: 18px;
+    font-size: 17px;
+
 }
-.top_imag{
+
+.top_imag {
     z-index: 1;
 }
+
 .start_btn {
     background-color: black;
     color: whitesmoke;
     width: 150px;
+}
+
+.footer {
+    color: whitesmoke;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer_line {
+    border: 2px solid white;
+
+
+    width: 100%;
+}
+
+.footer_icon {
+    margin-right: 20px;
+    height: 25px;
+    width: 25px;
 }
