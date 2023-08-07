@@ -14,6 +14,33 @@
     padding-bottom: 20px;
 }
 
+.about_div {
+    padding-top: 130px;
+    height: 100vh;
+    background-color: #F4D4AE;
+}
+.about_us_section.sticky {
+    position: sticky;
+    bottom: 0;
+  }
+.about_head {
+    max-width: 900px;
+}
+.about_us_section{
+    width: 400px;
+    height: 40px;
+    background-color: rgba(95, 158, 160, 0.563);
+}
+.top_pro{
+    margin-top: 150px;
+}
+.about_head_text {
+    text-align: center;
+    font-family: 'Italiana', serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
 .div_men {
     margin-top: 70px;
 }
@@ -74,7 +101,7 @@
 }
 
 .process {
-    margin-top: 180px;
+    margin-top: 400px;
 }
 
 .sub_card {

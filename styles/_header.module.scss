@@ -9,6 +9,7 @@ body {
 
 .header {
     padding-top: 15px;
+    background-color: #F4D4AE;
     background-color: #F9F9F9;
 
 }
@@ -16,6 +17,14 @@ body {
 .div {
     padding-left: 5%;
     padding-right: 5%;
+}
+
+.haead_arrow {
+    height: 16px;
+    width: 16px;
+    margin-left: 5px;
+    margin-top: 6px;
+
 }
 
 .phone {
@@ -27,10 +36,23 @@ body {
     margin-left: 30px;
 }
 
-.nav_link {
+.nav_link_ {
+    font-size: 17px;
     margin-right: 20px;
+
+}
+
+.nav_link {
+    margin-right: 24px;
     font-size: 17px;
 
+}
+.about_option{
+    font-weight: 300;
+}
+
+.logoImage {
+    height: 50px;
 }
 
 .top_imag {
@@ -41,6 +63,7 @@ body {
     background-color: black;
     color: whitesmoke;
     width: 150px;
+    height: 40px;
 }
 
 .footer {

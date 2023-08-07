@@ -4,24 +4,47 @@ import React, { useState, useEffect } from 'react'
 
 export default function Whatwedo() {
     const images = ['./nextp.png', './home.png', './hot.png', './sop.png'];
+    const [isAboutDivInView, setIsAboutDivInView] = useState(true); // Initialize as true to ensure initial behavior
 
+    useEffect(() => {
+        const handleScroll = () => {
+            const aboutDiv = document.querySelector('.about_div');
+            if (aboutDiv) {
+                const boundingRect = aboutDiv.getBoundingClientRect();
+                setIsAboutDivInView(boundingRect.top > window.innerHeight);
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
 
     return (
         <div className=''>
-            <center>
-                <Image className='we_img' width='600' height='700' src='/we.png' />
-
-            </center>
-            <div className='div'>
-                <div className=' div_men'>
-                    <div className='we_div'>
-                        <p>
-                            <span className='ought'> Partners</span> in your sucess. Dedicated to crafting powerful brands through websites, that builds Trust, good first Impression and improve efficeny in your Business
+            <div className='about_div'>
+                <center>
+                    <div className='about_head'>
+                        <p className='about_head_text'>
+                            <span className='ought'> Crafting</span> powerful brands, that builds Trust, Good first Impression and improve efficeny in your Business
                         </p>
                     </div>
+                </center>
+                <img className='mt-20' src='./abt_img.png' />
 
-                </div>
-                <div className='flex process '>
+            </div>
+
+            <div className='div process'>
+                <center>
+                    <div className={`flex about_us_section ${isAboutDivInView ? 'sticky' : ''}`}>
+                        <p>HOW WE WORK</p>
+                        <p>WHAT WE DO </p>
+                        <p>WHAT WE BELIEVE</p>
+                    </div>
+                </center>
+                <div className='flex  '>
+
                     <div className='round_dot'>
 
                     </div>
@@ -46,7 +69,7 @@ export default function Whatwedo() {
                     </div>
 
                     <div>
-                        <div className='flex process '>
+                        <div className='flex top_pro  '>
                             <div className='round_dot'>
 
                             </div>
@@ -69,7 +92,7 @@ export default function Whatwedo() {
 
 
                             </div>
-                            <div className='flex process '>
+                            <div className='flex top_pro  '>
                                 <div className='round_dot'>
 
                                 </div>
@@ -102,7 +125,7 @@ export default function Whatwedo() {
                                 <p className='chase'>
                                     CHASE                            </p>
                                 <p className='sub_cta'>Architects of trust || Creators of compelling brands || Masters of impactful websites </p>
-                              
+
 
                             </div>
 

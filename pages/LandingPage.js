@@ -5,8 +5,8 @@ import React, { useRef, useState, useEffect } from 'react'
 export default function LandingPage() {
   
     return (
-        <div>
-            <div className='div mt-14'>
+        <div className='landingPages'>
+            <div className='div mt-20'>
                 <div className='flex justify-between top_imag'>
                     <Image className='top_image' width='300' height='300' src='/h10.jpg' />
 

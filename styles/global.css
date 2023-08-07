@@ -10,12 +10,20 @@ body {
 
 .header {
   padding-top: 15px;
+  background-color: #F4D4AE;
   background-color: #F9F9F9;
 }
 
 .div {
   padding-left: 5%;
   padding-right: 5%;
+}
+
+.haead_arrow {
+  height: 16px;
+  width: 16px;
+  margin-left: 5px;
+  margin-top: 6px;
 }
 
 .phone {
@@ -27,9 +35,22 @@ body {
   margin-left: 30px;
 }
 
-.nav_link {
-  margin-right: 20px;
+.nav_link_ {
   font-size: 17px;
+  margin-right: 20px;
+}
+
+.nav_link {
+  margin-right: 24px;
+  font-size: 17px;
+}
+
+.about_option {
+  font-weight: 300;
+}
+
+.logoImage {
+  height: 50px;
 }
 
 .top_imag {
@@ -40,6 +61,7 @@ body {
   background-color: black;
   color: whitesmoke;
   width: 150px;
+  height: 40px;
 }
 
 .footer {
@@ -67,6 +89,10 @@ body {
   position: relative;
   bottom: 250px;
   left: 40px;
+}
+
+.landingPages {
+  margin-top: 100px;
 }
 
 .whole {
@@ -479,6 +505,38 @@ body {
   padding-bottom: 20px;
 }
 
+.about_div {
+  padding-top: 130px;
+  height: 100vh;
+  background-color: #F4D4AE;
+}
+
+.about_us_section.sticky {
+  position: sticky;
+  bottom: 0;
+}
+
+.about_head {
+  max-width: 900px;
+}
+
+.about_us_section {
+  width: 400px;
+  height: 40px;
+  background-color: rgba(95, 158, 160, 0.563);
+}
+
+.top_pro {
+  margin-top: 150px;
+}
+
+.about_head_text {
+  text-align: center;
+  font-family: "Italiana", serif;
+  font-size: 50px;
+  font-weight: 700;
+}
+
 .div_men {
   margin-top: 70px;
 }
@@ -538,7 +596,7 @@ body {
 }
 
 .process {
-  margin-top: 180px;
+  margin-top: 400px;
 }
 
 .sub_card {
