@@ -14,30 +14,64 @@
     padding-bottom: 20px;
 }
 
-.about_div {
-    padding-top: 130px;
-    height: 100vh;
-    background-color: #F4D4AE;
+.about_hero {
+    margin-top: 180px;
+    padding-left: 5%;
+    font-size: 50px;
+    font-family: 'Italiana', serif;
+    font-weight: 600;
 }
+
+.about_div {
+    padding-top: 60px;
+    background-color: #F4D4AE;
+    margin-bottom: 40px;
+    z-index: 0;
+}
+
+
+.about_us_section {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
 .about_us_section.sticky {
-    position: sticky;
+    position: fixed;
     bottom: 0;
-  }
+    right: 0;
+    left: 0;
+}
+
+.indvi {
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.abou_bav {
+    background-color: black;
+    height: 45px;
+    border-radius: 5px;
+    color: white;
+}
+
 .about_head {
     max-width: 900px;
 }
-.about_us_section{
-    width: 400px;
-    height: 40px;
-    background-color: rgba(95, 158, 160, 0.563);
-}
-.top_pro{
+
+
+.top_pro {
     margin-top: 150px;
 }
+
 .about_head_text {
     text-align: center;
     font-family: 'Italiana', serif;
-    font-size: 50px;
+    font-size: 65px;
     font-weight: 700;
 }
 

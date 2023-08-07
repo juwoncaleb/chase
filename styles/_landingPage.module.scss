@@ -1,21 +1,28 @@
 .hero_text {
-    font-family: 'Cinzel Decorative', cursive;
+    font-family: 'Italiana', serif;
     text-align: center;
     font-size: 60px;
     z-index: 2;
     position: relative;
     bottom: 250px;
+    font-weight: 600;
     left: 40px;
 
 }
 
 .landingPages {
-    margin-top: 100px;
+    margin-top: 50px;
 }
-
+.wee{
+    margin-top: 170px;
+}
 .whole {
     background-color: #F9F9F9;
 }
+.sk{
+    width: 100%;
+}
+
 
 .bt_img {
     position: relative;
@@ -335,7 +342,6 @@
     color: red;
 }
 
-.book_Call {}
 
 .faq {
     background-color: #252525;

@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import React, { useState, useEffect } from 'react'
 
-export default function Header() {
-  const [isAboutDivInView, setIsAboutDivInView] = useState(false);
+export default function Header({currentPage}) {
+  const [isAboutDivInView, setIsAboutDivInView] = useState(true);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -19,7 +19,7 @@ export default function Header() {
     };
   }, []);
 
-  const headerBackground = isAboutDivInView ? '#F4D4AE' : '#F9F9F9';
+  const headerBackground = currentPage === 'whatwedo' ? (isAboutDivInView ? '#F4D4AE' : '#F9F9F9') : '#F9F9F9';
   const headerStyle = {
     backgroundColor: headerBackground,
     transition: 'background-color 0.5s ease' // Add a transition effect
@@ -34,14 +34,13 @@ export default function Header() {
           <div className={`nav_link_ `}>
             <div className='flex'>
               <p >About</p>
-              <img className='haead_arrow' width="20" height="50" src="https://img.icons8.com/ios/50/expand-arrow--v2.png" alt="expand-arrow--v2" />
             </div>
 
           </div>
         </div>
         <p className='nav_link'>Services</p>
         <p className='nav_link'>Portfolio</p>
-        <p className='nav_link'>Pricing</p>
+        <p className='nav_link'>Packages</p>
         <p className='nav_link'>Team</p>
       </div>
       <div className='flex justify-evenly'>
