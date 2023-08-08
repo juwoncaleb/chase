@@ -28,7 +28,7 @@ export default function LandingPage() {
                         <div className='round_dot'>
 
                         </div>
-                        <p className='what_we_do'>What we do</p>
+                        <p className='what_we_do'>Hello</p>
                     </div>
                     <hr className='what_we_do_line' />
                     <div className='mt-10 hadliner'>

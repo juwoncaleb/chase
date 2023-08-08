@@ -14,12 +14,60 @@
     padding-bottom: 20px;
 }
 
+.about_image_2 {
+    height: 85px !important;
+    width: 250px !important;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 .about_hero {
     margin-top: 180px;
     padding-left: 5%;
-    font-size: 50px;
+    font-size: 67px;
     font-family: 'Italiana', serif;
     font-weight: 600;
+}
+
+.about_hero_sub {
+    padding-left: 5%;
+    font-size: 67px;
+    font-family: 'Italiana', serif;
+    font-weight: 600;
+    position: relative;
+    bottom: 80px;
+}
+
+.about_image_1_div {
+
+    margin-left: 30px;
+}
+
+.about_image_1 {
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.black_round {
+    border-radius: 50%;
+    z-index: 1;
+    position: relative;
+    right: 50px;
+    width: 200px;
+    background-color: black;
+    height: 200px;
+    color: white;
+    font-size: 18px !important;
+    padding-top: 22%;
+    font-weight: 100;
+    padding-left: 55px;
+    font-style: italic;
+    font-family: 'Archivo', sans-serif;
 }
 
 .about_div {
@@ -135,11 +183,34 @@
 }
 
 .process {
-    margin-top: 400px;
+    margin-top: 50px;
 }
 
 .sub_card {
     font-size: 16px;
+}
+
+.heap {
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.about_intro {
+    font-size: 35px;
+    text-align: center;
+}
+
+.Problem_point {
+    font-weight: 400;
+
+    font-size: 22px;
+    max-width: 600px;
+}
+
+.about_into_main {
+    margin-top: 0px;
+    margin-bottom: 40px;
+    padding: 70px;
 }
 
 .round_dot_white {
@@ -161,7 +232,13 @@
     font-family: 'Italiana', serif;
     font-size: 50px;
     font-weight: 700;
-    margin-top: 48px;
+    margin-top: 28px;
+}
+
+.home_img {
+    margin-top: 90px;
+    height: 500px;
+    border-radius: 7px;
 }
 
 .sub_button {
@@ -187,19 +264,48 @@
 }
 
 .int_div {
-    margin-top: 130px;
+    margin-top: 65px;
 }
 
 .int_tex {
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 400;
     max-width: 600px;
 }
 
 .int_text_two {
-    margin-top: 25px;
+    margin-top: 46px;
+    color: red;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 26px !important;
 }
 
 .realImage {
     border: 2px solid black;
+    height: 400px;
+}
+
+.share_build {
+    max-width: 600px;
+    font-weight: 400;
+
+    font-size: 19px;
+    max-width: 600px;
+}
+
+.bc {
+    margin-top: 140px;
+    margin-bottom: 120px;
+    width: 70%;
+}
+
+.hr_Card {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    border-radius: 6px;
+    text-align: left;
+    max-width: 400px;
+    border: 2px solid rgba(128, 128, 128, 0.138);
 }
