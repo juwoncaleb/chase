@@ -143,9 +143,30 @@ body {
   margin-top: 12px;
 }
 
+.slot {
+  font-size: 35px;
+  font-weight: 300;
+  font-family: "Archivo", sans-serif !important;
+}
+
+.work_ect {
+  border: 2px solid rgb(112, 112, 112);
+  margin-top: 160px;
+  background-color: #A3FBA2;
+  color: rgb(38, 60, 48);
+  font-family: "Archivo", sans-serif !important;
+  width: 170px;
+  font-weight: 400;
+  padding: 10px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+}
+
 .ver {
   height: 25px;
-  margin-top: 5px;
+  margin-top: 1px;
   margin-right: 10px;
 }
 
@@ -497,6 +518,76 @@ body {
   color: whitesmoke;
 }
 
+.bk_div {
+  border: 1px solid white;
+  width: 80px;
+  padding: 5px;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-bottom: 20px;
+}
+
+.bk_div_black {
+  border: 1px solid rgba(0, 0, 0, 0.412);
+  width: 80px;
+  padding: 5px;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-bottom: 20px;
+}
+
+.book_slot {
+  font-family: "Archivo", sans-serif !important;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.booked_div {
+  margin: 10px;
+  height: 220PX;
+  width: 220PX;
+  background-color: rgba(128, 128, 128, 0.067);
+  border: 1px solid rgba(128, 128, 128, 0.505);
+  padding: 10px;
+  color: gray;
+  border: 2px solid rgba(128, 128, 128, 0.352);
+  border-radius: 10px;
+}
+
+.booked_div_available {
+  margin: 10px;
+  height: 220PX;
+  width: 220PX;
+  background-color: dodgerblue;
+  border: 1px solid rgba(128, 128, 128, 0.505);
+  padding: 5px;
+  color: white;
+  border: 2px solid rgba(128, 128, 128, 0.352);
+  border-radius: 10px;
+}
+
+.sloo {
+  margin-bottom: 100px;
+  font-size: 20px;
+}
+
+.small_ {
+  font-size: 15px !important;
+}
+
+.book {
+  text-align: center;
+  font-size: 12px;
+}
+
+.booked_div {
+  padding: 7px;
+  border: whitesmoke;
+}
+
 .we_div {
   max-width: 350px;
   font-size: 18px;
@@ -787,10 +878,33 @@ body {
   max-width: 600px;
 }
 
+.startbtn {
+  background-color: black;
+  color: whitesmoke;
+  width: 150px;
+  height: 40px;
+  font-size: 16px;
+}
+
+.servi {
+  font-family: "Archivo", sans-serif;
+}
+
+.tiny_num {
+  font-size: 16px !important;
+  font-weight: 100 !important;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+
 .bc {
   margin-top: 140px;
   margin-bottom: 120px;
   width: 70%;
+}
+
+.skill {
+  font-size: 35px;
 }
 
 .hr_Card {

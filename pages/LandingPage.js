@@ -16,7 +16,7 @@ export default function LandingPage() {
                     <center>
                         <div className='about_head'>
                             <p className='about_head_text'>
-                                <span className='ought'> Building</span> Reputable brands for Important Real Estate Businesses 
+                                <span className='ought'> Building</span> Reputable brands for Important Real Estate Businesses
                             </p>
                         </div>
                     </center>
@@ -188,7 +188,7 @@ export default function LandingPage() {
                                 <img className='ver' width="25" height="20" src="https://img.icons8.com/quill/50/FFFFFF/approval.png" alt="approval" />
 
                                 <p>
-                                    <span className='bill'> $1200/Quaterly</span> Standard maintenance  website backups, security updates, and bug fixes .
+                                    Standard maintenance  website backups, security updates, and bug fixes .
 
                                 </p>
                             </div>
@@ -259,7 +259,7 @@ export default function LandingPage() {
 
 
                                 <p className='mb-6'>
-                                    <span className='bill'> $1500/Quaterly</span> : Standard maintenance, website backups, security updates, and bug fixes .
+                                    Standard maintenance, website backups, security updates, and bug fixes .
 
                                 </p>
                             </div>
@@ -270,6 +270,55 @@ export default function LandingPage() {
                     </div>
 
 
+                </div>
+                <center>
+                    <div className='work_ect'>
+                        <p className='text-1xl'>WORK WITH US ?</p>
+                    </div>
+                    <p className='slot mt-14'>APPLY FOR A SLOT TO BECOME ONE OF FIVE </p>
+                    <p className='slot mb-10'>NEW CLIENTS WE SELECT EVERY YEAR</p>
+                </center>
+                <div className='  book_slot'>
+                    <div className='booked_div'>
+                        <p className='text-left sloo'>SLOT  <br/> <span className='small_'>
+                        [01] </span>  </p>
+                        <div className='bk_div_black'>
+                            <p className='book'>Booked</p>
+
+                        </div>
+                    </div>
+                    <div className='booked_div'>
+                        <p className='text-left sloo'>SLOT  <br/> <span className='small_'>
+                            [02] </span> </p>
+                        <div className='bk_div_black'>
+                            <p className='book'>Booked</p>
+
+                        </div>
+                    </div>
+                    <div className='booked_div'>
+                        <p className='text-left sloo'>SLOT  <br/> <span className='small_'>
+                            [03] </span> </p>
+                        <div className=' bk_div_black'>
+                            <p className='book'>Booked</p>
+
+                        </div>
+                    </div>
+                    <div className='booked_div_available'>
+                        <p className='text-left sloo'>SLOT  <br/> <span className='small_'>
+                            [04] </span> </p>
+                        <div className='bk_div'>
+                            <p className='book'>Avaliable</p>
+
+                        </div>
+                    </div>
+                    <div className='booked_div_available'>
+                        <p className='text-left sloo'>SLOT  <br/> <span className='small_'>
+                            [05] </span> </p>
+                        <div className='bk_div'>
+                            <p className='book'>Avaliable</p>
+
+                        </div>
+                    </div>
                 </div>
                 <Faq />
 

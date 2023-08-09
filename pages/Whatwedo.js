@@ -104,7 +104,7 @@ export default function Whatwedo() {
                                         <p className='what_we_do mb-4 mt-8'>[02] MISSION</p>
 
                                     </div>
-                                    <p>At Chase, we understand the obstacles that prevents you from carrying out business effciently . Our team of creative Designers , skilled Engineers & veteran SEO expert crafted tools that ensures these problems do not hold you back from being your best Out there . </p>
+                                    <p>At Chase, we understand the obstacles that prevents you from carrying out business effciently . Our team of creative Designers , skilled Engineers & veteran SEO expert crafted tools that ensures these problems do not hold you back from being the best  . </p>
 
                                     <p className='int_text_two mt-14'> Dynamic Property Management</p>
                                     <p>Say GOODBYE ! to the tedious task of manual property updates. Our tools empower you to effortlessly edit, delete, and add houses to your listings on the go from the comfort of your mobile phone . Your website remains current and vibrant without draining your time and energy.</p>
@@ -129,8 +129,10 @@ export default function Whatwedo() {
 
 
                                     <p className='int_text_two'> Inspection Date Tracker</p>
-                                    <p>Our platform equips you with a smart inspection date tracker, ensuring that property viewings are scheduled at the optimal time for both you and your clients. No more back-and-forth, just seamless coordination.</p>
-
+                                    <p>Our platform equips you with a smart inspection date tracker, ensuring that property viewings are scheduled at the optimal time for both you and your clients. No more back-and-forth, numerous emails, phone calls, and messages, leading to confusion, missed opportunities, and wasted time! <br /> Just seamless coordination.</p>
+                                    <button className='startbtn mt-6'>
+                                        Get Started
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -151,6 +153,89 @@ export default function Whatwedo() {
                                 </div>
                             </div>
                         </center>
+
+
+
+                        <center>
+                            <div className='flex top_pro  '>
+                                <div className='round_dot'>
+
+                                </div>
+                                <p className='what_we_do '>How We Work</p>
+                            </div>
+                            <hr className='what_we_do_line mb-12' />
+                        </center>
+                        <div className='servi'>
+                            <div className='flex justify-between'>
+                                <div className='w-1/3 flex p-4'>
+                                    <span className='tiny_num'>[01]</span>
+                                    <p className='skill'>STRATEGIES</p>
+                                </div>
+                                <div className='w-1/3 p-4'>
+                                    <p>Brand Identity</p>
+                                    <p>User Interface</p>
+                                    <p>User Experience $ Wireframe(UX)</p>
+                                    <p>Brand Positioning</p>
+                                    <p>Feature Definition</p>
+                                </div>
+                                <div className='w-1/3 p-4'>
+                                    <p>We will work with your stakeholders to gather requirements, define the scope of the project, and create a plan to ensure that we are building the right product. We meet every Wednesday & Fridays to iterate on the design and development process and get feedback from you early and often.</p>
+                                </div>
+                            </div>
+                            <hr className='what_we_do_line mb-12' />
+                            <div className='flex justify-between'>
+                                <div className='w-1/3 flex p-4'>
+                                    <span className='tiny_num'>[02]</span>
+                                    <p className='skill'> DESIGN</p>
+                                </div>
+                                <div className='w-1/3 p-4'>
+                                    <p>User Journey Mapping</p>
+                                    <p>Business Goal</p>
+                                    <p>Brand Strategy</p>
+                                    <p>Brand Positioning</p>
+                                    <p>Feature Definition</p>
+                                </div>
+                                <div className='w-1/3 p-4'>
+                                    <p>We will create a brand and experience that is both beautiful and useful. We will do this by understanding what your business wants to achieve, what your users need, and what makes your brand unique</p>
+                                </div>
+                            </div>
+                            <hr className='what_we_do_line mb-12' />
+                            <div className='flex justify-between'>
+                                <div className='w-1/3 flex p-4'>
+                                    <span className='tiny_num'>[03]</span>
+                                    <p className='skill'> DEVELOPMENT</p>
+                                </div>
+                                <div className='w-1/3 p-4'>
+                                    <p>Custom developemnt</p>
+                                </div>
+                                <div className='w-1/3 p-4'>
+                                    <p>Using the latest technologies and methodologies, we work in tight
+                                        feedback loops and constant iteration to develop solutions that
+                                        deliver real value and delight the users. Our development process
+                                        is collaborative, transparent, and efficient, and we take pride in
+                                        delivering high-quality results on time and on budget.</p>
+                                </div>
+                            </div>
+                            <hr className='what_we_do_line mb-12' />
+                            <div className='flex justify-between'>
+                                <div className='w-1/3 flex p-4'>
+
+                                    <span className='tiny_num'>[04]</span>
+                                    <p className='skill'> PERFORMANCE & SEO</p>
+
+                                </div>
+                                <div className='w-1/3 p-4'>
+                                    <p>Web perfomance optimization</p>
+                                    <p>Seo</p>
+                                    <p>Email Campeign</p>
+                                    <p>Online Marketing</p>
+
+                                </div>
+                                <div className='w-1/3 p-4'>
+                                    <p>Our websites load faster and is easy to use. We do this by compressing images, reducing the number of things that need to be loaded, and storing some of the website on servers the user  to you. We can help you with SEO and online marketing.</p>
+                                </div>
+                            </div>
+                        </div>
 
                         <center>
 
