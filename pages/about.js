@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 import React, { useState, useEffect } from 'react'
 
-export default function Whatwedo() {
+export default function About() {
     const images = ['./nextp.png', './home.png', './hot.png', './sop.png'];
     const [isAboutDivInView, setIsAboutDivInView] = useState(true);
 
@@ -271,33 +271,12 @@ export default function Whatwedo() {
                             <div>
                                 <p className='chase'>
                                     CHASE                            </p>
-                                <p className='sub_cta'>Architects of trust || Creators of compelling brands || Masters of impactful websites </p>
+                                <p className='sub_cta'>Giving an advantage over the competition </p>
 
 
                             </div>
 
-                            <div className='grid grid-cols-2 gap-8 mt-20'>
-                                <div className='flex  '>
-                                    <div className='round_dot_white'>
-
-                                    </div>
-                                    <p className='serv '>Website developemnt</p>
-                                </div>  <div className='flex  '>
-                                    <div className='round_dot_white'>
-
-                                    </div>
-                                    <p className='serv '>Branding</p>
-                                </div>
-                                <div className='flex  '>
-                                    <div className='round_dot_white'>
-
-                                    </div>
-                                    <p className='serv '>Website developemnt</p>
-                                </div>
-                                <button className='sub_button'>
-                                    Let's Talk
-                                </button>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
