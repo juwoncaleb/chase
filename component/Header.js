@@ -51,7 +51,6 @@ export default function Header({ currentPage }) {
           </div>
         </div>
         <p className='nav_link'>Portfolio</p>
-        <p className='nav_link'>Packages</p>
         <Link href='./team'>
           <p className='nav_link'>Team</p>
 

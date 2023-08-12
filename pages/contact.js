@@ -13,7 +13,7 @@ export default function Contact() {
                     <div>
                         <p className='contact_Sub'>Let us help you. <br />save Time , Build Trust & close more Deals </p>
                     </div>
-                    <Image src='/pt.png' width='400' height='400' />
+                    <Image src='/pt.png' width='450' height='450' />
                 </div>
                 <div className='bg-black form_fel flex justify-between'>
 
