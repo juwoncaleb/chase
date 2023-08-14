@@ -8,7 +8,7 @@ export default function LandingPage() {
 
     return (
         <div>
-            <Header currentPage='whatwedo' />
+            {/* <Header currentPage='whatwedo' /> */}
 
 
             <div className='landingPages'>
@@ -41,7 +41,7 @@ export default function LandingPage() {
                     <img className='video_2' src='./BB.png' />
                 </center>
                 <div className=''>
-                    <div className='grid grid-cols-2 div gap-16'>
+                    <div className='grid md:grid-cols-2 grid-cols-1 div gap-16'>
                         <div className='service_div'>
                             <p className='what_we_do'>[01] Property Listings Management</p>
                             <p className='service_sub'> We provide custom website with  robust content management system (CMS) enabling YOU  effortlessly add, edit, & remove property listings. Additionally, we implement advanced search and filtering functionalities, empowering CLIENTS find properties based on their specific criteria easily. With our solution, real estate agencies can streamline their listing management process and enhance the overall user experience for potential buyers.</p>
@@ -75,7 +75,7 @@ export default function LandingPage() {
                         <div>
 
                         </div>
-                        <div className='grid gap-20 grid-cols-2 portfoio_div'>
+                        <div className='grid md:gap-20 md:grid-cols-2 gap-8 portfoio_div'>
                             <div>
                                 <Image className='cursor-pointer' width='600' height='550' src='/nextp.png' />
                             </div>
@@ -144,8 +144,8 @@ export default function LandingPage() {
                     </div>
                     <hr className='what_we_do_line test_line' />
                 </div>
-                <div className='flex justify-center div'>
-                    <div className='price_Card mr-10'>
+                <div className='flex packages justify-center div'>
+                    <div className='price_Card mr-6'>
                         <p className='package'>Silver </p>
                         <button className='start'>
                             Get Started
@@ -196,7 +196,7 @@ export default function LandingPage() {
                         </div>
 
                     </div>
-                    <div className='price_Card'>
+                    <div className='price_Card md:mr-0 mr-6'>
                         <p className='package_godl'>Gold</p>
                         <button className='start'>
                             Get Started
@@ -275,20 +275,20 @@ export default function LandingPage() {
                     <div className='work_ect'>
                         <p className='text-1xl'>WORK WITH US ?</p>
                     </div>
-                    <p className='slot mt-14'>APPLY FOR A SLOT TO BECOME ONE OF FIVE </p>
+                    <p className='slot md:mt-14 mt-4'>APPLY FOR A SLOT TO BECOME ONE OF FIVE </p>
                     <p className='slot mb-10'>NEW CLIENTS WE SELECT EVERY YEAR</p>
                 </center>
                 <div className='  book_slot'>
                     <div className='booked_div'>
-                        <p className='text-left sloo'>SLOT  <br/> <span className='small_'>
-                        [01] </span>  </p>
+                        <p className='text-left sloo'>SLOT  <br /> <span className='small_'>
+                            [01] </span>  </p>
                         <div className='bk_div_black'>
                             <p className='book'>Booked</p>
 
                         </div>
                     </div>
                     <div className='booked_div'>
-                        <p className='text-left sloo'>SLOT  <br/> <span className='small_'>
+                        <p className='text-left sloo'>SLOT  <br /> <span className='small_'>
                             [02] </span> </p>
                         <div className='bk_div_black'>
                             <p className='book'>Booked</p>
@@ -296,7 +296,7 @@ export default function LandingPage() {
                         </div>
                     </div>
                     <div className='booked_div'>
-                        <p className='text-left sloo'>SLOT  <br/> <span className='small_'>
+                        <p className='text-left sloo'>SLOT  <br /> <span className='small_'>
                             [03] </span> </p>
                         <div className=' bk_div_black'>
                             <p className='book'>Booked</p>
@@ -304,7 +304,7 @@ export default function LandingPage() {
                         </div>
                     </div>
                     <div className='booked_div_available'>
-                        <p className='text-left sloo'>SLOT  <br/> <span className='small_'>
+                        <p className='text-left sloo'>SLOT  <br /> <span className='small_'>
                             [04] </span> </p>
                         <div className='bk_div'>
                             <p className='book'>Avaliable</p>
@@ -312,7 +312,7 @@ export default function LandingPage() {
                         </div>
                     </div>
                     <div className='booked_div_available'>
-                        <p className='text-left sloo'>SLOT  <br/> <span className='small_'>
+                        <p className='text-left sloo'>SLOT  <br /> <span className='small_'>
                             [05] </span> </p>
                         <div className='bk_div'>
                             <p className='book'>Avaliable</p>
@@ -320,8 +320,10 @@ export default function LandingPage() {
                         </div>
                     </div>
                 </div>
-                <Faq />
 
+                <div className='div'>
+                    <Faq />
+                </div>
 
             </div >
             <Footer />

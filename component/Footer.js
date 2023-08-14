@@ -30,10 +30,10 @@ export default function Footer() {
       </div>
       <div className='footer bg-black'>
         <hr className='footer_line' />
-        <div className='flex justify-around mt-10 '>
-          <p>CALEBOMOJUWON@GMAIL.COM</p>
-          <p>Copyright CHASE</p>
-          <div className='flex '>
+        <div className='flex lowe_footer justify-around mt-10 '>
+          <p className='mt-6'>CALEBOMOJUWON@GMAIL.COM</p>
+          <p className='mt-6'>Copyright CHASE</p>
+          <div className='flex mt-6 '>
             <img className='footer_icon' width="25" height="25" src="https://img.icons8.com/ios/50/EBEBEB/instagram-new--v1.png" alt="instagram-new--v1" />
             <img className='footer_icon' width="25" height="25" src="https://img.icons8.com/ios-filled/50/EBEBEB/twitter.png" alt="twitter" />
             <img className='footer_icon' width="25" height="25" src="https://img.icons8.com/ios/50/EBEBEB/facebook-new.png" alt="facebook-new" />

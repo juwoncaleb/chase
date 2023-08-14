@@ -328,3 +328,17 @@
     max-width: 400px;
     border: 2px solid rgba(128, 128, 128, 0.138);
 }
+@media only screen and (max-width: 1024px) {
+    .about_head_text {
+        margin-top: 50px;
+        text-align: center;
+        font-family: 'Italiana', serif;
+        font-size: 45px;
+        font-weight: 700;
+    }
+    .what_we_do {
+        font-family: 'Italiana', serif;
+        font-size: 30px;
+        font-weight: 700;
+    }
+}

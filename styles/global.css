@@ -588,6 +588,328 @@ body {
   border: whitesmoke;
 }
 
+@media only screen and (max-width: 1024px) {
+  .End_note {
+    font-family: "Italiana", serif;
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 10px;
+    color: whitesmoke;
+  }
+  .about_head_text {
+    margin-top: 50px;
+    text-align: center;
+    font-family: "Italiana", serif;
+    font-size: 45px;
+    font-weight: 700;
+  }
+  .what_we_do {
+    font-family: "Italiana", serif;
+    font-size: 25px !important;
+    font-weight: 700;
+  }
+  .round_dot {
+    border-radius: 50%;
+    background-color: black;
+    height: 15px;
+    margin-right: 20px;
+    width: 15px;
+    margin-top: 12px;
+  }
+  .hadliner {
+    font-family: "Italiana", serif;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .video_2 {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    height: 400px;
+  }
+  .booked_div {
+    margin: 10px;
+    height: 200PX;
+    width: 200PX;
+    background-color: rgba(128, 128, 128, 0.067);
+    border: 1px solid rgba(128, 128, 128, 0.505);
+    padding: 10px;
+    color: gray;
+    border: 2px solid rgba(128, 128, 128, 0.352);
+    border-radius: 10px;
+  }
+  .booked_div_available {
+    margin: 10px;
+    height: 200PX;
+    width: 200PX;
+    background-color: dodgerblue;
+    border: 1px solid rgba(128, 128, 128, 0.505);
+    padding: 5px;
+    color: white;
+    border: 2px solid rgba(128, 128, 128, 0.352);
+    border-radius: 10px;
+  }
+  .start_now {
+    background-color: #A3FBA2;
+    color: black;
+    width: 150px;
+    height: 50px;
+    font-weight: 700;
+    margin-top: 15px;
+    font-size: 20px !important;
+    margin-bottom: 15px;
+  }
+  .sloo {
+    margin-bottom: 90px;
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .packages {
+    display: grid;
+  }
+  .end {
+    display: flex;
+    flex-direction: column;
+  }
+  .price_Card {
+    margin-top: 70px;
+  }
+  .about_head {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  .about_head_text {
+    margin-top: 50px;
+    text-align: center;
+    font-family: "Italiana", serif;
+    font-size: 35px !important;
+    font-weight: 700;
+  }
+  .what_we_do {
+    font-family: "Italiana", serif;
+    font-size: 25px !important;
+    font-weight: 700;
+  }
+  .round_dot {
+    border-radius: 50%;
+    background-color: black;
+    height: 15px;
+    margin-right: 20px;
+    width: 15px;
+    margin-top: 12px;
+  }
+  .hadliner {
+    font-family: "Italiana", serif;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .video_2 {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    height: 400px;
+  }
+  .booked_div {
+    margin: 10px;
+    height: 200PX;
+    width: 200PX;
+    background-color: rgba(128, 128, 128, 0.067);
+    border: 1px solid rgba(128, 128, 128, 0.505);
+    padding: 10px;
+    color: gray;
+    border: 2px solid rgba(128, 128, 128, 0.352);
+    border-radius: 10px;
+  }
+  .booked_div_available {
+    margin: 10px;
+    height: 200PX;
+    width: 200PX;
+    background-color: dodgerblue;
+    border: 1px solid rgba(128, 128, 128, 0.505);
+    padding: 5px;
+    color: white;
+    border: 2px solid rgba(128, 128, 128, 0.352);
+    border-radius: 10px;
+  }
+  .book_slot {
+    font-family: "Archivo", sans-serif !important;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  }
+  .slot {
+    font-size: 28px !important;
+    font-weight: 300;
+    font-family: "Archivo", sans-serif !important;
+  }
+  .sloo {
+    margin-bottom: 90px;
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .packages {
+    display: grid;
+  }
+  .end {
+    display: flex;
+    flex-direction: column;
+  }
+  .price_Card {
+    margin-top: 70px;
+  }
+  .about_head {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  .about_head_text {
+    margin-top: 50px;
+    text-align: center;
+    font-family: "Italiana", serif;
+    font-size: 30px !important;
+    font-weight: 700;
+  }
+  .what_we_do {
+    font-family: "Italiana", serif;
+    font-size: 25px !important;
+    font-weight: 700;
+  }
+  .round_dot {
+    border-radius: 50%;
+    background-color: black;
+    height: 15px;
+    margin-right: 20px;
+    width: 15px;
+    margin-top: 12px;
+  }
+  .hadliner {
+    font-family: "Italiana", serif;
+    font-size: 28px;
+    font-weight: 600;
+  }
+  .video_2 {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    height: 400px;
+  }
+  .booked_div {
+    margin: 10px;
+    height: 200PX;
+    width: 200PX;
+    background-color: rgba(128, 128, 128, 0.067);
+    border: 1px solid rgba(128, 128, 128, 0.505);
+    padding: 10px;
+    color: gray;
+    border: 2px solid rgba(128, 128, 128, 0.352);
+    border-radius: 10px;
+  }
+  .booked_div_available {
+    margin: 10px;
+    height: 200PX;
+    width: 200PX;
+    background-color: dodgerblue;
+    border: 1px solid rgba(128, 128, 128, 0.505);
+    padding: 5px;
+    color: white;
+    border: 2px solid rgba(128, 128, 128, 0.352);
+    border-radius: 10px;
+  }
+  .book_slot {
+    font-family: "Archivo", sans-serif !important;
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+  }
+  .slot {
+    font-size: 18px !important;
+    font-weight: 300;
+    font-family: "Archivo", sans-serif !important;
+  }
+  .sloo {
+    margin-bottom: 90px;
+    font-size: 20px;
+  }
+  .video_2 {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    height: 300px;
+  }
+  .qustion_header {
+    font-family: "Italiana", serif;
+    font-size: 36px;
+    font-weight: 600;
+  }
+  .End_note {
+    font-family: "Italiana", serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 10px;
+    color: whitesmoke;
+  }
+  .start_now {
+    background-color: #A3FBA2;
+    color: black;
+    width: 120px;
+    height: 40px;
+    font-weight: 700;
+    margin-top: 15px;
+    font-size: 20px !important;
+    margin-bottom: 15px;
+  }
+  .lowe_footer {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+  }
+  .work_ect {
+    border: 2px solid rgb(112, 112, 112);
+    margin-top: 60px;
+    background-color: #A3FBA2;
+    color: rgb(38, 60, 48);
+    font-family: "Archivo", sans-serif !important;
+    width: 170px;
+    font-weight: 400;
+    padding: 10px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+  }
+  .booked_div {
+    margin: 10px;
+    height: 250PX;
+    width: 300PX;
+    background-color: rgba(128, 128, 128, 0.067);
+    border: 1px solid rgba(128, 128, 128, 0.505);
+    padding: 10px;
+    color: gray;
+    border: 2px solid rgba(128, 128, 128, 0.352);
+    border-radius: 10px;
+  }
+  .booked_div_available {
+    margin: 10px;
+    height: 250PX;
+    width: 300PX;
+    background-color: dodgerblue;
+    border: 1px solid rgba(128, 128, 128, 0.505);
+    padding: 5px;
+    color: white;
+    border: 2px solid rgba(128, 128, 128, 0.352);
+    border-radius: 10px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .video_2 {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    height: 250px;
+  }
+  .hadliner {
+    font-family: "Italiana", serif;
+    font-size: 24px;
+    font-weight: 600;
+  }
+}
 .we_div {
   max-width: 350px;
   font-size: 18px;
@@ -917,6 +1239,20 @@ body {
   border: 2px solid rgba(128, 128, 128, 0.138);
 }
 
+@media only screen and (max-width: 1024px) {
+  .about_head_text {
+    margin-top: 50px;
+    text-align: center;
+    font-family: "Italiana", serif;
+    font-size: 45px;
+    font-weight: 700;
+  }
+  .what_we_do {
+    font-family: "Italiana", serif;
+    font-size: 30px;
+    font-weight: 700;
+  }
+}
 .teams {
   background-image: url("/load.webp");
   background-size: cover;
