@@ -7,14 +7,17 @@ export default function Portfolio() {
     return (
         <div>
             <Header />
+            <p className='portheade'>OUR PORTOLIO</p>
+            <center>
+                <img className='port_img' src='./str.webp' />
+            </center>
 
-            <div className='div'>
-                <div className='port div'>
-                    <p className='portheade'> WE don’t believe in representing just any client because it pays the bills. We choose to work with only 5 new clients a year, so we can focus all our resources and attention in giving the best quality work , customer service . <br /> We CHASE Perfection & Excellence </p>
-                </div>
+            <center className='port div'>
+                <p className='porthead'> WE don’t believe in representing just any client because it pays the bills. We choose to work with only 5 new clients a year, so we can focus all our resources and attention in giving the best quality work , customer service . We CHASE Perfection & Excellence </p>
+            </center>
 
 
-            </div>
+
             <div className='div'>
                 <center>
                     <div className='flex top_pro  '>
@@ -27,6 +30,15 @@ export default function Portfolio() {
                 </center>
                 <div className='port_content'>
                     <img src='/nextp.png' />
+                    <div className='flex mt-10'>
+                        <button className='live_link'>
+                            LIVE LINK
+                            <hr/>
+                        </button>
+                        <button className='case'>
+                            CASE STUDY
+                        </button>
+                    </div>
                 </div>
 
                 <center>
@@ -38,8 +50,16 @@ export default function Portfolio() {
                     </div>
                     <hr className='what_we_do_line mb-12' />
                 </center>
-                <div className='port_content'>
+                <div className='ppp'>
                     <img src='/home.png' />
+                    <div className='flex mt-10'>
+                        <button className='live_link'>
+                            LIVE LINK
+                        </button>
+                        <button className='case'>
+                            CASE STUDY
+                        </button>
+                    </div>
                 </div>
 
                 <center>
@@ -53,6 +73,14 @@ export default function Portfolio() {
                 </center>
                 <div className='port_content'>
                     <img src='/hot.png' />
+                    <div className='flex mt-10'>
+                        <button className='live_link'>
+                            LIVE LINK
+                        </button>
+                        <button className='case'>
+                            CASE STUDY
+                        </button>
+                    </div>
                 </div>
 
                 <center>
@@ -66,6 +94,14 @@ export default function Portfolio() {
                 </center>
                 <div className='port_content'>
                     <img src='/rr.png' />
+                    <div className='flex mt-10'>
+                        <button className='live_link'>
+                            LIVE LINK
+                        </button>
+                        <button className='case'>
+                            CASE STUDY
+                        </button>
+                    </div>
                 </div>
             </div>
             <center>

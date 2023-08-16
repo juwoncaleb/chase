@@ -43,10 +43,6 @@
     bottom: 80px;
 }
 
-.about_image_1_div {
-
-    margin-left: 30px;
-}
 
 .about_image_1 {
     border-radius: 50%;
@@ -241,6 +237,12 @@
     border-radius: 7px;
 }
 
+.inspec {
+    margin-top: 90px;
+    height: 500px;
+    border-radius: 7px;
+}
+
 .sub_button {
     width: 150px;
     font-weight: 500;
@@ -293,6 +295,7 @@
     font-size: 19px;
     max-width: 600px;
 }
+
 .startbtn {
     background-color: black;
     color: whitesmoke;
@@ -300,25 +303,30 @@
     height: 40px;
     font-size: 16px;
 }
-.servi{
+
+.servi {
     font-family: 'Archivo', sans-serif;
 
 }
-.tiny_num{
+
+.tiny_num {
     font-size: 16px !important;
     font-weight: 100 !important;
     margin-right: 15px;
     margin-top: 10px;
 }
+
 .bc {
     margin-top: 140px;
     margin-bottom: 120px;
     width: 70%;
 }
-.skill{
+
+.skill {
     font-size: 35px;
-   
+
 }
+
 .hr_Card {
     padding-left: 20px;
     padding-right: 20px;
@@ -328,6 +336,7 @@
     max-width: 400px;
     border: 2px solid rgba(128, 128, 128, 0.138);
 }
+
 @media only screen and (max-width: 1024px) {
     .about_head_text {
         margin-top: 50px;
@@ -336,9 +345,479 @@
         font-size: 45px;
         font-weight: 700;
     }
+
     .what_we_do {
         font-family: 'Italiana', serif;
         font-size: 30px;
         font-weight: 700;
+    }
+
+    .about_hero_sub {
+        padding-left: 5%;
+        font-size: 45px;
+        font-family: 'Italiana', serif;
+        font-weight: 600;
+        position: relative;
+        bottom: 45px;
+        margin-left: 34px;
+    }
+
+    .about_hero {
+        margin-top: 150px;
+        padding-left: 5%;
+        font-size: 45px;
+        font-family: 'Italiana', serif;
+        font-weight: 600;
+    }
+
+    .about_image_2 {
+        height: 45px !important;
+        width: 150px !important;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        margin-top: 16px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .about_image_1 {
+        border-radius: 50%;
+        z-index: 2;
+        width: 120px;
+        height: 120px;
+    }
+
+    .black_round {
+        border-radius: 50%;
+        z-index: 1;
+        position: relative;
+        right: 30px;
+        width: 120px;
+        background-color: black;
+        height: 120px;
+        color: white;
+        font-size: 12px !important;
+        padding-top: 22%;
+        font-weight: 100;
+        padding-left: 32px;
+        font-style: italic;
+        font-family: 'Archivo', sans-serif;
+    }
+
+    .tga_ {
+        width: 20px;
+
+    }
+
+    .intent_header {
+        font-family: 'Italiana', serif;
+        font-size: 40px;
+        font-weight: 700;
+        margin-top: 28px;
+    }
+
+    .realImage {
+        border: 2px solid black;
+        height: 360px;
+        width: 500px;
+        margin-left: 50px;
+        margin-top: 100px;
+    }
+
+    .int_tex {
+        font-size: 16px;
+        font-weight: 400;
+        text-align: justify;
+    }
+
+
+
+    .Problem_point {
+        font-weight: 400;
+        text-align: justify;
+
+        font-size: 18px;
+        max-width: 600px;
+    }
+
+    .home_img {
+        margin-top: 90px;
+        height: 350px;
+        margin-left: 30px;
+        border-radius: 7px;
+    }
+
+    .inspec {
+        margin-top: 90px;
+        height: 300px;
+        border-radius: 7px;
+        margin-right: 80px;
+        margin-top: 180px;
+    }
+
+    .strategy {
+        margin-left: 50px;
+    }
+
+    .we_head {
+        margin-bottom: 50px;
+        font-size: 45px !important;
+    }
+
+}
+
+@media only screen and (max-width: 770px) {
+    .about_head_text {
+        margin-top: 50px;
+        text-align: center;
+        font-family: 'Italiana', serif;
+        font-size: 45px;
+        font-weight: 700;
+    }
+
+    .what_we_do {
+        font-family: 'Italiana', serif;
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .about_hero_sub {
+        padding-left: 5%;
+        font-size: 35px;
+        font-family: 'Italiana', serif;
+        font-weight: 600;
+        position: relative;
+        bottom: 33px;
+        margin-left: 10px;
+    }
+
+    .about_hero {
+        margin-top: 150px;
+        padding-left: 5%;
+        font-size: 35px;
+        font-family: 'Italiana', serif;
+        font-weight: 600;
+    }
+
+    .about_image_2 {
+        height: 45px !important;
+        width: 120px !important;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        margin-top: 6px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .about_image_1 {
+        border-radius: 50%;
+        z-index: 2;
+        width: 100px;
+        height: 100px;
+    }
+
+    .black_round {
+        border-radius: 50%;
+        z-index: 1;
+        position: relative;
+        right: 30px;
+        width: 100px;
+        background-color: black;
+        height: 100px;
+        color: white;
+        font-size: 12px !important;
+        padding-top: 22%;
+        font-weight: 100;
+        padding-left: 32px;
+        font-style: italic;
+        font-family: 'Archivo', sans-serif;
+    }
+
+    .tga_ {
+        width: 20px;
+
+    }
+
+    .intent_header {
+        font-family: 'Italiana', serif;
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: 28px;
+    }
+
+    .int_div {
+        margin-top: 0px;
+        flex-direction: column-reverse;
+    }
+
+    .realImage {
+        border: 2px solid black;
+        height: 360px;
+        width: 500px;
+        margin-left: 50px;
+        margin-top: 100px;
+    }
+
+    .int_tex {
+        font-size: 16px;
+        font-weight: 400;
+        text-align: justify;
+    }
+
+
+
+    .Problem_point {
+        font-weight: 400;
+        text-align: justify;
+
+        font-size: 18px;
+        max-width: 600px;
+    }
+
+    .home_img {
+        margin-top: 90px;
+        height: 350px;
+        margin-left: 30px;
+        border-radius: 7px;
+        width: 500px;
+    }
+
+    .inspec {
+        margin-top: 90px;
+        height: 300px;
+        border-radius: 7px;
+        margin-right: 80px;
+        margin-top: 180px;
+    }
+
+    .strategy {
+        margin-left: 50px;
+    }
+
+    .we_head {
+        margin-bottom: 50px;
+        font-size: 45px !important;
+    }
+
+    .realImage {
+        border: 2px solid black;
+        height: 360px;
+        width: 500px;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    .su {
+        margin-top: 30px;
+    }
+
+    .yab {
+        flex-direction: column-reverse;
+        align-items: center;
+
+    }
+
+    .yabu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .inspec {
+        margin-top: 10px;
+        height: 500px;
+        width: 500px;
+        border-radius: 7px;
+    }
+
+    .hr_Card {
+        margin-top: 50px;
+    }
+
+    .tabb {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skill {
+        font-size: 25px;
+
+    }
+
+    .strategy,
+    .dex {
+        font-size: 14px;
+    }
+
+    .we_cardee {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+
+    }
+    .bc {
+        margin-top: 140px;
+        margin-bottom: 120px;
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .about_image_1_div {
+        display: none;
+    }
+    .bc {
+        margin-top: 140px;
+        margin-bottom: 120px;
+        width: 100%;
+    }
+    .about_hero_sub {
+        padding-left: 5%;
+        font-size: 25px;
+        font-family: 'Italiana', serif;
+        font-weight: 600;
+        position: relative;
+        bottom: -5px;
+        margin-left: 10px;
+    }
+
+    .about_hero {
+        margin-top: 150px;
+        padding-left: 5%;
+        font-size: 30px;
+        font-family: 'Italiana', serif;
+        font-weight: 600;
+    }
+
+    .about_image_2 {
+        height: 30px !important;
+        width: 70px !important;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        margin-top: 6px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .realImage {
+        border: 2px solid black;
+        height: 360px;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    .intent_header {
+        font-family: 'Italiana', serif;
+        font-size: 27px;
+        font-weight: 700;
+        margin-top: 28px;
+        margin-bottom: 25px;
+    }
+
+    .inspec {
+        margin-top: 10px;
+        height: 400px;
+        width: 400px;
+        border-radius: 7px;
+        margin-right: 0px;
+    }
+    .dex, .strategy{
+        width: 100%;
+    }
+    .work_process{
+        flex-direction: column;
+    }
+    .strategy{
+           margin-left: 0px;
+ 
+    }
+    .home_img {
+        margin-top: 90px;
+        height: 300px;
+        margin-left: 30px;
+        border-radius: 7px;
+        width: 400px;
+    }
+}
+@media only screen and (max-width: 430px) {
+    .about_image_1_div {
+        display: none;
+    }
+    .bc {
+        margin-top: 140px;
+        margin-bottom: 120px;
+        width: 100%;
+    }
+    .about_hero_sub {
+        padding-left: 5%;
+        font-size: 25px;
+        font-family: 'Italiana', serif;
+        font-weight: 600;
+        position: relative;
+        bottom: -5px;
+        margin-left: 10px;
+    }
+
+    .about_hero {
+        margin-top: 150px;
+        padding-left: 5%;
+        font-size: 30px;
+        font-family: 'Italiana', serif;
+        font-weight: 600;
+    }
+
+    .about_image_2 {
+        height: 30px !important;
+        width: 70px !important;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        margin-top: 6px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .realImage {
+        border: 2px solid black;
+        height: 360px;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    .intent_header {
+        font-family: 'Italiana', serif;
+        font-size: 27px;
+        font-weight: 700;
+        margin-top: 28px;
+        margin-bottom: 25px;
+    }
+
+    .inspec {
+        margin-top: 10px;
+        height: 350px;
+        width: 400px;
+        border-radius: 7px;
+        margin-right: 0px;
+    }
+    .dex, .strategy{
+        width: 100%;
+    }
+    .work_process{
+        flex-direction: column;
+    }
+    .strategy{
+           margin-left: 0px;
+ 
+    }
+    .home_img {
+        margin-top: 90px;
+        height: 300px;
+        margin-left: 30px;
+        border-radius: 7px;
+        width: 400px;
     }
 }

@@ -1,15 +1,71 @@
 .portheade {
-    font-size: 35px;
+    font-size: 65px;
     text-align: center;
     font-family: 'Della Respira', serif;
+    margin-top: 150px;
+    margin-bottom: 40px;
+}
 
+.porthead {
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Della Respira', serif;
 }
 
 .port {
     padding-top: 170px;
+    text-align: justify;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .port_content {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.port_img {
+    height: 100vh;
+
+}
+
+
+
+.ppp {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.live_link,
+.case {
+    font-size: 16px;
+    margin-right: 20px;
+    font-family: 'Archivo', sans-serif !important;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 430px) {
+    .portheade {
+        font-size: 25px;
+        text-align: center;
+        font-family: 'Della Respira', serif;
+        margin-top: 150px;
+        margin-bottom: 40px;
+    }
+
+    .port_img {
+        height: 50vh;
+
+    }
+
+    .porthead {
+        font-size: 18px;
+    }
+
+
+
+    .port_content {
+        margin-left: auto;
+        marker-start: auto;
+    }
 }

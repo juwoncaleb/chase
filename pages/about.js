@@ -24,7 +24,7 @@ export default function About() {
     }, []);
     return (
         <div>
-            <Header currentPage='landing' />
+            {/* <Header currentPage='landing' /> */}
             <div className='about_hero flex justify-around'>
                 <div>
                     <p>   <span className='ought'>We </span>make it Easy for real estate
@@ -37,7 +37,7 @@ export default function About() {
                         <center>
                             <div className='flex'>
                                 <p>Get Started</p>
-                                <img className='ml-1' width="30" height="64" src="https://img.icons8.com/glyph-neue/64/FFFFFF/long-arrow-right.png" alt="long-arrow-right" />
+                                <img className='ml-1 tga_' width="30" height="64" src="https://img.icons8.com/glyph-neue/64/FFFFFF/long-arrow-right.png" alt="long-arrow-right" />
                             </div>
                         </center>
                     </div>
@@ -73,7 +73,7 @@ export default function About() {
                     <div className='int_div  flex justify-between'>
                         <div className='int_tex'>
                             <div>
-                                <p className='what_we_do mb-8 '>[01]  HURDLE</p>
+                                <p className='what_we_do su mb-8 '>[01]  HURDLE</p>
 
                             </div>
                             <p>In the fast-paced world of Business, It can be a struggle to keep your property listings updated on your website. Frustrating to manage your all client interactions, track property inspection dates, and employee information</p>
@@ -81,7 +81,7 @@ export default function About() {
 
 
                         </div>
-                        <Image className='realImage' src='/real.jpg' width='600' height='500' />
+                        <Image className='' src='/real.jpg' width='600' height='500' />
                     </div>
 
                     <div>
@@ -95,7 +95,7 @@ export default function About() {
                         <p className='intent_header'>
                             Creating trustworthy brands & Leading generating websites that connects real estate businesses to their clients.
                         </p>
-                        <div className='flex justify-between mb-10'>
+                        <div className='flex  yab justify-between mb-10'>
 
                             <div className='flex mt-10 justify-between'>
 
@@ -120,12 +120,12 @@ export default function About() {
                             <p className='int_text_two mt-12'> Easy Client Engagement</p>
                             <p>Share property links with interested clients effortlessly. Our tools provide a smooth experience for potential buyers to explore property details, gallery images, and relevant information. Captivate your audience with the beauty of your listings.</p>
                         </div>
-                        <div className='flex mt-14 justify-between'>
-                            <img className='home_img' src='./poop.jpg' />
+                        <div className='flex mt-14  yabu justify-between'>
+                            <img className='inspec' src='./poop.jpg' />
 
                             <div className='flex mt-10 justify-between'>
 
-                                <div className='Problem_point mt-20'>
+                                <div className='Problem_point md:mt-20 mt-6'>
 
 
                                     <p className='int_text_two'> Inspection Date Tracker</p>
@@ -138,7 +138,7 @@ export default function About() {
                         </div>
                         <center className=''>
                             <img className='bc' src='./hr.png' />
-                            <div className=' flex justify-around mt-14'>
+                            <div className=' flex tabb justify-around mt-14'>
                                 <div className='hr_Card'>
                                     <p className='int_text_two'> Efficient Client Journey Management</p>
                                     <p>
@@ -166,49 +166,49 @@ export default function About() {
                             <hr className='what_we_do_line mb-12' />
                         </center>
                         <div className='servi'>
-                            <div className='flex justify-between'>
+                            <div className='flex work_process justify-between'>
                                 <div className='w-1/3 flex p-4'>
                                     <span className='tiny_num'>[01]</span>
                                     <p className='skill'>STRATEGIES</p>
                                 </div>
-                                <div className='w-1/3 p-4'>
+                                <div className='w-1/3 strategy p-4'>
                                     <p>Brand Identity</p>
                                     <p>User Interface</p>
                                     <p>User Experience $ Wireframe(UX)</p>
                                     <p>Brand Positioning</p>
                                     <p>Feature Definition</p>
                                 </div>
-                                <div className='w-1/3 p-4'>
+                                <div className='w-1/3 p-4 dex'>
                                     <p>We will work with your stakeholders to gather requirements, define the scope of the project, and create a plan to ensure that we are building the right product. We meet every Wednesday & Fridays to iterate on the design and development process and get feedback from you early and often.</p>
                                 </div>
                             </div>
                             <hr className='what_we_do_line mb-12' />
-                            <div className='flex justify-between'>
+                            <div className='flex work_process justify-between'>
                                 <div className='w-1/3 flex p-4'>
                                     <span className='tiny_num'>[02]</span>
                                     <p className='skill'> DESIGN</p>
                                 </div>
-                                <div className='w-1/3 p-4'>
+                                <div className='w-1/3 strategy p-4'>
                                     <p>User Journey Mapping</p>
                                     <p>Business Goal</p>
                                     <p>Brand Strategy</p>
                                     <p>Brand Positioning</p>
                                     <p>Feature Definition</p>
                                 </div>
-                                <div className='w-1/3 p-4'>
+                                <div className='w-1/3 p-4 dex'>
                                     <p>We will create a brand and experience that is both beautiful and useful. We will do this by understanding what your business wants to achieve, what your users need, and what makes your brand unique</p>
                                 </div>
                             </div>
                             <hr className='what_we_do_line mb-12' />
-                            <div className='flex justify-between'>
+                            <div className='flex work_process justify-between'>
                                 <div className='w-1/3 flex p-4'>
                                     <span className='tiny_num'>[03]</span>
                                     <p className='skill'> DEVELOPMENT</p>
                                 </div>
-                                <div className='w-1/3 p-4'>
+                                <div className='w-1/3 strategy p-4'>
                                     <p>Custom developemnt</p>
                                 </div>
-                                <div className='w-1/3 p-4'>
+                                <div className='w-1/3 p-4 dex'>
                                     <p>Using the latest technologies and methodologies, we work in tight
                                         feedback loops and constant iteration to develop solutions that
                                         deliver real value and delight the users. Our development process
@@ -217,21 +217,21 @@ export default function About() {
                                 </div>
                             </div>
                             <hr className='what_we_do_line mb-12' />
-                            <div className='flex justify-between'>
-                                <div className='w-1/3 flex p-4'>
+                            <div className='flex work_process justify-between'>
+                                <div className='md:w-1/3 we_head flex p-4'>
 
                                     <span className='tiny_num'>[04]</span>
                                     <p className='skill'> PERFORMANCE & SEO</p>
 
                                 </div>
-                                <div className='w-1/3 p-4'>
+                                <div className='w-1/3 strategy p-4'>
                                     <p>Web perfomance optimization</p>
                                     <p>Seo</p>
                                     <p>Email Campeign</p>
                                     <p>Online Marketing</p>
 
                                 </div>
-                                <div className='w-1/3 p-4'>
+                                <div className='w-1/3 p-4 dex'>
                                     <p>Our websites load faster and is easy to use. We do this by compressing images, reducing the number of things that need to be loaded, and storing some of the website on servers the user  to you. We can help you with SEO and online marketing.</p>
                                 </div>
                             </div>
