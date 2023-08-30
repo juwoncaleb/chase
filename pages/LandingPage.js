@@ -8,7 +8,7 @@ export default function LandingPage() {
 
     return (
         <div>
-            {/* <Header currentPage='whatwedo' /> */}
+            <Header currentPage='whatwedo' />
 
 
             <div className='landingPages'>
@@ -32,7 +32,7 @@ export default function LandingPage() {
                     </div>
                     <hr className='what_we_do_line' />
                     <div className='mt-10 hadliner'>
-                        <p>We build Web Solutions that</p>
+                        <p>We build Websites & offer Services that</p>
                         <p>Helps you focus on what matters most .</p>
                         <p>SELLING BUILDINGS</p>
                     </div>
@@ -44,7 +44,7 @@ export default function LandingPage() {
                     <div className='grid md:grid-cols-2 grid-cols-1 div gap-16'>
                         <div className='service_div'>
                             <p className='what_we_do'>[01] Property Listings Management</p>
-                            <p className='service_sub'> We provide custom website with  robust content management system (CMS) enabling YOU  effortlessly add, edit, & remove property listings. Additionally, we implement advanced search and filtering functionalities, empowering CLIENTS find properties based on their specific criteria easily. With our solution, real estate agencies can streamline their listing management process and enhance the overall user experience for potential buyers.</p>
+                            <p className='service_sub'> We build websites that enables YOU effortlessly add, edit, & remove listings. Additionally, we implement advanced search and filtering functionalities, empowering CLIENTS find properties based on their specific criteria easily. This helps real estate agencies streamline their listing management process and enhance the overall user experience for potential buyers.</p>
 
                         </div>
                         <div className='service_div'>
@@ -54,7 +54,7 @@ export default function LandingPage() {
                         </div>
                         <div className='service_div'>
                             <p className='what_we_do'>[03] Rank higher on Google</p>
-                            <p className='service_sub'> We prioritize SEO to boost your real estate website's visibility on search engines. By optimizing your content, keywords, and website structure, we help drive ORGANIC traffic, improve search engine rankings, and increase your online presence. At CHASE , you don’t need to be an SEO whizz or consultant to be on page 1. We do all the hard work for you!</p>
+                            <p className='service_sub'> We prioritize SEO to boost your website's visibility on GOOGLE. Optimizing your content, keywords, and website structure, we help drive ORGANIC traffic, and increase your online presence. At CHASE , you don’t need to be an SEO whizz or consultant to be on page 1. We do all the hard work for you!</p>
                         </div>
                         <div className='service_div'>
                             <p className='what_we_do'>[04] Automated Email Campaigns</p>

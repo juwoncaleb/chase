@@ -35,13 +35,15 @@ body {
 }
 
 .nav_link_ {
-  font-size: 17px;
+  font-size: 18px;
   margin-right: 20px;
+  font-weight: 500;
 }
 
 .nav_link {
   margin-right: 24px;
-  font-size: 17px;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .about_option {
@@ -1662,7 +1664,7 @@ body {
   background-image: url("/load.webp");
   background-size: cover;
   background-position: center;
-  height: 700px;
+  height: 100vh;
   padding-left: 100px;
   padding-top: 104px;
   z-index: 1;
@@ -1670,6 +1672,11 @@ body {
 
 .lov {
   margin-right: 85px;
+}
+
+.team_div {
+  background-color: rgba(165, 219, 239, 0.5137254902);
+  padding-top: 70px;
 }
 
 .contact_text {

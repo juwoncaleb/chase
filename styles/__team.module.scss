@@ -2,12 +2,17 @@
     background-image: url('/load.webp');
     background-size: cover;
     background-position: center;
-    height: 700px;
+    height: 100vh;
     padding-left: 100px;
     padding-top: 104px;
     z-index: 1;
 }
 
-.lov{
-margin-right: 85px;
+.lov {
+    margin-right: 85px;
+}
+
+.team_div {
+    background-color: #a5dbef83;
+    padding-top: 70px;
 }

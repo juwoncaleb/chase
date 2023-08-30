@@ -50,9 +50,12 @@ export default function Header({ currentPage }) {
 
           </div>
         </div>
-        <p className='nav_link'>Portfolio</p>
+        <Link href='./portfolio'>
+                <p className='nav_link cursor-pointer'>Portfolio</p>
+
+        </Link>
         <Link href='./team'>
-          <p className='nav_link'>Team</p>
+          <p className='nav_link cursor-pointer'>Team</p>
 
         </Link>
       </div>

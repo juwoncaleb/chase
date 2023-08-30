@@ -24,7 +24,7 @@ export default function About() {
     }, []);
     return (
         <div>
-            {/* <Header currentPage='landing' /> */}
+            <Header currentPage='landing' />
             <div className='about_hero flex justify-around'>
                 <div>
                     <p>   <span className='ought'>We </span>make it Easy for real estate
@@ -73,10 +73,10 @@ export default function About() {
                     <div className='int_div  flex justify-between'>
                         <div className='int_tex'>
                             <div>
-                                <p className='what_we_do su mb-8 '>[01]  HURDLE</p>
+                                <p className='what_we_do su mb-8 '>HURDLE</p>
 
                             </div>
-                            <p>In the fast-paced world of Business, It can be a struggle to keep your property listings updated on your website. Frustrating to manage your all client interactions, track property inspection dates, and employee information</p>
+                            <p>In the fast-paced world of Business, It can be a struggle to keep your property listings updated on your website. Frustrating to manage  client interactions, track property inspection dates, and employee information</p>
                             <p className='mt-10'>Maintaining an up-to-date and engaging real estate website can feel like an insurmountable challenge. Manually editing, deleting, and adding properties eats away at your precious time. Coordinating property viewings with potential buyers and clients leaves you juggling endless schedules. The overwhelming task of managing employee information and tracking client data adds unnecessary stress to your already demanding workload</p>
 
 
@@ -101,10 +101,10 @@ export default function About() {
 
                                 <div className='Problem_point'>
                                     <div>
-                                        <p className='what_we_do mb-4 mt-8'>[02] MISSION</p>
+                                        <p className='what_we_do mb-4 mt-8'> MISSION</p>
 
                                     </div>
-                                    <p>At Chase, we understand the obstacles that prevents you from carrying out business effciently . Our team of creative Designers , skilled Engineers & veteran SEO expert crafted tools that ensures these problems do not hold you back from being the best  . </p>
+                                    <p>At Chase, we understand the obstacles that prevents you from carrying out business . Our team of creative Designers , skilled Engineers & veteran SEO expertS , craft tools that ensures these problems do not hold you back from being the best. </p>
 
                                     <p className='int_text_two mt-14'> Dynamic Property Management</p>
                                     <p>Say GOODBYE ! to the tedious task of manual property updates. Our tools empower you to effortlessly edit, delete, and add houses to your listings on the go from the comfort of your mobile phone . Your website remains current and vibrant without draining your time and energy.</p>
@@ -271,7 +271,7 @@ export default function About() {
                             <div>
                                 <p className='chase'>
                                     CHASE                            </p>
-                                <p className='sub_cta'>Giving an advantage over the competition </p>
+                                <p className='sub_cta'>Website developemnt - Marketing - SEO  </p>
 
 
                             </div>
