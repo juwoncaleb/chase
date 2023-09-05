@@ -25,6 +25,7 @@ return (
         src="/abt_img.png"
         alt="Your Image Alt Text"
         layout="responsive"
+        className="crss"
         width={1920} // Set the width to the original image width
         height={1080} // Set the height to the original image height
       />
@@ -41,8 +42,8 @@ return (
             }}
           >
             <div className="flex ">
-              <div className="round_dot"></div>
-              <p className="what_we_do">Hello</p>
+              <div className="round_dooot hell"></div>
+              <p className="what_we_do hell">Hello</p>
             </div>
           </motion.div>
 

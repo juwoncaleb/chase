@@ -117,11 +117,15 @@ body {
 }
 
 .wee {
-  margin-top: 170px;
+  margin-top: 120px;
 }
 
 .whole {
   background-color: #f9f9f9;
+}
+
+.crss {
+  margin-top: 70px;
 }
 
 .sk {
@@ -325,6 +329,10 @@ body {
   background-color: #fff;
 }
 
+.about_head {
+  margin-top: 70px;
+}
+
 #t-1:checked ~ .dots label[for=t-2],
 #t-2:checked ~ .dots label[for=t-1],
 #t-2:checked ~ .dots label[for=t-3],
@@ -399,6 +407,14 @@ body {
 
 .test_line {
   margin-bottom: 80px;
+}
+
+.round_dot {
+  border-radius: 50%;
+  background-color: black;
+  height: 15px;
+  margin-right: 20px;
+  width: 15px;
 }
 
 .item_1 {
@@ -807,8 +823,11 @@ body {
     padding-left: 3%;
     padding-right: 3%;
   }
+  .hell {
+    margin-top: 120px;
+  }
   .about_head_text {
-    margin-top: 50px;
+    margin-top: 100px;
     text-align: center;
     font-family: "Italiana", serif;
     font-size: 30px !important;
