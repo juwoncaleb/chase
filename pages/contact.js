@@ -8,7 +8,7 @@ export default function Contact() {
         <div>
             <Header />
             <div className='mt-20 div'>
-                <p className='text-center contact_text'>Let's Get In Touch</p>
+                <p className='text-center contact_text'> Get In Touch</p>
                 <div className='flex justify-between anime_contact'>
                     <div>
                         <p className='contact_Sub'>Let us help you. <br />save Time , Build Trust & close more Deals </p>
@@ -62,7 +62,7 @@ export default function Contact() {
                         </div>
                     </div>
 
-                    <div>
+                    <div className='tabb'>
                         <p>CALL US</p>
                         <p>+234-816-235-3857</p>
 

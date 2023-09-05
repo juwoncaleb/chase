@@ -3,87 +3,99 @@
 @tailwind utilities;
 
 body {
-    background-color: #F9F9F9;
-
+  background-color: #f9f9f9;
 }
 
 .header {
-    padding-top: 15px;
-    z-index: 2;
-
+  padding-top: 15px;
+  z-index: 2;
 }
 
 .div {
-    padding-left: 5%;
-    padding-right: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .haead_arrow {
-    height: 16px;
-    width: 16px;
-    margin-left: 5px;
-    margin-top: 6px;
-
+  height: 16px;
+  width: 16px;
+  margin-left: 5px;
+  margin-top: 6px;
 }
 
 .phone {
-    height: 25px;
-    width: 20px;
+  height: 25px;
+  width: 20px;
 }
 
 .top_image {
-    margin-left: 30px;
+  margin-left: 30px;
 }
 
 .nav_link_ {
-    font-size: 18px;
-    margin-right: 20px;
-    font-weight: 500;
-
+  font-size: 18px;
+  margin-right: 20px;
+  font-weight: 500;
 }
 
 .nav_link {
-    margin-right: 24px;
-    font-size: 18px;
-    font-weight: 500;
-
-
+  margin-right: 24px;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .about_option {
-    font-weight: 300;
+  font-weight: 300;
 }
 
 .logoImage {
-    height: 50px;
+  height: 50px;
 }
 
 .top_imag {
-    z-index: 1;
+  z-index: 1;
 }
 
 .start_btn {
-    background-color: black;
-    color: whitesmoke;
-    width: 150px;
-    height: 40px;
+  background-color: black;
+  color: whitesmoke;
+  width: 150px;
+  height: 40px;
 }
 
 .footer {
-    color: whitesmoke;
-    padding-top: 50px;
-    padding-bottom: 50px;
+  color: whitesmoke;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .footer_line {
-    border: 2px solid white;
+  border: 2px solid white;
 
-
-    width: 100%;
+  width: 100%;
 }
 
 .footer_icon {
-    margin-right: 20px;
-    height: 25px;
-    width: 25px;
+  margin-right: 20px;
+  height: 25px;
+  width: 25px;
+}
+@media only screen and (max-width: 770px) {
+  .head_desktop {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 770px) {
+  .head_mob {
+    display: none;
+  }
+}
+
+.miniii {
+  font-weight: 500;
+  padding-right: 20px;
+}
+.bxg {
+  height: 25px;
 }

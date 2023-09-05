@@ -1,18 +1,65 @@
 .teams {
-    background-image: url('/load.webp');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    padding-left: 100px;
-    padding-top: 104px;
-    z-index: 1;
+  background-image: url("/load.webp");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding-left: 100px;
+  padding-top: 104px;
+  z-index: 1;
 }
 
 .lov {
-    margin-right: 85px;
+  margin-right: 85px;
 }
 
 .team_div {
-    background-color: #a5dbef83;
-    padding-top: 70px;
+  background-color: #a5dbef83;
+  padding-top: 70px;
+}
+.team_member {
+  height: 300px;
+  width: 300px;
+}
+
+.saf {
+  border-radius: 50%;
+  height: 270px;
+  width: 260px;
+  margin-top: 40px;
+}
+.fra {
+  border-radius: 50%;
+  height: 200px;
+  width: 210px;
+  margin-top: 120px;
+}
+.round_doit {
+  border-radius: 50%;
+  background-color: black;
+  height: 20px;
+  margin-right: 20px;
+  width: 20px;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 770px) {
+  .teams {
+    background-image: url("/load.webp");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding-left: 50px;
+    padding-top: 104px;
+    z-index: 1;
+  }
+  .team_pic {
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  .lov {
+    margin-right: 50px;
+  }
 }

@@ -1,80 +1,856 @@
 .hero_text {
-    font-family: 'Italiana', serif;
-    text-align: center;
-    font-size: 60px;
-    z-index: 2;
-    position: relative;
-    bottom: 250px;
-    font-weight: 600;
-    left: 40px;
-
+  font-family: "Italiana", serif;
+  text-align: center;
+  font-size: 60px;
+  z-index: 2;
+  position: relative;
+  bottom: 250px;
+  font-weight: 600;
+  left: 40px;
 }
 
 .landingPages {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .wee {
-    margin-top: 170px;
+  margin-top: 170px;
 }
 
 .whole {
-    background-color: #F9F9F9;
+  background-color: #f9f9f9;
 }
 
 .sk {
-    width: 100%;
+  width: 100%;
 }
 
-
 .bt_img {
-    position: relative;
-    bottom: 100px;
+  position: relative;
+  bottom: 100px;
 }
 
 .flat {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .family {
-    height: 280px;
-    width: 350px;
-    margin-right: 150px;
-    margin-top: 100px;
-    margin-bottom: 80px;
-    position: relative;
-    bottom: 80px;
+  height: 280px;
+  width: 350px;
+  margin-right: 150px;
+  margin-top: 100px;
+  margin-bottom: 80px;
+  position: relative;
+  bottom: 80px;
 }
 
 .hh {
-    height: 290px;
+  height: 290px;
 }
 
 .point {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .round_dot {
-    border-radius: 50%;
-    background-color: black;
-    height: 20px;
-    margin-right: 20px;
-    width: 20px;
-    margin-top: 12px;
+  border-radius: 50%;
+  background-color: black;
+  height: 20px;
+  margin-right: 20px;
+  width: 20px;
+  margin-top: 12px;
 }
 
 .slot {
-    font-size: 35px;
-    font-weight: 300;
-    font-family: 'Archivo', sans-serif !important;
+  font-size: 35px;
+  font-weight: 300;
+  font-family: "Archivo", sans-serif !important;
 }
 
 .work_ect {
+  border: 2px solid rgb(112, 112, 112);
+  margin-top: 160px;
+  background-color: #a3fba2;
+  color: rgb(38, 60, 48);
+  font-family: "Archivo", sans-serif !important;
+
+  width: 170px;
+  font-weight: 400;
+  padding: 10px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+}
+
+.ver {
+  height: 25px;
+  margin-top: 1px;
+  margin-right: 10px;
+}
+
+.round_dot_2 {
+  border-radius: 50%;
+  background-color: white;
+  height: 10px;
+  margin-right: 10px;
+  width: 10px;
+  margin-top: 12px;
+}
+
+.what_we_do_line {
+  border: 1px solid black;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.service_sub {
+  text-align: justify;
+  margin-top: 30px;
+}
+
+.what_we_do {
+  font-family: "Italiana", serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.hadliner {
+  font-family: "Italiana", serif;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.video_2 {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  height: 500px;
+}
+
+.service_div {
+  max-width: 500px;
+}
+
+.port_div {
+  margin-top: 100px;
+}
+
+.portfoio_div {
+  margin-top: 70px;
+}
+
+.test_divv {
+  margin: 0;
+  background-image: linear-gradient(90deg, #201a35, #0b0320);
+  color: #fff;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.slider {
+  width: 100%;
+}
+
+.slider input {
+  display: none;
+}
+
+.testimonials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  min-height: 350px;
+  perspective: 1000px;
+  overflow: hidden;
+}
+
+.testimonials .item {
+  width: 600px;
+  padding: 30px;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  box-sizing: border-box;
+  text-align: center;
+  transition: transform 0.4s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  user-select: none;
+  cursor: pointer;
+}
+
+.testimonials .item img {
+  width: 400px;
+}
+
+.testimoal_text {
+  text-align: left;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 70px;
+}
+
+.testimonials .item h2 {
+  font-size: 14px;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dots label {
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #413b52;
+  margin: 7px;
+  transition-duration: 0.2s;
+}
+
+#t-1:checked ~ .dots label[for="t-1"],
+#t-2:checked ~ .dots label[for="t-2"],
+#t-3:checked ~ .dots label[for="t-3"],
+#t-4:checked ~ .dots label[for="t-4"],
+#t-5:checked ~ .dots label[for="t-5"] {
+  transform: scale(3);
+  background-color: #fff;
+}
+
+#t-1:checked ~ .dots label[for="t-2"],
+#t-2:checked ~ .dots label[for="t-1"],
+#t-2:checked ~ .dots label[for="t-3"],
+#t-3:checked ~ .dots label[for="t-2"],
+#t-3:checked ~ .dots label[for="t-4"],
+#t-4:checked ~ .dots label[for="t-3"],
+#t-4:checked ~ .dots label[for="t-5"],
+#t-5:checked ~ .dots label[for="t-4"] {
+  transform: scale(2);
+}
+
+#t-1:checked ~ .testimonials label[for="t-5"] {
+  transform: translate3d(1200px, 0, -360px) rotateY(-45deg);
+}
+
+#t-1:checked ~ .testimonials label[for="t-4"],
+#t-2:checked ~ .testimonials label[for="t-5"] {
+  transform: translate3d(900px, 0, -270px) rotateY(-35deg);
+  z-index: 1;
+}
+
+#t-1:checked ~ .testimonials label[for="t-3"],
+#t-2:checked ~ .testimonials label[for="t-4"],
+#t-3:checked ~ .testimonials label[for="t-5"] {
+  transform: translate3d(600px, 0, -180px) rotateY(-25deg);
+  z-index: 2;
+}
+
+#t-1:checked ~ .testimonials label[for="t-2"],
+#t-2:checked ~ .testimonials label[for="t-3"],
+#t-3:checked ~ .testimonials label[for="t-4"],
+#t-4:checked ~ .testimonials label[for="t-5"] {
+  transform: translate3d(300px, 0, -90px) rotateY(-15deg);
+  z-index: 3;
+}
+
+#t-2:checked ~ .testimonials label[for="t-1"],
+#t-3:checked ~ .testimonials label[for="t-2"],
+#t-4:checked ~ .testimonials label[for="t-3"],
+#t-5:checked ~ .testimonials label[for="t-4"] {
+  transform: translate3d(-300px, 0, -90px) rotateY(15deg);
+  z-index: 3;
+}
+
+#t-3:checked ~ .testimonials label[for="t-1"],
+#t-4:checked ~ .testimonials label[for="t-2"],
+#t-5:checked ~ .testimonials label[for="t-3"] {
+  transform: translate3d(-600px, 0, -180px) rotateY(25deg);
+}
+
+#t-5:checked ~ .testimonials label[for="t-2"],
+#t-4:checked ~ .testimonials label[for="t-1"] {
+  transform: translate3d(-900px, 0, -270px) rotateY(35deg);
+}
+
+#t-5:checked ~ .testimonials label[for="t-1"] {
+  transform: translate3d(-1200px, 0, -360px) rotateY(45deg);
+}
+
+#t-1:checked ~ .testimonials label[for="t-1"],
+#t-2:checked ~ .testimonials label[for="t-2"],
+#t-3:checked ~ .testimonials label[for="t-3"],
+#t-4:checked ~ .testimonials label[for="t-4"],
+#t-5:checked ~ .testimonials label[for="t-4"],
+#t-5:checked ~ .testimonials label[for="t-5"] {
+  z-index: 4;
+}
+
+.testimonal_Div {
+  margin-top: 80px;
+}
+
+.test_line {
+  margin-bottom: 80px;
+}
+
+.item_1 {
+  background-color: gainsboro;
+  color: black !important;
+}
+
+.item_2 {
+  background-color: darkcyan;
+}
+
+.item_3 {
+  background-color: firebrick;
+}
+
+.item_4 {
+  background-color: khaki;
+}
+
+.item_5 {
+  background-color: mediumvioletred;
+}
+
+.package {
+  font-family: "Italiana", serif;
+  font-size: 50px;
+  font-weight: 700;
+  color: silver;
+}
+
+.priz {
+  font-family: "Italiana", serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: whitesmoke;
+}
+
+.package_godl {
+  font-family: "Italiana", serif;
+  font-size: 50px;
+  font-weight: 700;
+  color: gold;
+}
+
+.price_con {
+  max-width: 400px;
+  color: whitesmoke;
+  margin-top: 40px;
+}
+
+.price_Card {
+  background-color: black;
+  max-width: 650px;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.bill {
+  font-size: 18px;
+  font-weight: 600;
+  color: red;
+}
+
+.faq {
+  background-color: #252525;
+  color: whitesmoke !important;
+  margin-top: 130px;
+  padding-top: 70px;
+  border-radius: 50px;
+  padding-bottom: 30px;
+}
+
+.questions {
+  max-width: 70%;
+  text-align: justify;
+}
+
+.quest_head {
+  text-align: justify;
+  margin-left: 100px;
+}
+
+.qustion_header {
+  font-family: "Italiana", serif;
+  font-size: 46px;
+  font-weight: 600;
+}
+
+.start {
+  background-color: #a3fba2;
+  color: black;
+  width: 150px;
+  height: 40px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.start_now {
+  background-color: #a3fba2;
+  color: black;
+  width: 150px;
+  height: 50px;
+  font-weight: 700;
+  margin-top: 15px;
+  font-size: 25px !important;
+  margin-bottom: 15px;
+}
+
+.more {
+  font-family: "Italiana", serif;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.book_Call {
+  font-size: 20px;
+  font-weight: 400;
+  color: #a3fba2;
+  margin-top: 10px;
+}
+
+.plus {
+  height: 20px;
+}
+
+.end {
+  padding: 80px 50px 80px;
+  background-color: rgb(0, 0, 0);
+  margin-top: 60px;
+}
+
+.End_note {
+  font-family: "Italiana", serif;
+  font-size: 45px;
+  font-weight: 600;
+  margin-top: 10px;
+  color: whitesmoke;
+}
+
+.bk_div {
+  border: 1px solid white;
+  width: 80px;
+  padding: 5px;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-bottom: 20px;
+}
+
+.bk_div_black {
+  border: 1px solid rgba(0, 0, 0, 0.412);
+  width: 80px;
+  padding: 5px;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-bottom: 20px;
+}
+
+.book_slot {
+  font-family: "Archivo", sans-serif !important;
+
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.booked_div {
+  margin: 10px;
+  height: 250px;
+  width: 250px;
+  background-color: rgba(128, 128, 128, 0.067);
+  border: 1px solid rgba(128, 128, 128, 0.505);
+  padding: 10px;
+  color: gray;
+  border: 2px solid rgba(128, 128, 128, 0.352);
+  border-radius: 10px;
+}
+
+.booked_div_available {
+  margin: 10px;
+  height: 250px;
+  width: 250px;
+  background-color: dodgerblue;
+  border: 1px solid rgba(128, 128, 128, 0.505);
+  padding: 5px;
+  color: white;
+  border: 2px solid rgba(128, 128, 128, 0.352);
+  border-radius: 10px;
+}
+
+.sloo {
+  margin-bottom: 140px;
+  font-size: 20px;
+}
+
+.small_ {
+  font-size: 15px !important;
+}
+
+.book {
+  text-align: center;
+  font-size: 12px;
+}
+
+.booked_div {
+  padding: 7px;
+  border: whitesmoke;
+}
+
+@media only screen and (max-width: 1024px) {
+  .End_note {
+    font-family: "Italiana", serif;
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 10px;
+    color: whitesmoke;
+  }
+
+  .about_head_text {
+    margin-top: 50px;
+    text-align: center;
+    font-family: "Italiana", serif;
+    font-size: 45px;
+    font-weight: 700;
+  }
+
+  .what_we_do {
+    font-family: "Italiana", serif;
+    font-size: 25px !important;
+    font-weight: 700;
+  }
+
+  .round_dot {
+    border-radius: 50%;
+    background-color: black;
+    height: 15px;
+    margin-right: 20px;
+    width: 15px;
+    margin-top: 12px;
+  }
+
+  .hadliner {
+    font-family: "Italiana", serif;
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .video_2 {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    height: 400px;
+  }
+
+  .booked_div {
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    background-color: rgba(128, 128, 128, 0.067);
+    border: 1px solid rgba(128, 128, 128, 0.505);
+    padding: 10px;
+    color: gray;
+    border: 2px solid rgba(128, 128, 128, 0.352);
+    border-radius: 10px;
+  }
+
+  .booked_div_available {
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    background-color: dodgerblue;
+    border: 1px solid rgba(128, 128, 128, 0.505);
+    padding: 5px;
+    color: white;
+    border: 2px solid rgba(128, 128, 128, 0.352);
+    border-radius: 10px;
+  }
+
+  .start_now {
+    background-color: #a3fba2;
+    color: black;
+    width: 150px;
+    height: 50px;
+    font-weight: 700;
+    margin-top: 15px;
+    font-size: 20px !important;
+    margin-bottom: 15px;
+  }
+
+  .sloo {
+    margin-bottom: 90px;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .packages {
+    display: grid;
+  }
+  .landingPages {
+    margin-top: 0px;
+  }
+  .contact_text {
+    font-family: "Archivo", sans-serif;
+    font-size: 45px !important;
+    font-weight: 400;
+    margin-top: 120px;
+    position: relative;
+    top: 20px;
+  }
+  .end {
+    display: flex;
+    flex-direction: column;
+  }
+  .form_fel {
+    display: grid;
+  }
+  .form_fel {
+    font-family: "Archivo", sans-serif;
+
+    padding: 10px !important;
+    color: white;
+    margin-top: 150px;
+  }
+  .price_Card {
+    margin-top: 70px;
+  }
+  .anime_contact {
+    flex-direction: column-reverse;
+  }
+  .about_head {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  .tabb {
+    margin-top: 150px;
+  }
+  .about_head_text {
+    margin-top: 50px;
+    text-align: center;
+    font-family: "Italiana", serif;
+    font-size: 35px !important;
+    font-weight: 700;
+  }
+
+  .what_we_do {
+    font-family: "Italiana", serif;
+    font-size: 25px !important;
+    font-weight: 700;
+  }
+
+  .round_dot {
+    border-radius: 50%;
+    background-color: black;
+    height: 15px;
+    margin-right: 20px;
+    width: 15px;
+    margin-top: 12px;
+  }
+
+  .hadliner {
+    font-family: "Italiana", serif;
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .video_2 {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    height: 400px;
+  }
+
+  .booked_div {
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    background-color: rgba(128, 128, 128, 0.067);
+    border: 1px solid rgba(128, 128, 128, 0.505);
+    padding: 10px;
+    color: gray;
+    border: 2px solid rgba(128, 128, 128, 0.352);
+    border-radius: 10px;
+  }
+
+  .booked_div_available {
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    background-color: dodgerblue;
+    border: 1px solid rgba(128, 128, 128, 0.505);
+    padding: 5px;
+    color: white;
+    border: 2px solid rgba(128, 128, 128, 0.352);
+    border-radius: 10px;
+  }
+
+  .book_slot {
+    font-family: "Archivo", sans-serif !important;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  }
+
+  .slot {
+    font-size: 28px !important;
+    font-weight: 300;
+    font-family: "Archivo", sans-serif !important;
+  }
+
+  .sloo {
+    margin-bottom: 90px;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .packages {
+    display: grid;
+  }
+
+  .end {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .price_Card {
+    margin-top: 70px;
+  }
+
+  .about_head {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .about_head_text {
+    margin-top: 50px;
+    text-align: center;
+    font-family: "Italiana", serif;
+    font-size: 30px !important;
+    font-weight: 700;
+  }
+
+  .what_we_do {
+    font-family: "Italiana", serif;
+    font-size: 25px !important;
+    font-weight: 700;
+  }
+
+  .round_dot {
+    border-radius: 50%;
+    background-color: black;
+    height: 15px;
+    margin-right: 20px;
+    width: 15px;
+    margin-top: 12px;
+  }
+
+  .hadliner {
+    font-family: "Italiana", serif;
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  .video_2 {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    height: 400px;
+  }
+
+  .booked_div {
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    background-color: rgba(128, 128, 128, 0.067);
+    border: 1px solid rgba(128, 128, 128, 0.505);
+    padding: 10px;
+    color: gray;
+    border: 2px solid rgba(128, 128, 128, 0.352);
+    border-radius: 10px;
+  }
+
+  .booked_div_available {
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    background-color: dodgerblue;
+    border: 1px solid rgba(128, 128, 128, 0.505);
+    padding: 5px;
+    color: white;
+    border: 2px solid rgba(128, 128, 128, 0.352);
+    border-radius: 10px;
+  }
+
+  .book_slot {
+    font-family: "Archivo", sans-serif !important;
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+  }
+
+  .slot {
+    font-size: 18px !important;
+    font-weight: 300;
+    font-family: "Archivo", sans-serif !important;
+  }
+
+  .sloo {
+    margin-bottom: 90px;
+    font-size: 20px;
+  }
+
+  .video_2 {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    height: 300px;
+  }
+
+  .qustion_header {
+    font-family: "Italiana", serif;
+    font-size: 36px;
+    font-weight: 600;
+  }
+
+  .End_note {
+    font-family: "Italiana", serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 10px;
+    color: whitesmoke;
+  }
+
+  .start_now {
+    background-color: #a3fba2;
+    color: black;
+    width: 120px;
+    height: 40px;
+    font-weight: 700;
+    margin-top: 15px;
+    font-size: 20px !important;
+    margin-bottom: 15px;
+  }
+
+  .lowe_footer {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  .work_ect {
     border: 2px solid rgb(112, 112, 112);
-    margin-top: 160px;
-    background-color: #A3FBA2;
+    margin-top: 60px;
+    background-color: #a3fba2;
     color: rgb(38, 60, 48);
-    font-family: 'Archivo', sans-serif !important;
+    font-family: "Archivo", sans-serif !important;
 
     width: 170px;
     font-weight: 400;
@@ -83,821 +859,40 @@
     border-top-right-radius: 24px;
     border-bottom-left-radius: 24px;
     border-bottom-right-radius: 24px;
-}
-
-.ver {
-    height: 25px;
-    margin-top: 1px;
-    margin-right: 10px;
-}
-
-.round_dot_2 {
-    border-radius: 50%;
-    background-color: white;
-    height: 10px;
-    margin-right: 10px;
-    width: 10px;
-    margin-top: 12px;
-}
-
-
-.what_we_do_line {
-    border: 1px solid black;
-    width: 100%;
-    ;
-    margin-top: 10px;
-}
-
-.service_sub {
-    text-align: justify;
-    margin-top: 30px;
-}
-
-.what_we_do {
-    font-family: 'Italiana', serif;
-    font-size: 30px;
-    font-weight: 700;
-}
-
-.hadliner {
-    font-family: 'Italiana', serif;
-    font-size: 50px;
-    font-weight: 600;
-}
-
-.video_2 {
-    margin-top: 70px;
-    margin-bottom: 70px;
-    height: 500px;
-}
-
-.service_div {
-    max-width: 500px;
-}
-
-.port_div {
-    margin-top: 100px;
-}
-
-.portfoio_div {
-    margin-top: 70px;
-}
-
-.test_divv {
-    margin: 0;
-    background-image: linear-gradient(90deg, #201A35, #0B0320);
-    color: #fff;
-    font-family: sans-serif;
-    display: flex;
-    align-items: center;
-    min-height: 100vh;
-}
-
-.slider {
-    width: 100%;
-}
-
-.slider input {
-    display: none;
-}
-
-.testimonials {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    min-height: 350px;
-    perspective: 1000px;
-    overflow: hidden;
-}
-
-.testimonials .item {
-    width: 600px;
-    padding: 30px;
-    border-radius: 5px;
-    position: absolute;
-    top: 0;
-    box-sizing: border-box;
-    text-align: center;
-    transition: transform 0.4s;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    user-select: none;
-    cursor: pointer;
-}
-
-.testimonials .item img {
-    width: 400px;
-
-}
-
-
-.testimoal_text {
-    text-align: left;
-    font-weight: 500;
-    font-size: 14px;
-    margin-top: 70px;
-}
-
-.testimonials .item h2 {
-    font-size: 14px;
-
-}
-
-.dots {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.dots label {
-    height: 5px;
-    width: 5px;
-    border-radius: 50%;
-    cursor: pointer;
-    background-color: #413B52;
-    margin: 7px;
-    transition-duration: 0.2s;
-}
-
-#t-1:checked~.dots label[for="t-1"],
-#t-2:checked~.dots label[for="t-2"],
-#t-3:checked~.dots label[for="t-3"],
-#t-4:checked~.dots label[for="t-4"],
-#t-5:checked~.dots label[for="t-5"] {
-    transform: scale(3);
-    background-color: #fff;
-}
-
-#t-1:checked~.dots label[for="t-2"],
-#t-2:checked~.dots label[for="t-1"],
-#t-2:checked~.dots label[for="t-3"],
-#t-3:checked~.dots label[for="t-2"],
-#t-3:checked~.dots label[for="t-4"],
-#t-4:checked~.dots label[for="t-3"],
-#t-4:checked~.dots label[for="t-5"],
-#t-5:checked~.dots label[for="t-4"] {
-    transform: scale(2);
-}
-
-#t-1:checked~.testimonials label[for="t-5"] {
-    transform: translate3d(1200px, 0, -360px) rotateY(-45deg);
-}
-
-#t-1:checked~.testimonials label[for="t-4"],
-#t-2:checked~.testimonials label[for="t-5"] {
-    transform: translate3d(900px, 0, -270px) rotateY(-35deg);
-    z-index: 1;
-}
-
-#t-1:checked~.testimonials label[for="t-3"],
-#t-2:checked~.testimonials label[for="t-4"],
-#t-3:checked~.testimonials label[for="t-5"] {
-    transform: translate3d(600px, 0, -180px) rotateY(-25deg);
-    z-index: 2;
-}
-
-#t-1:checked~.testimonials label[for="t-2"],
-#t-2:checked~.testimonials label[for="t-3"],
-#t-3:checked~.testimonials label[for="t-4"],
-#t-4:checked~.testimonials label[for="t-5"] {
-    transform: translate3d(300px, 0, -90px) rotateY(-15deg);
-    z-index: 3;
-}
-
-#t-2:checked~.testimonials label[for="t-1"],
-#t-3:checked~.testimonials label[for="t-2"],
-#t-4:checked~.testimonials label[for="t-3"],
-#t-5:checked~.testimonials label[for="t-4"] {
-    transform: translate3d(-300px, 0, -90px) rotateY(15deg);
-    z-index: 3;
-}
-
-#t-3:checked~.testimonials label[for="t-1"],
-#t-4:checked~.testimonials label[for="t-2"],
-#t-5:checked~.testimonials label[for="t-3"] {
-    transform: translate3d(-600px, 0, -180px) rotateY(25deg);
-}
-
-#t-5:checked~.testimonials label[for="t-2"],
-#t-4:checked~.testimonials label[for="t-1"] {
-    transform: translate3d(-900px, 0, -270px) rotateY(35deg);
-}
-
-#t-5:checked~.testimonials label[for="t-1"] {
-    transform: translate3d(-1200px, 0, -360px) rotateY(45deg);
-}
-
-#t-1:checked~.testimonials label[for="t-1"],
-#t-2:checked~.testimonials label[for="t-2"],
-#t-3:checked~.testimonials label[for="t-3"],
-#t-4:checked~.testimonials label[for="t-4"],
-#t-5:checked~.testimonials label[for="t-4"],
-#t-5:checked~.testimonials label[for="t-5"] {
-    z-index: 4;
-}
-
-.testimonal_Div {
-    margin-top: 80px;
-}
-
-.test_line {
-    margin-bottom: 80px;
-}
-
-.item_1 {
-    background-color: gainsboro;
-    color: black !important;
-}
-
-.item_2 {
-    background-color: darkcyan;
-}
-
-.item_3 {
-    background-color: firebrick;
-}
-
-.item_4 {
-    background-color: khaki;
-}
-
-.item_5 {
-    background-color: mediumvioletred;
-}
-
-.package {
-
-    font-family: 'Italiana', serif;
-    font-size: 50px;
-    font-weight: 700;
-    color: silver;
-}
-
-.priz {
-    font-family: 'Italiana', serif;
-    font-size: 40px;
-    font-weight: 700;
-    color: whitesmoke;
-}
-
-.package_godl {
-
-    font-family: 'Italiana', serif;
-    font-size: 50px;
-    font-weight: 700;
-    color: gold;
-}
-
-.price_con {
-    max-width: 400px;
-    color: whitesmoke;
-    margin-top: 40px;
-}
-
-.price_Card {
-    background-color: black;
-    max-width: 650px;
-    border-radius: 10px;
-    padding: 30px;
-}
-
-.bill {
-    font-size: 18px;
-    font-weight: 600;
-    color: red;
-}
-
-
-.faq {
-    background-color: #252525;
-    color: whitesmoke !important;
-    margin-top: 130px;
-    padding-top: 70px;
-    border-radius: 50px;
-    padding-bottom: 30px;
-
-}
-
-.questions {
-    max-width: 70%;
-    text-align: justify;
-}
-
-.quest_head {
-    text-align: justify;
-    margin-left: 100px;
-}
-
-.qustion_header {
-    font-family: 'Italiana', serif;
-    font-size: 46px;
-    font-weight: 600;
-}
-
-.start {
-    background-color: #A3FBA2;
-    color: black;
-    width: 150px;
-    height: 40px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-.start_now {
-    background-color: #A3FBA2;
-    color: black;
-    width: 150px;
-    height: 50px;
-    font-weight: 700;
-    margin-top: 15px;
-    font-size: 25px !important;
-    margin-bottom: 15px;
-}
-
-.more {
-    font-family: 'Italiana', serif;
-    font-size: 25px;
-    font-weight: 500;
-    margin-top: 10px;
-}
-
-.book_Call {
-    font-size: 20px;
-    font-weight: 400;
-    color: #A3FBA2;
-    margin-top: 10px;
-}
-
-.plus {
-    height: 20px;
-}
-
-.end {
-    padding: 80px 50px 80px;
-    background-color: rgb(0, 0, 0);
-    margin-top: 60px;
-}
-
-.End_note {
-    font-family: 'Italiana', serif;
-    font-size: 45px;
-    font-weight: 600;
-    margin-top: 10px;
-    color: whitesmoke;
-}
-
-.bk_div {
-    border: 1px solid white;
-    width: 80px;
-    padding: 5px;
-    border-radius: 15px;
-    margin-left: auto;
-    margin-bottom: 20px;
-}
-
-.bk_div_black {
-    border: 1px solid rgba(0, 0, 0, 0.412);
-    width: 80px;
-    padding: 5px;
-    border-radius: 15px;
-    margin-left: auto;
-    margin-bottom: 20px;
-}
-
-.book_slot {
-    font-family: 'Archivo', sans-serif !important;
-
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    align-content: center;
-    justify-content: center;
-}
-
-.booked_div {
+  }
+  .booked_div {
     margin: 10px;
-    height: 250PX;
-    width: 250PX;
+    height: 250px;
+    width: 300px;
     background-color: rgba(128, 128, 128, 0.067);
     border: 1px solid rgba(128, 128, 128, 0.505);
     padding: 10px;
     color: gray;
     border: 2px solid rgba(128, 128, 128, 0.352);
     border-radius: 10px;
+  }
 
-}
-
-.booked_div_available {
+  .booked_div_available {
     margin: 10px;
-    height: 250PX;
-    width: 250PX;
+    height: 250px;
+    width: 300px;
     background-color: dodgerblue;
     border: 1px solid rgba(128, 128, 128, 0.505);
     padding: 5px;
     color: white;
     border: 2px solid rgba(128, 128, 128, 0.352);
     border-radius: 10px;
-
-}
-
-.sloo {
-    margin-bottom: 140px;
-    font-size: 20px;
-}
-
-.small_ {
-    font-size: 15px !important;
-
-}
-
-.book {
-    text-align: center;
-    font-size: 12px;
-}
-
-.booked_div {
-    padding: 7px;
-    border: whitesmoke;
-}
-
-@media only screen and (max-width: 1024px) {
-    .End_note {
-        font-family: 'Italiana', serif;
-        font-size: 35px;
-        font-weight: 600;
-        margin-top: 10px;
-        color: whitesmoke;
-    }
-
-    .about_head_text {
-        margin-top: 50px;
-        text-align: center;
-        font-family: 'Italiana', serif;
-        font-size: 45px;
-        font-weight: 700;
-    }
-
-    .what_we_do {
-        font-family: 'Italiana', serif;
-        font-size: 25px !important;
-        font-weight: 700;
-    }
-
-    .round_dot {
-        border-radius: 50%;
-        background-color: black;
-        height: 15px;
-        margin-right: 20px;
-        width: 15px;
-        margin-top: 12px;
-    }
-
-    .hadliner {
-        font-family: 'Italiana', serif;
-        font-size: 30px;
-        font-weight: 600;
-    }
-
-    .video_2 {
-        margin-top: 70px;
-        margin-bottom: 70px;
-        height: 400px;
-    }
-
-    .booked_div {
-        margin: 10px;
-        height: 200PX;
-        width: 200PX;
-        background-color: rgba(128, 128, 128, 0.067);
-        border: 1px solid rgba(128, 128, 128, 0.505);
-        padding: 10px;
-        color: gray;
-        border: 2px solid rgba(128, 128, 128, 0.352);
-        border-radius: 10px;
-
-    }
-
-    .booked_div_available {
-        margin: 10px;
-        height: 200PX;
-        width: 200PX;
-        background-color: dodgerblue;
-        border: 1px solid rgba(128, 128, 128, 0.505);
-        padding: 5px;
-        color: white;
-        border: 2px solid rgba(128, 128, 128, 0.352);
-        border-radius: 10px;
-
-    }
-
-    .start_now {
-        background-color: #A3FBA2;
-        color: black;
-        width: 150px;
-        height: 50px;
-        font-weight: 700;
-        margin-top: 15px;
-        font-size: 20px !important;
-        margin-bottom: 15px;
-    }
-
-
-    .sloo {
-        margin-bottom: 90px;
-        font-size: 20px;
-    }
-}
-
-@media only screen and (max-width: 770px) {
-    .packages {
-        display: grid;
-    }
-
-    .end {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .price_Card {
-        margin-top: 70px;
-    }
-
-    .about_head {
-        padding-left: 3%;
-        padding-right: 3%;
-    }
-
-    .about_head_text {
-
-        margin-top: 50px;
-        text-align: center;
-        font-family: 'Italiana', serif;
-        font-size: 35px !important;
-        font-weight: 700;
-    }
-
-    .what_we_do {
-        font-family: 'Italiana', serif;
-        font-size: 25px !important;
-        font-weight: 700;
-    }
-
-    .round_dot {
-        border-radius: 50%;
-        background-color: black;
-        height: 15px;
-        margin-right: 20px;
-        width: 15px;
-        margin-top: 12px;
-    }
-
-    .hadliner {
-        font-family: 'Italiana', serif;
-        font-size: 30px;
-        font-weight: 600;
-    }
-
-    .video_2 {
-        margin-top: 70px;
-        margin-bottom: 70px;
-        height: 400px;
-    }
-
-    .booked_div {
-        margin: 10px;
-        height: 200PX;
-        width: 200PX;
-        background-color: rgba(128, 128, 128, 0.067);
-        border: 1px solid rgba(128, 128, 128, 0.505);
-        padding: 10px;
-        color: gray;
-        border: 2px solid rgba(128, 128, 128, 0.352);
-        border-radius: 10px;
-
-    }
-
-    .booked_div_available {
-        margin: 10px;
-        height: 200PX;
-        width: 200PX;
-        background-color: dodgerblue;
-        border: 1px solid rgba(128, 128, 128, 0.505);
-        padding: 5px;
-        color: white;
-        border: 2px solid rgba(128, 128, 128, 0.352);
-        border-radius: 10px;
-
-    }
-
-    .book_slot {
-        font-family: 'Archivo', sans-serif !important;
-        display: grid;
-        grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
-
-    }
-
-    .slot {
-        font-size: 28px !important;
-        font-weight: 300;
-        font-family: 'Archivo', sans-serif !important;
-    }
-
-    .sloo {
-        margin-bottom: 90px;
-        font-size: 20px;
-    }
-}
-
-@media only screen and (max-width: 430px) {
-    .packages {
-        display: grid;
-    }
-
-    .end {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .price_Card {
-        margin-top: 70px;
-    }
-
-    .about_head {
-        padding-left: 3%;
-        padding-right: 3%;
-    }
-
-    .about_head_text {
-
-        margin-top: 50px;
-        text-align: center;
-        font-family: 'Italiana', serif;
-        font-size: 30px !important;
-        font-weight: 700;
-    }
-
-    .what_we_do {
-        font-family: 'Italiana', serif;
-        font-size: 25px !important;
-        font-weight: 700;
-    }
-
-    .round_dot {
-        border-radius: 50%;
-        background-color: black;
-        height: 15px;
-        margin-right: 20px;
-        width: 15px;
-        margin-top: 12px;
-    }
-
-    .hadliner {
-        font-family: 'Italiana', serif;
-        font-size: 28px;
-        font-weight: 600;
-    }
-
-    .video_2 {
-        margin-top: 70px;
-        margin-bottom: 70px;
-        height: 400px;
-    }
-
-    .booked_div {
-        margin: 10px;
-        height: 200PX;
-        width: 200PX;
-        background-color: rgba(128, 128, 128, 0.067);
-        border: 1px solid rgba(128, 128, 128, 0.505);
-        padding: 10px;
-        color: gray;
-        border: 2px solid rgba(128, 128, 128, 0.352);
-        border-radius: 10px;
-
-    }
-
-    .booked_div_available {
-        margin: 10px;
-        height: 200PX;
-        width: 200PX;
-        background-color: dodgerblue;
-        border: 1px solid rgba(128, 128, 128, 0.505);
-        padding: 5px;
-        color: white;
-        border: 2px solid rgba(128, 128, 128, 0.352);
-        border-radius: 10px;
-
-    }
-
-    .book_slot {
-        font-family: 'Archivo', sans-serif !important;
-        display: grid;
-        grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
-
-    }
-
-    .slot {
-        font-size: 18px !important;
-        font-weight: 300;
-        font-family: 'Archivo', sans-serif !important;
-    }
-
-    .sloo {
-        margin-bottom: 90px;
-        font-size: 20px;
-    }
-
-    .video_2 {
-        margin-top: 70px;
-        margin-bottom: 70px;
-        height: 300px;
-    }
-
-    .qustion_header {
-        font-family: 'Italiana', serif;
-        font-size: 36px;
-        font-weight: 600;
-    }
-
-    .End_note {
-        font-family: 'Italiana', serif;
-        font-size: 30px;
-        font-weight: 600;
-        margin-top: 10px;
-        color: whitesmoke;
-    }
-
-    .start_now {
-        background-color: #A3FBA2;
-        color: black;
-        width: 120px;
-        height: 40px;
-        font-weight: 700;
-        margin-top: 15px;
-        font-size: 20px !important;
-        margin-bottom: 15px;
-    }
-
-    .lowe_footer {
-        display: flex;
-        flex-direction: column !important;
-        justify-content: center;
-        justify-items: center;
-        align-items: center;
-        align-content: center;
-    }
-
-    .work_ect {
-        border: 2px solid rgb(112, 112, 112);
-        margin-top: 60px;
-        background-color: #A3FBA2;
-        color: rgb(38, 60, 48);
-        font-family: 'Archivo', sans-serif !important;
-
-        width: 170px;
-        font-weight: 400;
-        padding: 10px;
-        border-top-left-radius: 24px;
-        border-top-right-radius: 24px;
-        border-bottom-left-radius: 24px;
-        border-bottom-right-radius: 24px;
-    }
-    .booked_div {
-        margin: 10px;
-        height: 250PX;
-        width: 300PX;
-        background-color: rgba(128, 128, 128, 0.067);
-        border: 1px solid rgba(128, 128, 128, 0.505);
-        padding: 10px;
-        color: gray;
-        border: 2px solid rgba(128, 128, 128, 0.352);
-        border-radius: 10px;
-
-    }
-
-    .booked_div_available {
-        margin: 10px;
-        height: 250PX;
-        width: 300PX;
-        background-color: dodgerblue;
-        border: 1px solid rgba(128, 128, 128, 0.505);
-        padding: 5px;
-        color: white;
-        border: 2px solid rgba(128, 128, 128, 0.352);
-        border-radius: 10px;
-
-    }
-
+  }
 }
 @media only screen and (max-width: 380px) {
-    .video_2 {
-        margin-top: 70px;
-        margin-bottom: 70px;
-        height: 250px;
-    }
-    .hadliner {
-        font-family: 'Italiana', serif;
-        font-size: 24px;
-        font-weight: 600;
-    }
+  .video_2 {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    height: 250px;
+  }
+  .hadliner {
+    font-family: "Italiana", serif;
+    font-size: 24px;
+    font-weight: 600;
+  }
 }

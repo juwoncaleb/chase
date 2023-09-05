@@ -5,7 +5,7 @@
 @tailwind components;
 @tailwind utilities;
 body {
-  background-color: #F9F9F9;
+  background-color: #f9f9f9;
 }
 
 .header {
@@ -82,6 +82,25 @@ body {
   width: 25px;
 }
 
+@media only screen and (max-width: 770px) {
+  .head_desktop {
+    display: none;
+  }
+}
+@media only screen and (min-width: 770px) {
+  .head_mob {
+    display: none;
+  }
+}
+.miniii {
+  font-weight: 500;
+  padding-right: 20px;
+}
+
+.bxg {
+  height: 25px;
+}
+
 .hero_text {
   font-family: "Italiana", serif;
   text-align: center;
@@ -102,7 +121,7 @@ body {
 }
 
 .whole {
-  background-color: #F9F9F9;
+  background-color: #f9f9f9;
 }
 
 .sk {
@@ -154,7 +173,7 @@ body {
 .work_ect {
   border: 2px solid rgb(112, 112, 112);
   margin-top: 160px;
-  background-color: #A3FBA2;
+  background-color: #a3fba2;
   color: rgb(38, 60, 48);
   font-family: "Archivo", sans-serif !important;
   width: 170px;
@@ -224,7 +243,7 @@ body {
 
 .test_divv {
   margin: 0;
-  background-image: linear-gradient(90deg, #201A35, #0B0320);
+  background-image: linear-gradient(90deg, #201a35, #0b0320);
   color: #fff;
   font-family: sans-serif;
   display: flex;
@@ -292,7 +311,7 @@ body {
   width: 5px;
   border-radius: 50%;
   cursor: pointer;
-  background-color: #413B52;
+  background-color: #413b52;
   margin: 7px;
   transition-duration: 0.2s;
 }
@@ -469,7 +488,7 @@ body {
 }
 
 .start {
-  background-color: #A3FBA2;
+  background-color: #a3fba2;
   color: black;
   width: 150px;
   height: 40px;
@@ -478,7 +497,7 @@ body {
 }
 
 .start_now {
-  background-color: #A3FBA2;
+  background-color: #a3fba2;
   color: black;
   width: 150px;
   height: 50px;
@@ -498,7 +517,7 @@ body {
 .book_Call {
   font-size: 20px;
   font-weight: 400;
-  color: #A3FBA2;
+  color: #a3fba2;
   margin-top: 10px;
 }
 
@@ -549,8 +568,8 @@ body {
 
 .booked_div {
   margin: 10px;
-  height: 250PX;
-  width: 250PX;
+  height: 250px;
+  width: 250px;
   background-color: rgba(128, 128, 128, 0.067);
   border: 1px solid rgba(128, 128, 128, 0.505);
   padding: 10px;
@@ -561,8 +580,8 @@ body {
 
 .booked_div_available {
   margin: 10px;
-  height: 250PX;
-  width: 250PX;
+  height: 250px;
+  width: 250px;
   background-color: dodgerblue;
   border: 1px solid rgba(128, 128, 128, 0.505);
   padding: 5px;
@@ -630,8 +649,8 @@ body {
   }
   .booked_div {
     margin: 10px;
-    height: 200PX;
-    width: 200PX;
+    height: 200px;
+    width: 200px;
     background-color: rgba(128, 128, 128, 0.067);
     border: 1px solid rgba(128, 128, 128, 0.505);
     padding: 10px;
@@ -641,8 +660,8 @@ body {
   }
   .booked_div_available {
     margin: 10px;
-    height: 200PX;
-    width: 200PX;
+    height: 200px;
+    width: 200px;
     background-color: dodgerblue;
     border: 1px solid rgba(128, 128, 128, 0.505);
     padding: 5px;
@@ -651,7 +670,7 @@ body {
     border-radius: 10px;
   }
   .start_now {
-    background-color: #A3FBA2;
+    background-color: #a3fba2;
     color: black;
     width: 150px;
     height: 50px;
@@ -669,16 +688,42 @@ body {
   .packages {
     display: grid;
   }
+  .landingPages {
+    margin-top: 0px;
+  }
+  .contact_text {
+    font-family: "Archivo", sans-serif;
+    font-size: 45px !important;
+    font-weight: 400;
+    margin-top: 120px;
+    position: relative;
+    top: 20px;
+  }
   .end {
     display: flex;
     flex-direction: column;
   }
+  .form_fel {
+    display: grid;
+  }
+  .form_fel {
+    font-family: "Archivo", sans-serif;
+    padding: 10px !important;
+    color: white;
+    margin-top: 150px;
+  }
   .price_Card {
     margin-top: 70px;
+  }
+  .anime_contact {
+    flex-direction: column-reverse;
   }
   .about_head {
     padding-left: 3%;
     padding-right: 3%;
+  }
+  .tabb {
+    margin-top: 150px;
   }
   .about_head_text {
     margin-top: 50px;
@@ -712,8 +757,8 @@ body {
   }
   .booked_div {
     margin: 10px;
-    height: 200PX;
-    width: 200PX;
+    height: 200px;
+    width: 200px;
     background-color: rgba(128, 128, 128, 0.067);
     border: 1px solid rgba(128, 128, 128, 0.505);
     padding: 10px;
@@ -723,8 +768,8 @@ body {
   }
   .booked_div_available {
     margin: 10px;
-    height: 200PX;
-    width: 200PX;
+    height: 200px;
+    width: 200px;
     background-color: dodgerblue;
     border: 1px solid rgba(128, 128, 128, 0.505);
     padding: 5px;
@@ -794,8 +839,8 @@ body {
   }
   .booked_div {
     margin: 10px;
-    height: 200PX;
-    width: 200PX;
+    height: 200px;
+    width: 200px;
     background-color: rgba(128, 128, 128, 0.067);
     border: 1px solid rgba(128, 128, 128, 0.505);
     padding: 10px;
@@ -805,8 +850,8 @@ body {
   }
   .booked_div_available {
     margin: 10px;
-    height: 200PX;
-    width: 200PX;
+    height: 200px;
+    width: 200px;
     background-color: dodgerblue;
     border: 1px solid rgba(128, 128, 128, 0.505);
     padding: 5px;
@@ -846,7 +891,7 @@ body {
     color: whitesmoke;
   }
   .start_now {
-    background-color: #A3FBA2;
+    background-color: #a3fba2;
     color: black;
     width: 120px;
     height: 40px;
@@ -866,7 +911,7 @@ body {
   .work_ect {
     border: 2px solid rgb(112, 112, 112);
     margin-top: 60px;
-    background-color: #A3FBA2;
+    background-color: #a3fba2;
     color: rgb(38, 60, 48);
     font-family: "Archivo", sans-serif !important;
     width: 170px;
@@ -879,8 +924,8 @@ body {
   }
   .booked_div {
     margin: 10px;
-    height: 250PX;
-    width: 300PX;
+    height: 250px;
+    width: 300px;
     background-color: rgba(128, 128, 128, 0.067);
     border: 1px solid rgba(128, 128, 128, 0.505);
     padding: 10px;
@@ -890,8 +935,8 @@ body {
   }
   .booked_div_available {
     margin: 10px;
-    height: 250PX;
-    width: 300PX;
+    height: 250px;
+    width: 300px;
     background-color: dodgerblue;
     border: 1px solid rgba(128, 128, 128, 0.505);
     padding: 5px;
@@ -1679,6 +1724,55 @@ body {
   padding-top: 70px;
 }
 
+.team_member {
+  height: 300px;
+  width: 300px;
+}
+
+.saf {
+  border-radius: 50%;
+  height: 270px;
+  width: 260px;
+  margin-top: 40px;
+}
+
+.fra {
+  border-radius: 50%;
+  height: 200px;
+  width: 210px;
+  margin-top: 120px;
+}
+
+.round_doit {
+  border-radius: 50%;
+  background-color: black;
+  height: 20px;
+  margin-right: 20px;
+  width: 20px;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 770px) {
+  .teams {
+    background-image: url("/load.webp");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding-left: 50px;
+    padding-top: 104px;
+    z-index: 1;
+  }
+  .team_pic {
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  .lov {
+    margin-right: 50px;
+  }
+}
 .contact_text {
   font-family: "Archivo", sans-serif;
   font-size: 75px;
@@ -1801,6 +1895,7 @@ body {
   margin-right: 20px;
   font-family: "Archivo", sans-serif !important;
   text-decoration: underline;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 430px) {
