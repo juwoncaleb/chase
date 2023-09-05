@@ -10,7 +10,7 @@ export default function Portfolio() {
       <Header />
       <p className="portheade">OUR PORTOLIO</p>
       <center>
-        <img className="port_img" src="./str.webp" />
+        <img className="port_img" src="https://ik.imagekit.io/juwoncaleb/str_lMBoV9E3r.webp?updatedAt=1693946646652" />
       </center>
 
       <center className="port div">
