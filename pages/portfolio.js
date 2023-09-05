@@ -71,7 +71,8 @@ export default function Portfolio() {
                 delay: 0,
               }}
             >
-              <img src="/nextp.png" />
+              <img                       src="https://ik.imagekit.io/juwoncaleb/nextp_uTru8aWvc.webp?updatedAt=1693944049478"
+ />
             </motion.div>
           </a>
           <motion.div
@@ -129,7 +130,8 @@ export default function Portfolio() {
           }}
         >
           <a href="https://homez-five.vercel.app/" className="ppp">
-            <img src="/home.png" />
+            <img                     src="https://ik.imagekit.io/juwoncaleb/home__gFPKHO9x.webp?updatedAt=1693944049491"
+ />
           </a>
         </motion.div>
         <motion.div
@@ -183,7 +185,8 @@ export default function Portfolio() {
         >
           <a href="https://hot-desk-safiyah07.vercel.app/">
             <div className="port_content">
-              <img src="/hot.png" />
+              <img                     src="https://ik.imagekit.io/juwoncaleb/hot_TmWAugePM.webp?updatedAt=1693944049498"
+ />
             </div>
           </a>
         </motion.div>
@@ -252,7 +255,8 @@ export default function Portfolio() {
           }}
         >
           <div className="port_content">
-            <img src="/rr.png" />
+            <img                     src="https://ik.imagekit.io/juwoncaleb/sop_91JOjYH6b.webp?updatedAt=1693944049511"
+ />
             <div className="flex mt-10">
               <button className="live_link">LIVE LINK</button>
               <button className="case">CASE STUDY</button>

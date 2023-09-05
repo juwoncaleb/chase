@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 
 export default function Footer() {
-  const images = ['./ho1.jpg', './ho2.jpg', './ho3.jpg'];
+  const images = ['https://ik.imagekit.io/juwoncaleb/ho3_g8S4ENWCL.webp?updatedAt=1693945103456', 'https://ik.imagekit.io/juwoncaleb/ho1_yCoYqt0JQ.webp?updatedAt=1693945103515', 'https://ik.imagekit.io/juwoncaleb/ho2_7g2qslYlW.webp?updatedAt=1693945103567'];
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {

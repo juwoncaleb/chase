@@ -35,7 +35,7 @@ export default function About() {
         <div className="about_image_1_div ml-1 flex">
           <Image
             className="about_image_1"
-            src="/c1.jpg"
+            src="https://ik.imagekit.io/juwoncaleb/c1_FkYKK_t9Z.webp?updatedAt=1693945332980"
             width="200"
             height="200"
           />
@@ -59,7 +59,7 @@ export default function About() {
         <p> Businesses</p>
         <Image
           className="about_image_2"
-          src="/c2.jpg"
+          src="https://ik.imagekit.io/juwoncaleb/c2_XQ1iMgswT.webp?updatedAt=1693945332103"
           width="350"
           height="350"
         />
@@ -68,7 +68,7 @@ export default function About() {
 
       <div className="div process">
         <div className=" justify-between">
-          <img className="heap" src="/heap.jpg" />
+          <img className="heap" src="https://ik.imagekit.io/juwoncaleb/heap_sAxottGO7.webp?updatedAt=1693945462190" />
         </div>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -172,7 +172,7 @@ export default function About() {
                 delay: 0.1,
               }}
             >
-              <Image className="" src="/real.jpg" width="600" height="500" />
+              <Image className="" src="https://ik.imagekit.io/juwoncaleb/real_FWdu0rYbm.webp?updatedAt=1693945598404" width="600" height="500" />
             </motion.div>
           </div>
 
@@ -284,7 +284,7 @@ export default function About() {
                   delay: 0,
                 }}
               >
-                <img className="home_img" src="./np.png" />
+                <img className="home_img" src="https://ik.imagekit.io/juwoncaleb/np_fSQjgIZa2.webp?updatedAt=1693945717862" />
               </motion.div>
             </div>
             <center className=" mt-20">
@@ -336,7 +336,7 @@ export default function About() {
               }}
             >
               <div className="flex mt-14  yabu justify-between">
-                <img className="inspec" src="./poop.jpg" />
+                <img className="inspec" src="https://ik.imagekit.io/juwoncaleb/poop_0osLRJ3Jo.webp?updatedAt=1693945888083" />
 
                 <div className="flex mt-10 justify-between">
                   <div className="Problem_point md:mt-20 mt-6">
@@ -367,7 +367,7 @@ export default function About() {
                   delay: 0,
                 }}
               >
-                <img className="bc" src="./hr.png" />
+                <img className="bc" src="https://ik.imagekit.io/juwoncaleb/hr_dHBj4p_Bw.webp?updatedAt=1693946055023" />
               </motion.div>
               <div className=" flex tabb justify-around mt-14">
                 <motion.div
@@ -685,26 +685,7 @@ export default function About() {
                 </motion.div>
               </div>
             </center>
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{
-                type: "easeIn",
-                stiffness: 100,
-                damping: 10,
-                duration: 0.4,
-                delay: 0,
-              }}
-            >
-              <div className="last_Cta flex justify-between">
-                <div>
-                  <p className="chase">CHASE </p>
-                  <p className="sub_cta">
-                    Website developemnt - Marketing - SEO{" "}
-                  </p>
-                </div>
-              </div>
-            </motion.div>
+        
           </div>
         </div>
       </div>

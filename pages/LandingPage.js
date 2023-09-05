@@ -7,7 +7,7 @@ import React, { useRef, useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
 export default function LandingPage() {
-  return (
+return (
     <div>
       <Header currentPage="whatwedo" />
 
@@ -21,7 +21,13 @@ export default function LandingPage() {
               </p>
             </div>
           </center>
-          <img className="mt-10" src="./abt_img.png" />
+          <Image
+        src="/abt_img.png"
+        alt="Your Image Alt Text"
+        layout="responsive"
+        width={1920} // Set the width to the original image width
+        height={1080} // Set the height to the original image height
+      />
         </div>
         <div className="div wee">
           <motion.div
@@ -70,7 +76,7 @@ export default function LandingPage() {
               duration: 0.4,
             }}
           >
-            <img className="video_2" src="./BB.png" />
+            <img className="video_2" src="https://ik.imagekit.io/juwoncaleb/BB_SYKP4DKq5.webp?updatedAt=1693943772593" />
           </motion.div>
         </center>
         <div className="">
@@ -213,7 +219,7 @@ export default function LandingPage() {
                       className="cursor-pointer"
                       width="600"
                       height="550"
-                      src="/nextp.png"
+                      src="https://ik.imagekit.io/juwoncaleb/nextp_uTru8aWvc.webp?updatedAt=1693944049478"
                     />
                   </div>
                 </a>
@@ -234,7 +240,7 @@ export default function LandingPage() {
                     className="cursor-pointer"
                     width="600"
                     height="550"
-                    src="/home.png"
+                    src="https://ik.imagekit.io/juwoncaleb/home__gFPKHO9x.webp?updatedAt=1693944049491"
                   />
                 </a>
               </motion.div>
@@ -255,7 +261,7 @@ export default function LandingPage() {
                     className="cursor-pointer"
                     width="600"
                     height="550"
-                    src="/sop.png"
+                    src="https://ik.imagekit.io/juwoncaleb/sop_91JOjYH6b.webp?updatedAt=1693944049511"
                   />
                 </div>
               </motion.div>
@@ -275,7 +281,7 @@ export default function LandingPage() {
                     className="cursor-pointer"
                     width="600"
                     height="550"
-                    src="/hot.png"
+                    src="https://ik.imagekit.io/juwoncaleb/hot_TmWAugePM.webp?updatedAt=1693944049498"
                   />
                 </a>
               </motion.div>
@@ -318,7 +324,7 @@ export default function LandingPage() {
               <input type="radio" name="testimonial" id="t-5" />
               <div class="testimonials">
                 <label class="item item_1 flex justify-around" for="t-1">
-                  <img src="./l1.png" alt="picture" />
+                  <img src="https://ik.imagekit.io/juwoncaleb/l1_5rFMnqERe.webp?updatedAt=1693944815115" alt="picture" />
                   <p className="testimoal_text">
                     We are a new agency and do not have testimial YET .
                     We are a new agency and do not have testimial YET .
@@ -326,28 +332,28 @@ export default function LandingPage() {
                   </p>
                 </label>
                 <label class="item  flex justify-around item_2" for="t-2">
-                  <img src="./l2.png" alt="picture" />
+                  <img src="https://ik.imagekit.io/juwoncaleb/l2_K-W-ZCZ7s.webp?updatedAt=1693944815085" alt="picture" />
                   <p className="testimoal_text">
                      We are a new agency and do not have testimial YET .
                     We are a new agency and do not have testimial YET .
                   </p>
                 </label>
                 <label class="item  flex justify-around item_3" for="t-3">
-                  <img src="./l3.png" alt="picture" />
+                  <img src="https://ik.imagekit.io/juwoncaleb/l3_FYpkL-Q3M.webp?updatedAt=1693944815245" alt="picture" />
                   <p className="testimoal_text">
                      We are a new agency and do not have testimial YET .
                     We are a new agency and do not have testimial YET .
                   </p>
                 </label>
                 <label class="item item_4  flex justify-around" for="t-4">
-                  <img className="luka" src="./luka.png" alt="picture" />
+                  <img className="luka" src="https://ik.imagekit.io/juwoncaleb/luka_qqjvf113E.webp?updatedAt=1693944814681" alt="picture" />
                   <p className="testimoal_text">
                      We are a new agency and do not have testimial YET .
                     We are a new agency and do not have testimial YET .
                   </p>
                 </label>
                 <label class="item flex justify-around item_5" for="t-5">
-                  <img src="./ff.png" alt="picture" />
+                  <img src="https://ik.imagekit.io/juwoncaleb/ff_nAie7FD-r.webp?updatedAt=1693944815035" alt="picture" />
                   <p className="testimoal_text">
                   We are a new agency and do not have testimial YET .
                   We are a new agency and do not have testimial YET .
