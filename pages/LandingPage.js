@@ -391,7 +391,7 @@ return (
         </motion.div>
 
         <div className="flex packages justify-center div">
-          <motion.div  className="price_Card mr-6"
+          <motion.div  className="price_Card md:mr-6"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{
@@ -498,7 +498,7 @@ return (
               delay: 0.2,
             }}
           >
-            <div className="price_Card md:mr-0 mr-6">
+            <div className="price_Card md:mr-6">
               <p className="package_godl">Gold</p>
               <button className="start">Get Started</button>
               <div className="price_con">
