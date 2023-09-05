@@ -124,10 +124,6 @@ body {
   background-color: #f9f9f9;
 }
 
-.crss {
-  margin-top: 70px;
-}
-
 .sk {
   width: 100%;
 }
@@ -403,6 +399,10 @@ body {
 
 .testimonal_Div {
   margin-top: 80px;
+}
+
+.soooop {
+  padding-bottom: 100px;
 }
 
 .test_line {
@@ -1047,7 +1047,6 @@ body {
 .about_div {
   padding-top: 60px;
   background-color: #F4D4AE;
-  margin-bottom: 40px;
   z-index: 0;
 }
 

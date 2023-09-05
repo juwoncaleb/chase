@@ -7,29 +7,29 @@ import React, { useRef, useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
 export default function LandingPage() {
-return (
+  return (
     <div>
       <Header currentPage="whatwedo" />
 
       <div className="landingPages">
         <div className="about_div">
           <center>
-            <div className="about_head">
+            <div className="about_head soooop">
               <p className="about_head_text">
                 <span className="ought"> Building</span> Reputable brands for
                 Important Real Estate Businesses
               </p>
             </div>
           </center>
-          <Image
-        src="/abt_img.png"
-        alt="Your Image Alt Text"
-        layout="responsive"
-        className="crss"
-        width={1920} // Set the width to the original image width
-        height={1080} // Set the height to the original image height
-      />
         </div>
+        <Image
+          src="/abt_img.png"
+          alt="Your Image Alt Text"
+          layout="responsive"
+          className="crss"
+          width={1920} // Set the width to the original image width
+          height={1080} // Set the height to the original image height
+        />
         <div className="div wee">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -77,7 +77,10 @@ return (
               duration: 0.4,
             }}
           >
-            <img className="video_2" src="https://ik.imagekit.io/juwoncaleb/BB_SYKP4DKq5.webp?updatedAt=1693943772593" />
+            <img
+              className="video_2"
+              src="https://ik.imagekit.io/juwoncaleb/BB_SYKP4DKq5.webp?updatedAt=1693943772593"
+            />
           </motion.div>
         </center>
         <div className="">
@@ -143,12 +146,11 @@ return (
                 <p className="what_we_do">[03] Rank higher on Google</p>
                 <p className="service_sub">
                   {" "}
-                  We prioritize SEO to boost your website visibility on
-                  GOOGLE. Optimizing your content, keywords, and website
-                  structure, we help drive ORGANIC traffic, and increase your
-                  online presence. At CHASE , you don’t need to be an SEO whizz
-                  or consultant to be on page 1. We do all the hard work for
-                  you!
+                  We prioritize SEO to boost your website visibility on GOOGLE.
+                  Optimizing your content, keywords, and website structure, we
+                  help drive ORGANIC traffic, and increase your online presence.
+                  At CHASE , you don’t need to be an SEO whizz or consultant to
+                  be on page 1. We do all the hard work for you!
                 </p>
               </div>
             </motion.div>
@@ -325,39 +327,54 @@ return (
               <input type="radio" name="testimonial" id="t-5" />
               <div class="testimonials">
                 <label class="item item_1 flex justify-around" for="t-1">
-                  <img src="https://ik.imagekit.io/juwoncaleb/l1_5rFMnqERe.webp?updatedAt=1693944815115" alt="picture" />
+                  <img
+                    src="https://ik.imagekit.io/juwoncaleb/l1_5rFMnqERe.webp?updatedAt=1693944815115"
+                    alt="picture"
+                  />
                   <p className="testimoal_text">
-                    We are a new agency and do not have testimial YET .
-                    We are a new agency and do not have testimial YET .
-
+                    We are a new agency and do not have testimial YET . We are a
+                    new agency and do not have testimial YET .
                   </p>
                 </label>
                 <label class="item  flex justify-around item_2" for="t-2">
-                  <img src="https://ik.imagekit.io/juwoncaleb/l2_K-W-ZCZ7s.webp?updatedAt=1693944815085" alt="picture" />
+                  <img
+                    src="https://ik.imagekit.io/juwoncaleb/l2_K-W-ZCZ7s.webp?updatedAt=1693944815085"
+                    alt="picture"
+                  />
                   <p className="testimoal_text">
-                     We are a new agency and do not have testimial YET .
-                    We are a new agency and do not have testimial YET .
+                    We are a new agency and do not have testimial YET . We are a
+                    new agency and do not have testimial YET .
                   </p>
                 </label>
                 <label class="item  flex justify-around item_3" for="t-3">
-                  <img src="https://ik.imagekit.io/juwoncaleb/l3_FYpkL-Q3M.webp?updatedAt=1693944815245" alt="picture" />
+                  <img
+                    src="https://ik.imagekit.io/juwoncaleb/l3_FYpkL-Q3M.webp?updatedAt=1693944815245"
+                    alt="picture"
+                  />
                   <p className="testimoal_text">
-                     We are a new agency and do not have testimial YET .
-                    We are a new agency and do not have testimial YET .
+                    We are a new agency and do not have testimial YET . We are a
+                    new agency and do not have testimial YET .
                   </p>
                 </label>
                 <label class="item item_4  flex justify-around" for="t-4">
-                  <img className="luka" src="https://ik.imagekit.io/juwoncaleb/luka_qqjvf113E.webp?updatedAt=1693944814681" alt="picture" />
+                  <img
+                    className="luka"
+                    src="https://ik.imagekit.io/juwoncaleb/luka_qqjvf113E.webp?updatedAt=1693944814681"
+                    alt="picture"
+                  />
                   <p className="testimoal_text">
-                     We are a new agency and do not have testimial YET .
-                    We are a new agency and do not have testimial YET .
+                    We are a new agency and do not have testimial YET . We are a
+                    new agency and do not have testimial YET .
                   </p>
                 </label>
                 <label class="item flex justify-around item_5" for="t-5">
-                  <img src="https://ik.imagekit.io/juwoncaleb/ff_nAie7FD-r.webp?updatedAt=1693944815035" alt="picture" />
+                  <img
+                    src="https://ik.imagekit.io/juwoncaleb/ff_nAie7FD-r.webp?updatedAt=1693944815035"
+                    alt="picture"
+                  />
                   <p className="testimoal_text">
-                  We are a new agency and do not have testimial YET .
-                  We are a new agency and do not have testimial YET .
+                    We are a new agency and do not have testimial YET . We are a
+                    new agency and do not have testimial YET .
                   </p>
                 </label>
               </div>
@@ -392,7 +409,8 @@ return (
         </motion.div>
 
         <div className="flex packages justify-center div">
-          <motion.div  className="price_Card md:mr-6"
+          <motion.div
+            className="price_Card md:mr-6"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{
@@ -640,124 +658,122 @@ return (
           </motion.div>
         </center>
         <div className="  book_slot">
-        <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{
-                type: "easeIn",
-                stiffness: 100,
-                damping: 10,
-                duration: 0.4,
-                delay: 0,
-              }}
-            >
-                 <div className="booked_div">
-            <p className="text-left sloo">
-              SLOT <br /> <span className="small_">[01] </span>{" "}
-            </p>
-            <div className="bk_div_black">
-              <p className="book">Booked</p>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{
+              type: "easeIn",
+              stiffness: 100,
+              damping: 10,
+              duration: 0.4,
+              delay: 0,
+            }}
+          >
+            <div className="booked_div">
+              <p className="text-left sloo">
+                SLOT <br /> <span className="small_">[01] </span>{" "}
+              </p>
+              <div className="bk_div_black">
+                <p className="book">Booked</p>
+              </div>
             </div>
-          </div>
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{
-                type: "easeIn",
-                stiffness: 100,
-                damping: 10,
-                duration: 0.4,
-                delay: 0.1,
-              }}
-            >
-                <div className="booked_div">
-            <p className="text-left sloo">
-              SLOT <br /> <span className="small_">[02] </span>{" "}
-            </p>
-            <div className="bk_div_black">
-              <p className="book">Booked</p>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{
+              type: "easeIn",
+              stiffness: 100,
+              damping: 10,
+              duration: 0.4,
+              delay: 0.1,
+            }}
+          >
+            <div className="booked_div">
+              <p className="text-left sloo">
+                SLOT <br /> <span className="small_">[02] </span>{" "}
+              </p>
+              <div className="bk_div_black">
+                <p className="book">Booked</p>
+              </div>
             </div>
-          </div>
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{
-                type: "easeIn",
-                stiffness: 100,
-                damping: 10,
-                duration: 0.4,
-                delay: 0.2,
-              }}
-            >
-                 <div className="booked_div">
-            <p className="text-left sloo">
-              SLOT <br /> <span className="small_">[03] </span>{" "}
-            </p>
-            <div className=" bk_div_black">
-              <p className="book">Booked</p>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{
+              type: "easeIn",
+              stiffness: 100,
+              damping: 10,
+              duration: 0.4,
+              delay: 0.2,
+            }}
+          >
+            <div className="booked_div">
+              <p className="text-left sloo">
+                SLOT <br /> <span className="small_">[03] </span>{" "}
+              </p>
+              <div className=" bk_div_black">
+                <p className="book">Booked</p>
+              </div>
             </div>
-          </div> 
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{
-                type: "easeIn",
-                stiffness: 100,
-                damping: 10,
-                duration: 0.4,
-                delay: 0.3,
-              }}
-            >
-                <div className="booked_div_available">
-            <p className="text-left sloo">
-              SLOT <br /> <span className="small_">[04] </span>{" "}
-            </p>
-            <div className="bk_div">
-              <p className="book">Avaliable</p>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{
+              type: "easeIn",
+              stiffness: 100,
+              damping: 10,
+              duration: 0.4,
+              delay: 0.3,
+            }}
+          >
+            <div className="booked_div_available">
+              <p className="text-left sloo">
+                SLOT <br /> <span className="small_">[04] </span>{" "}
+              </p>
+              <div className="bk_div">
+                <p className="book">Avaliable</p>
+              </div>
             </div>
-          </div> 
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{
-                type: "easeIn",
-                stiffness: 100,
-                damping: 10,
-                duration: 0.4,
-                delay: 0.4,
-              }}
-            >
-                 <div className="booked_div_available">
-            <p className="text-left sloo">
-              SLOT <br /> <span className="small_">[05] </span>{" "}
-            </p>
-            <div className="bk_div">
-              <p className="book">Avaliable</p>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{
+              type: "easeIn",
+              stiffness: 100,
+              damping: 10,
+              duration: 0.4,
+              delay: 0.4,
+            }}
+          >
+            <div className="booked_div_available">
+              <p className="text-left sloo">
+                SLOT <br /> <span className="small_">[05] </span>{" "}
+              </p>
+              <div className="bk_div">
+                <p className="book">Avaliable</p>
+              </div>
             </div>
-          </div>
-            </motion.div>
-         
+          </motion.div>
         </div>
         <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{
-                type: "easeIn",
-                stiffness: 100,
-                damping: 10,
-                duration: 0.4,
-                delay: 0,
-              }}
-            >
-                <div className="div">
-          <Faq />
-        </div>
-            </motion.div>
-        
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{
+            type: "easeIn",
+            stiffness: 100,
+            damping: 10,
+            duration: 0.4,
+            delay: 0,
+          }}
+        >
+          <div className="div">
+            <Faq />
+          </div>
+        </motion.div>
       </div>
       <Footer />
     </div>
