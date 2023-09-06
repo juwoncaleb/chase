@@ -105,7 +105,7 @@ export default function Header({ currentPage }) {
       </div>
       {menu === 0 && (
         <div         style={headerStyle}
-        className="mt-16 miniii flex flex-col items-end">
+        className="mt-16 miniii flex flex-col items-end fixed top-0 w-full z-10">
           <Link href="./about">
             <p className="cursor-pointer menu_link">About</p>
           </Link>

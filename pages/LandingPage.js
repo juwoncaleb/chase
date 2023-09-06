@@ -22,14 +22,8 @@ export default function LandingPage() {
             </div>
           </center>
         </div>
-        <Image
-          src="/abt_img.png"
-          alt="Your Image Alt Text"
-          layout="responsive"
-          className="crss"
-          width={1920} // Set the width to the original image width
-          height={1080} // Set the height to the original image height
-        />
+        <img src="https://ik.imagekit.io/juwoncaleb/abt_img_21hO3EFa_.webp?updatedAt=1694024803199" />
+
         <div className="div wee">
           <motion.div
             initial={{ opacity: 0, y: 20 }}

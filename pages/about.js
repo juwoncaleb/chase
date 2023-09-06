@@ -81,7 +81,7 @@ export default function About() {
             delay: 0,
           }}
         >
-          <div className="flex mb-8 mt-16  ">
+          <div className="flex mb-2 mt-16  ">
             <div className="round_dot"></div>
             <p className="what_we_do ">What we do</p>
           </div>

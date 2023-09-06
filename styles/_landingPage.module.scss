@@ -110,7 +110,7 @@
 }
 
 .what_we_do {
-  font-family: "Italiana", serif;
+  font-family: "Cormorant", serif;
   font-size: 30px;
   font-weight: 700;
 }
@@ -295,7 +295,12 @@
 .testimonal_Div {
   margin-top: 80px;
 }
-
+.about_head_text {
+  text-align: center;
+  font-size: 65px;
+  font-weight: 900;
+  font-family: 'Italiana', serif;
+}
 .soooop {
   padding-bottom: 100px;
 }
@@ -531,15 +536,14 @@
   .about_head_text {
     margin-top: 50px;
     text-align: center;
-    font-family: "Montserrat Alternates", sans-serif;
     font-size: 45px;
     font-weight: 700;
   }
 
   .what_we_do {
-    font-family: "Italiana", serif;
+    font-family: "Cormorant", serif;
     font-size: 25px !important;
-    font-weight: 700;
+    font-weight: 500;
   }
 
   .round_dot {
@@ -561,6 +565,11 @@
     margin-top: 70px;
     margin-bottom: 70px;
     height: 400px;
+  }
+  .book_slot {
+    font-family: "Archivo", sans-serif !important;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
   }
 
   .booked_div {
@@ -649,15 +658,14 @@
   .about_head_text {
     margin-top: 50px;
     text-align: center;
-    font-family: "Montserrat Alternates", sans-serif;
     font-size: 35px !important;
     font-weight: 800;
   }
 
   .what_we_do {
-    font-family: "Italiana", serif;
+    font-family: "Cormorant", serif;
     font-size: 25px !important;
-    font-weight: 700;
+    font-weight: 500;
   }
 
   .round_dot {
@@ -747,15 +755,14 @@
   .about_head_text {
     margin-top: 100px;
     text-align: center;
-    font-family: "Montserrat Alternates", sans-serif;
     font-size: 30px !important;
     font-weight: 800;
   }
 
   .what_we_do {
-    font-family: "Italiana", serif;
+    font-family: "Cormorant", serif;
     font-size: 25px !important;
-    font-weight: 700;
+    font-weight: 500;
   }
 
   .round_dot {
