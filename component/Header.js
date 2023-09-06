@@ -7,7 +7,9 @@ export default function Header({ currentPage }) {
   const [isAboutDivInView, setIsAboutDivInView] = useState(true);
   const [menu, setMenu] = useState("one");
   const router = useRouter();
-
+const team = ()=>{
+  router.push('/team');
+}
   useEffect(() => {
     const handleScroll = () => {
       const aboutDiv = document.querySelector(".about_div");
@@ -61,9 +63,8 @@ export default function Header({ currentPage }) {
           <Link href="./portfolio">
             <p className="nav_link cursor-pointer">Portfolio</p>
           </Link>
-          <Link href="./team">
-            <p className="nav_link cursor-pointer">Team</p>
-          </Link>
+          <p onClick={team()} className="nav_link cursor-pointer">Team</p>
+
         </div>
         <Link href="./contact">
           <div className="flex justify-evenly">
@@ -112,9 +113,8 @@ export default function Header({ currentPage }) {
           <Link href="./portfolio">
             <p className="cursor-pointer mt-2 menu_link">Portfolio</p>
           </Link>
-          <Link href="./team">
-            <p className="cursor-pointer mt-2 menu_link">Team</p>
-          </Link>
+          <p onClick={team()} className="nav_link cursor-pointer">Team</p>
+
           <Link href="./contact">
             <div className="mt-2">
               <button className="start_btn">Get Started</button>
