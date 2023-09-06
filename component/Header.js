@@ -60,7 +60,7 @@ export default function Header({ currentPage }) {
           <Link href="./portfolio">
             <p className="nav_link cursor-pointer">Portfolio</p>
           </Link>
-          <p onClick={team()} className="nav_link cursor-pointer">Team</p>
+          <p className="nav_link cursor-pointer">Team</p>
 
         </div>
         <Link href="./contact">
