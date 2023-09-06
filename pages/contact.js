@@ -34,19 +34,19 @@ export default function Contact() {
                             [03]
                             <p className='ml-6 qies'>What is your phone number ?</p>
                         </div>
-                        <input type="text" class="custom-input" placeholder="example@email.com" />
+                        <input type="text" class="custom-input" placeholder="Number" />
 
                         <div className='flex forn_det'>
                             [04]
                             <p className='ml-6 qies'>What is your Real estate Business name?</p>
                         </div>
-                        <input type="text" class="custom-input" placeholder="example@email.com" />
+                        <input type="text" class="custom-input" placeholder="Business Name" />
 
                         <div className='flex forn_det'>
                             [04]
                             <p className='ml-6 qies'>What is your project deadline?</p>
                         </div>
-                        <input type="text" class="custom-input" placeholder="example@email.com" />
+                        <input type="text" class="custom-input" placeholder="Deadline" />
 
 
                         <div className='flex forn_det'>
@@ -54,7 +54,7 @@ export default function Contact() {
                             <p className='ml-6 qies'>Briefly tell us some specific needs about your project</p>
                         </div>
 
-                        <input type="text" class="custom-input" placeholder="example@email.com" />
+                        <input type="text" class="custom-input" placeholder="Specific Needs" />
                         <div>
                             <button className='sub_btn mt-10'>
                                 Send Message
