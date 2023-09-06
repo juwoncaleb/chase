@@ -65,8 +65,8 @@ export default function Header({ currentPage }) {
           <Link href="./portfolio">
             <p className="nav_link cursor-pointer">Portfolio</p>
           </Link>
-          
-          <Link href='teamMembers'>
+
+          <Link href="teamMembers">
             <p className="nav_link cursor-pointer">Team</p>
           </Link>
         </div>
@@ -124,9 +124,9 @@ export default function Header({ currentPage }) {
           <Link href="./portfolio">
             <p className="cursor-pointer mt-2 menu_link">Portfolio</p>
           </Link>
-          <p onClick={team()} className="nav_link cursor-pointer">
-            Team
-          </p>
+          <Link href="teamMembers">
+            <p className="nav_link cursor-pointer">Team</p>
+          </Link>
 
           <Link href="./contact">
             <div className="mt-2">

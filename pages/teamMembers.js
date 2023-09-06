@@ -19,19 +19,31 @@ export default function Team() {
         </center>
       </div>
       <div className="div team_div">
-        <div className="team_pic flex   ">
+        <div className="team_pic flex  gap-8  ">
           <div>
             <img className="team_member" src="./cd.png" />
             <div className="flex mt-4">
               <div className="round_dot"></div>
-              <p className="what_we_do m ">Creative Director</p>
+              <p className="what_we_do m ">Creative Director - Caleb </p>
             </div>
           </div>
           <div>
             <img className="saf" src="./saf.png" />
             <div className="flex ml-10">
               <div className="round_doit "></div>
-              <p className="what_we_do mt-2 "> Engineer</p>
+              <p className="what_we_do mt-2 "> Engineer - Safiyyah</p>
+            </div>
+          </div>
+        
+          <div>
+            <img
+              className="saf"
+              src="    https://ik.imagekit.io/juwoncaleb/1623587250149-removebg-preview_dDToOBVQ0.webp?updatedAt=1694027833718
+"
+            />
+            <div className="flex ml-10">
+              <div className="round_doit "></div>
+              <p className="what_we_do mt-2 ">Sales - Robert</p>
             </div>
           </div>
         </div>

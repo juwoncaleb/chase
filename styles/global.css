@@ -1754,6 +1754,13 @@ body {
   margin-top: 40px;
 }
 
+.good {
+  border-radius: 50%;
+  height: 300px;
+  width: 260px;
+  margin-top: 40px;
+}
+
 .fra {
   border-radius: 50%;
   height: 200px;
