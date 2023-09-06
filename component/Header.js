@@ -53,14 +53,14 @@ const team = ()=>{
         <div className="flex mt-2 ">
           <div className="flex">
             <div className={`nav_link_ `}>
-              <Link href="./about">
+              <Link href="./team">
                 <div className="flex cursor-pointer">
                   <p>About</p>
                 </div>
               </Link>
             </div>
           </div>
-          <Link href="./team">
+          <Link href="./portfolio">
             <p className="nav_link cursor-pointer">Portfolio</p>
           </Link>
           <p onClick={team()} className="nav_link cursor-pointer">Team</p>
