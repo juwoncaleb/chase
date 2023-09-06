@@ -45,12 +45,17 @@ export default function Header({ currentPage }) {
         style={headerStyle}
       >
         <Link href="./">
-          <Image className="logoImage" width="200" height="100" src="https://ik.imagekit.io/juwoncaleb/lg_WP8-49p-Y.webp?updatedAt=1693946507145" />
+          <Image
+            className="logoImage"
+            width="200"
+            height="100"
+            src="https://ik.imagekit.io/juwoncaleb/lg_WP8-49p-Y.webp?updatedAt=1693946507145"
+          />
         </Link>
         <div className="flex mt-2 ">
           <div className="flex">
             <div className={`nav_link_ `}>
-              <Link href="./team">
+              <Link href="./about">
                 <div className="flex cursor-pointer">
                   <p>About</p>
                 </div>
@@ -60,8 +65,10 @@ export default function Header({ currentPage }) {
           <Link href="./portfolio">
             <p className="nav_link cursor-pointer">Portfolio</p>
           </Link>
-          <p className="nav_link cursor-pointer">Team</p>
-
+          
+          <Link href='teamMembers'>
+            <p className="nav_link cursor-pointer">Team</p>
+          </Link>
         </div>
         <Link href="./contact">
           <div className="flex justify-evenly">
@@ -75,7 +82,12 @@ export default function Header({ currentPage }) {
         style={headerStyle}
       >
         <Link href="./">
-          <Image className="logoImage" width="200" height="100" src="https://ik.imagekit.io/juwoncaleb/lg_WP8-49p-Y.webp?updatedAt=1693946507145" />
+          <Image
+            className="logoImage"
+            width="200"
+            height="100"
+            src="https://ik.imagekit.io/juwoncaleb/lg_WP8-49p-Y.webp?updatedAt=1693946507145"
+          />
         </Link>
         {menu == 0 ? (
           <img
@@ -102,15 +114,19 @@ export default function Header({ currentPage }) {
         )}
       </div>
       {menu === 0 && (
-        <div         style={headerStyle}
-        className="mt-16 miniii flex flex-col items-end fixed top-0 w-full z-10">
+        <div
+          style={headerStyle}
+          className="mt-16 miniii flex flex-col items-end fixed top-0 w-full z-10"
+        >
           <Link href="./about">
             <p className="cursor-pointer menu_link">About</p>
           </Link>
           <Link href="./portfolio">
             <p className="cursor-pointer mt-2 menu_link">Portfolio</p>
           </Link>
-          <p onClick={team()} className="nav_link cursor-pointer">Team</p>
+          <p onClick={team()} className="nav_link cursor-pointer">
+            Team
+          </p>
 
           <Link href="./contact">
             <div className="mt-2">
