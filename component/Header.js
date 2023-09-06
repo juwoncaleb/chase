@@ -60,7 +60,7 @@ const team = ()=>{
               </Link>
             </div>
           </div>
-          <Link href="./portfolio">
+          <Link href="./team">
             <p className="nav_link cursor-pointer">Portfolio</p>
           </Link>
           <p onClick={team()} className="nav_link cursor-pointer">Team</p>
