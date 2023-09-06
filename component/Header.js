@@ -6,10 +6,7 @@ import { useRouter } from "next/router";
 export default function Header({ currentPage }) {
   const [isAboutDivInView, setIsAboutDivInView] = useState(true);
   const [menu, setMenu] = useState("one");
-  const router = useRouter();
-const team = ()=>{
-  router.push('/team');
-}
+
   useEffect(() => {
     const handleScroll = () => {
       const aboutDiv = document.querySelector(".about_div");
