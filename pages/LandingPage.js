@@ -723,14 +723,16 @@ export default function LandingPage() {
               delay: 0.3,
             }}
           >
-            <div className="booked_div_available">
-              <p className="text-left sloo">
-                SLOT <br /> <span className="small_">[04] </span>{" "}
-              </p>
-              <div className="bk_div">
-                <p className="book">Avaliable</p>
+            <Link href="./contact">
+              <div className="booked_div_available">
+                <p className="text-left sloo">
+                  SLOT <br /> <span className="small_">[04] </span>{" "}
+                </p>
+                <div className="bk_div">
+                  <p className="book">Avaliable</p>
+                </div>
               </div>
-            </div>
+            </Link>
           </motion.div>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -743,14 +745,16 @@ export default function LandingPage() {
               delay: 0.4,
             }}
           >
-            <div className="booked_div_available">
-              <p className="text-left sloo">
-                SLOT <br /> <span className="small_">[05] </span>{" "}
-              </p>
-              <div className="bk_div">
-                <p className="book">Avaliable</p>
+            <Link  href='./contact'>
+              <div className="booked_div_available">
+                <p className="text-left sloo">
+                  SLOT <br /> <span className="small_">[05] </span>{" "}
+                </p>
+                <div className="bk_div">
+                  <p className="book">Avaliable</p>
+                </div>
               </div>
-            </div>
+            </Link>
           </motion.div>
         </div>
         <motion.div
