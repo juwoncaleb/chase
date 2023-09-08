@@ -35,11 +35,20 @@ export default function Team() {
             </div>
           </div>
           <div>
-            <img className="saf" src="          https://ik.imagekit.io/juwoncaleb/5dd6d94c-8246-4e92-9c2b-6e679736168c_sdfEtf2Ei.webp?updatedAt=1694198204471
+            <img className="saf" src="       https://ik.imagekit.io/juwoncaleb/5dd6d94c-8246-4e92-9c2b-6e679736168c_sdfEtf2Ei.webp?updatedAt=1694198684202
 " />
             <div className="flex md:ml-10">
               <div className="round_doit "></div>
               <p className="what_we_do mt-2 "> Engineer - Sonia</p>
+            </div>
+          </div>
+          <div>
+            <img className="saf" src="              https://ik.imagekit.io/juwoncaleb/1671852191774_rlC1YSEJ0.webp?updatedAt=1694199111508
+
+" />
+            <div className="flex md:ml-10">
+              <div className="round_doit "></div>
+              <p className="what_we_do mt-2 "> Writer - Tiana</p>
             </div>
           </div>
           <div>
