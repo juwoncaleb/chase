@@ -34,7 +34,14 @@ export default function Team() {
               <p className="what_we_do mt-2 "> Engineer - Safiyyah</p>
             </div>
           </div>
-        
+          <div>
+            <img className="saf" src="          https://ik.imagekit.io/juwoncaleb/5dd6d94c-8246-4e92-9c2b-6e679736168c_sdfEtf2Ei.webp?updatedAt=1694198204471
+" />
+            <div className="flex md:ml-10">
+              <div className="round_doit "></div>
+              <p className="what_we_do mt-2 "> Engineer - Sonia</p>
+            </div>
+          </div>
           <div>
             <img
               className="saf"
