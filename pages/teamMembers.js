@@ -18,8 +18,8 @@ export default function Team() {
           </div>
         </center>
       </div>
-      <div className="div team_div">
-        <div className="team_pic flex  gap-8  ">
+      <div className="team team_div">
+        <div className="team_pic   gap-4  ">
           <div>
             <img className="team_member" src="./cd.png" />
             <div className="flex mt-4">

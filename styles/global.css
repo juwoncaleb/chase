@@ -1747,6 +1747,11 @@ body {
   width: 300px;
 }
 
+.team {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
 .saf {
   border-radius: 50%;
   height: 270px;
@@ -1777,6 +1782,17 @@ body {
   margin-top: 20px;
 }
 
+.team_pic {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+}
+
+@media only screen and (max-width: 1024px) {
+  .team_pic {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  }
+}
 @media only screen and (max-width: 770px) {
   .teams {
     background-image: url("/load.webp");
@@ -1788,14 +1804,21 @@ body {
     z-index: 1;
   }
   .team_pic {
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
   }
   .lov {
     margin-right: 50px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .team_pic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
   }
 }
 .contact_text {
