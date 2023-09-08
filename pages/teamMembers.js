@@ -48,7 +48,12 @@ export default function Team() {
               src="    https://ik.imagekit.io/juwoncaleb/1623587250149-removebg-preview_dDToOBVQ0.webp?updatedAt=1694027833718
 "
             />
-            
+            <div className="flex md:ml-10">
+              <div className="round_doit "></div>
+              <p className="what_we_do mt-2 ">Sales - Robert</p>
+            </div>
+          </div>
+        </div>
         <hr className="what_we_do_line mb-12" />
       </div>
       <Footer />
