@@ -37,7 +37,7 @@ export default function LandingPage() {
           >
             <div className="flex ">
               <div className="round_dooot hell"></div>
-              <p className="what_we_do hell">Hello</p>
+              <p className="what_we_do hell">Chase</p>
             </div>
           </motion.div>
 
