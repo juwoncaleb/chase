@@ -81,9 +81,9 @@ export default function About() {
             delay: 0,
           }}
         >
-          <div className="flex mb-2 mt-16  ">
+          <div className="flex mb-4 mt-16  ">
             <div className="round_dot"></div>
-            <p className="what_we_do ">What we do</p>
+            <p className="what_we_do ">What You Get</p>
           </div>
         </motion.div>
         <hr className="what_we_do_line" />

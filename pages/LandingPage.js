@@ -16,13 +16,14 @@ export default function LandingPage() {
           <center>
             <div className="about_head soooop">
               <p className="about_head_text">
-                <span className="ought"> Building</span> Reputable brands for
+                <span className="ought"> Building</span> Reputable Organization  for
                 Important Real Estate Businesses
               </p>
             </div>
           </center>
         </div>
-        <img src="https://ik.imagekit.io/juwoncaleb/abt_img_21hO3EFa_.webp?updatedAt=1694024803199" />
+
+        <img src="https://ik.imagekit.io/juwoncaleb/abt_img_21hO3EFa_.webp?updatedAt=1694024803199" class="w-full" />
 
         <div className="div wee">
           <motion.div
@@ -54,9 +55,10 @@ export default function LandingPage() {
             }}
           >
             <div className="mt-10 hadliner">
-              <p>We build Websites & offer Services that</p>
-              <p>Helps you focus on what matters most .</p>
-              <p>SELLING BUILDINGS</p>
+
+              <p>Our website and additional services </p>
+              <p>help you sell more buildings</p>
+              <p>FASTER !</p>
             </div>
           </motion.div>
         </div>
