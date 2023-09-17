@@ -16,7 +16,7 @@ export default function LandingPage() {
           <center>
             <div className="about_head soooop">
               <p className="about_head_text">
-                <span className="ought"> Building</span> Reputable Organization  for
+                <span className="ought"> Building</span> Trust & Authority for
                 Important Real Estate Businesses
               </p>
             </div>
