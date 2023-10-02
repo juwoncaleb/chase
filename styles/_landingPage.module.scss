@@ -195,13 +195,64 @@
 .testimonials .item h2 {
   font-size: 14px;
 }
-
+.suiteService {
+  margin-top: 150px;
+  margin-bottom: 90px;
+  max-width: 680px;
+}
 .dots {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
+.service_ptovide {
+  margin-left: 4%;
+  margin-right: 4%;
+}
+.top_service {
+  padding: 20px;
+  padding-bottom: 20px;
+  font-family: "Cormorant", serif;
+  font-size: 25px;
+  padding-top: 50px;
+  margin-bottom: 80px;
+}
+.growth {
+  font-family: "Cormorant", serif;
+  font-size: 35px;
+  font-weight: 600;
+}
+.tag_header {
+  font-size: 43px;
+  font-family: "Cormorant", serif;
+}
+.sub_Serv {
+  margin-top: 180px;
+}
+.serv_text {
+  font-family: "Archivo", sans-serif;
+}
+.conv {
+  font-family: "Italiana", serif;
+  font-size: 23px;
+  font-weight: 600;
+}
+.service_ptovide {
+  margin-bottom: 100px;
+  color: white;
+  padding-bottom: 70px;
+}
+.video_div {
+  max-width: 500px;
+  margin-top: 20px;
+}
+.getStarte {
+  margin-top: 40px;
+  height: 40px;
+  width: 150px;
+  color: black;
+  background-color: #f9f9f9;
+}
 .dots label {
   height: 5px;
   width: 5px;
@@ -299,10 +350,10 @@
   text-align: center;
   font-size: 65px;
   font-weight: 900;
-  font-family: 'Italiana', serif;
+  font-family: "Italiana", serif;
 }
 .soooop {
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 .test_line {
   margin-bottom: 80px;
@@ -523,8 +574,15 @@
   padding: 7px;
   border: whitesmoke;
 }
-
+.mark {
+  height: 21px;
+  margin-top: 4px;
+}
 @media only screen and (max-width: 1024px) {
+  .tag_header {
+    font-size: 33px;
+    font-family: "Cormorant", serif;
+  }
   .End_note {
     font-family: "Italiana", serif;
     font-size: 35px;
@@ -614,6 +672,14 @@
 }
 
 @media only screen and (max-width: 770px) {
+  .collapse_grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+  }
   .packages {
     display: grid;
   }
@@ -627,6 +693,12 @@
     margin-top: 120px;
     position: relative;
     top: 20px;
+  }
+  .quick_Search {
+    margin-top: 70px;
+  }
+  .st {
+    margin-bottom: 50px;
   }
   .end {
     display: flex;
@@ -654,6 +726,10 @@
   }
   .tabb {
     margin-top: 150px;
+  }
+  .service_ptovide {
+    margin-left: 0%;
+    margin-right: 0%;
   }
   .about_head_text {
     margin-top: 50px;
@@ -779,12 +855,18 @@
     font-size: 28px;
     font-weight: 600;
   }
-
+  .tag_header {
+    font-size: 28px;
+    font-family: "Cormorant", serif;
+  }
   .video_2 {
     margin-top: 70px;
     margin-bottom: 70px;
     height: 400px;
     width: 400px;
+  }
+  .solo {
+    font-size: 29px !important;
   }
 
   .booked_div {
@@ -798,7 +880,14 @@
     border: 2px solid rgba(128, 128, 128, 0.352);
     border-radius: 10px;
   }
-
+  .top_service {
+    padding: 20px;
+    padding-bottom: 20px;
+    font-family: "Cormorant", serif;
+    font-size: 14px;
+    padding-top: 20px;
+    margin-bottom: 80px;
+  }
   .booked_div_available {
     margin: 10px;
     height: 200px;
@@ -907,6 +996,7 @@
     border-radius: 10px;
   }
 }
+
 @media only screen and (max-width: 380px) {
   .video_2 {
     margin-top: 70px;

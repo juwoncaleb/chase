@@ -7,6 +7,7 @@ import React, { useRef, useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
 export default function LandingPage() {
+  const [menu, setMenu] = useState(0);
   return (
     <div>
       <Header currentPage="whatwedo" />
@@ -16,14 +17,17 @@ export default function LandingPage() {
           <center>
             <div className="about_head soooop">
               <p className="about_head_text">
-                <span className="ought"> Building</span> Trust & Authority for
-                Important Real Estate Businesses
+                <span className="ought"> Close</span> more Real estate deals
+                with the right branding and a perfect website.
               </p>
             </div>
           </center>
         </div>
 
-        <img src="https://ik.imagekit.io/juwoncaleb/abt_img_21hO3EFa_.webp?updatedAt=1694024803199" class="w-full" />
+        <img
+          src="https://ik.imagekit.io/juwoncaleb/abt_img_21hO3EFa_.webp?updatedAt=1694024803199"
+          class="w-full"
+        />
 
         <div className="div wee">
           <motion.div
@@ -55,10 +59,10 @@ export default function LandingPage() {
             }}
           >
             <div className="mt-10 hadliner">
-
-              <p>Our website and additional services </p>
-              <p>help you sell more buildings</p>
-              <p>FASTER !</p>
+              <p>Our website and makerting solutions </p>
+              <p>allows you Grow you business and </p>
+              <p>Focus on what matters most</p>
+              <p className="ought">Closing Deals</p>
             </div>
           </motion.div>
         </div>
@@ -79,102 +83,405 @@ export default function LandingPage() {
             />
           </motion.div>
         </center>
-        <div className="">
-          <div className="grid md:grid-cols-2 grid-cols-1 div gap-16">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{
-                type: "easeIn",
-                stiffness: 100,
-                damping: 10,
-                duration: 0.4,
-              }}
-            >
-              <div className="service_div">
-                <p className="what_we_do">[01] Property Listings Management</p>
-                <p className="service_sub">
-                  {" "}
-                  We build websites that enables YOU effortlessly add, edit, &
-                  remove listings. Additionally, we implement advanced search
-                  and filtering functionalities, empowering CLIENTS find
-                  properties based on their specific criteria easily. This helps
-                  real estate agencies streamline their listing management
-                  process and enhance the overall user experience for potential
-                  buyers.
-                </p>
-              </div>
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{
-                type: "easeIn",
-                stiffness: 100,
-                damping: 10,
-                duration: 0.4,
-                delay: 0.2,
-              }}
-            >
-              <div className="service_div">
-                <p className="what_we_do">[02] Virtual Tours and Multimedia</p>
-                <p className="service_sub">
-                  {" "}
-                  We offer solutions for virtual property tours, 360-degree
-                  images, and high-quality photo galleries. This way, potential
-                  buyers can have a better view of properties without physically
-                  visiting them, saving time for both the agency and clients.
-                </p>
-              </div>
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{
-                type: "easeIn",
-                stiffness: 100,
-                damping: 10,
-                duration: 0.4,
-                delay: 0.3,
-              }}
-            >
-              <div className="service_div">
-                <p className="what_we_do">[03] Rank higher on Google</p>
-                <p className="service_sub">
-                  {" "}
-                  We prioritize SEO to boost your website visibility on GOOGLE.
-                  Optimizing your content, keywords, and website structure, we
-                  help drive ORGANIC traffic, and increase your online presence.
-                  At CHASE , you don’t need to be an SEO whizz or consultant to
-                  be on page 1. We do all the hard work for you!
-                </p>
-              </div>
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{
-                type: "easeIn",
-                stiffness: 100,
-                damping: 10,
-                duration: 0.4,
-                delay: 0.4,
-              }}
-            >
-              <div className="service_div">
-                <p className="what_we_do">[04] Automated Email Campaigns</p>
 
-                <p className="service_sub">
-                  By implementing personalized campaigns for property updates,
-                  market trends, and newsletters, we keep agencies connected
-                  with their audience effortlessly. This proactive approach
-                  helps nurture potential leads and ensures that clients are
-                  always up-to-date with relevant information, fostering
-                  stronger relationships and maximizing lead conversion
-                  opportunities.
-                </p>
+        <div className="div">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{
+              type: "easeIn",
+              stiffness: 100,
+              damping: 10,
+              duration: 0.4,
+              delay: 0,
+            }}
+          >
+            <div className="flex testimonal_Div ">
+              <div className="round_dot"></div>
+              <p className="what_we_do ">Testimonial</p>
+            </div>
+          </motion.div>
+
+          <hr className="what_we_do_line test_line" />
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{
+              type: "easeIn",
+              stiffness: 100,
+              damping: 10,
+              duration: 0.4,
+              delay: 0,
+            }}
+          >
+            <div class="slider">
+              <input type="radio" name="testimonial" id="t-1" />
+              <input type="radio" name="testimonial" id="t-2" />
+              <input type="radio" name="testimonial" id="t-3" checked />
+              <input type="radio" name="testimonial" id="t-4" />
+              <input type="radio" name="testimonial" id="t-5" />
+              <div class="testimonials">
+                <label class="item item_1 flex justify-around" for="t-1">
+                  <img
+                    src="https://ik.imagekit.io/juwoncaleb/l1_5rFMnqERe.webp?updatedAt=1693944815115"
+                    alt="picture"
+                  />
+                  <p className="testimoal_text">
+                    We are a new agency and do not have testimial YET . We are a
+                    new agency and do not have testimial YET .
+                  </p>
+                </label>
+                <label class="item  flex justify-around item_2" for="t-2">
+                  <img
+                    src="https://ik.imagekit.io/juwoncaleb/l2_K-W-ZCZ7s.webp?updatedAt=1693944815085"
+                    alt="picture"
+                  />
+                  <p className="testimoal_text">
+                    We are a new agency and do not have testimial YET . We are a
+                    new agency and do not have testimial YET .
+                  </p>
+                </label>
+                <label class="item  flex justify-around item_3" for="t-3">
+                  <img
+                    src="https://ik.imagekit.io/juwoncaleb/l3_FYpkL-Q3M.webp?updatedAt=1693944815245"
+                    alt="picture"
+                  />
+                  <p className="testimoal_text">
+                    We are a new agency and do not have testimial YET . We are a
+                    new agency and do not have testimial YET .
+                  </p>
+                </label>
+                <label class="item item_4  flex justify-around" for="t-4">
+                  <img
+                    className="luka"
+                    src="https://ik.imagekit.io/juwoncaleb/luka_qqjvf113E.webp?updatedAt=1693944814681"
+                    alt="picture"
+                  />
+                  <p className="testimoal_text">
+                    We are a new agency and do not have testimial YET . We are a
+                    new agency and do not have testimial YET .
+                  </p>
+                </label>
+                <label class="item flex justify-around item_5" for="t-5">
+                  <img
+                    src="https://ik.imagekit.io/juwoncaleb/ff_nAie7FD-r.webp?updatedAt=1693944815035"
+                    alt="picture"
+                  />
+                  <p className="testimoal_text">
+                    We are a new agency and do not have testimial YET . We are a
+                    new agency and do not have testimial YET .
+                  </p>
+                </label>
               </div>
-            </motion.div>
+              <div class="dots">
+                <label for="t-1"></label>
+                <label for="t-2"></label>
+                <label for="t-3"></label>
+                <label for="t-4"></label>
+                <label for="t-5"></label>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+        <div className="">
+          <center>
+            <div className="suiteService mb-10">
+              <p className="text-center solo growth">
+                Grow your business with our suite of digital product & services
+                ,attract leads organically & convinently increasing your{" "}
+                <span className="ought"> YEARLY </span>revenue.
+              </p>
+            </div>
+          </center>
+          <div className="div service_ptovide bg-black">
+            <div className="flex top_service justify-between"></div>
+            {
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{
+                  type: "easeIn",
+                  stiffness: 100,
+                  damping: 10,
+                  duration: 0.4,
+                  delay: 0,
+                }}
+              >
+                <div className="">
+                  <div className="mt-10 collapse_grid grid  md:grid-cols-2 gap-8">
+                    <div>
+                      <p className="tag_header ">
+                        Attract and convert clients <br /> with a compelling
+                        website
+                      </p>
+                      <div className="serv_text">
+                        <div className="mt-12">
+                          <div className="flex ">
+                            <img
+                              width="20"
+                              height="20"
+                              src="https://img.icons8.com/windows/32/FFFFFF/checkmark--v1.png"
+                              alt="checkmark--v1"
+                              className="mark"
+                            />
+                            <p className="ml-3">
+                              Easy to use interaface for utmost client
+                              experience
+                            </p>
+                          </div>
+                          <div className="flex mt-3 ">
+                            <img
+                              width="20"
+                              height="20"
+                              src="https://img.icons8.com/windows/32/FFFFFF/checkmark--v1.png"
+                              alt="checkmark--v1"
+                              className="mark"
+                            />
+                            <p className="ml-3">
+                              Organic Traffic generation with in built SEO
+                              optimization
+                            </p>
+                          </div>
+                          <div className="flex mt-3 ">
+                            <img
+                              width="20"
+                              height="20"
+                              src="https://img.icons8.com/windows/32/FFFFFF/checkmark--v1.png"
+                              alt="checkmark--v1"
+                              className="mark"
+                            />
+                            <p className="ml-3">
+                              Automatic property inspection date scheduler
+                            </p>
+                          </div>
+                        </div>
+
+                        <button className="getStarte">Get Started</button>
+                      </div>
+                    </div>
+                    <div className="video_div">
+                      <video autoPlay loop>
+                        <source
+                          src="https://ik.imagekit.io/juwoncaleb/Jade-Mills-Frame-13-1440x900_H.264_chJ27IPIR.mp4?updatedAt=1695588505036"
+                          type="video/mp4"
+                        />
+                      </video>
+                    </div>
+                  </div>
+                </div>
+              </motion.div>
+            }
+
+            {
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{
+                  type: "easeIn",
+                  stiffness: 100,
+                  damping: 10,
+                  duration: 0.4,
+                  delay: 0,
+                }}
+              >
+                <div className="mt-10 sub_Serv collapse_grid md:flex justify-between">
+                  <div className="video_div mr-20">
+                    <video autoPlay loop>
+                      <source
+                        src="https://ik.imagekit.io/juwoncaleb/IDX-Brokerages-1168x821-ver-3-mp4-fallback_H.264_DvWNGHdQl.mp4?updatedAt=1695589641024"
+                        type="video/mp4"
+                      />
+                    </video>
+                  </div>
+
+                  <div className="ml-14">
+                    <p className="tag_header quick_Search ">
+                      Quick Search with an <span className="ought">IDX</span>{" "}
+                      tool,fetching listings Quicky from the{" "}
+                      <span className="ought">MLS</span>
+                    </p>
+                    <div className="serv_text">
+                      <div className="mt-8">
+                        <div className="flex ">
+                          <img
+                            width="20"
+                            height="20"
+                            className="mark"
+                            src="https://img.icons8.com/windows/32/FFFFFF/checkmark--v1.png"
+                            alt="checkmark--v1"
+                          />
+                          <p className="ml-3">Fast MLS sync time</p>
+                        </div>
+                        <div className="flex mt-3 ">
+                          <img
+                            width="20"
+                            height="20"
+                            src="https://img.icons8.com/windows/32/FFFFFF/checkmark--v1.png"
+                            alt="checkmark--v1"
+                            className="mark"
+                          />
+                          <p className="ml-3">
+                            Home search portal branded with your business
+                          </p>
+                        </div>
+                        <div className="flex mt-3 ">
+                          <img
+                            width="20"
+                            height="20"
+                            className="mark"
+                            src="https://img.icons8.com/windows/32/FFFFFF/checkmark--v1.png"
+                            alt="checkmark--v1"
+                          />
+                          <p className="ml-3">
+                            Optimized for qualified buyer lead generation{" "}
+                          </p>
+                        </div>
+                      </div>
+
+                      <button className="getStarte">Get Started</button>
+                    </div>
+                  </div>
+                </div>
+              </motion.div>
+            }
+
+            {
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{
+                  type: "easeIn",
+                  stiffness: 100,
+                  damping: 10,
+                  duration: 0.4,
+                  delay: 0,
+                }}
+              >
+                <div className="sub_Serv collapse_grid">
+                  <p className="tag_header text-center  ">
+                    Generate qualified leads with On-Demand Ads & discovered on
+                    Google with SEO
+                  </p>
+                  <div className="mt-10 md:flex justify-between ">
+                    <div>
+                      <div className="serv_text">
+                        <div className="mt-12">
+                          <div className="flex ">
+                            <img
+                              width="20"
+                              height="20"
+                              src="https://img.icons8.com/windows/32/FFFFFF/checkmark--v1.png"
+                              alt="checkmark--v1"
+                              className="mark"
+                            />
+                            <p className="ml-3">
+                              Drive quality organic traffic to your website
+                            </p>
+                          </div>
+                          <div className="flex mt-3 ">
+                            <img
+                              width="20"
+                              height="20"
+                              src="https://img.icons8.com/windows/32/FFFFFF/checkmark--v1.png"
+                              alt="checkmark--v1"
+                              className="mark"
+                            />
+                            <p className="ml-3">Lower cost per lead </p>
+                          </div>
+                          <div className="flex mt-3 ">
+                            <img
+                              width="20"
+                              height="20"
+                              src="https://img.icons8.com/windows/32/FFFFFF/checkmark--v1.png"
+                              alt="checkmark--v1"
+                              className="mark"
+                            />
+                            <p className="ml-3">
+                              Convert leads from Google, Facebook, and Instagram
+                              ads into close deals
+                            </p>
+                          </div>
+                        </div>
+
+                        <button className="getStarte st">Get Started</button>
+                      </div>
+                    </div>
+                    <div className="video_div">
+                      <img src="./lap.png" />
+                    </div>
+                  </div>
+                </div>
+              </motion.div>
+            }
+
+            {
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{
+                  type: "easeIn",
+                  stiffness: 100,
+                  damping: 10,
+                  duration: 0.4,
+                  delay: 0,
+                }}
+              >
+                <div className="mt-10 md:flex collapse_grid sub_Serv justify-between">
+                  <div>
+                    <p className="tag_header ">
+                      Establish your brand on social media.
+                      <br /> as an Authority in Real estate
+                    </p>
+                    <div className="serv_text">
+                      <div className="mt-12">
+                        <div className="flex ">
+                          <img
+                            width="20"
+                            height="20"
+                            className="mark"
+                            src="https://img.icons8.com/windows/32/FFFFFF/checkmark--v1.png"
+                            alt="checkmark--v1"
+                          />
+                          <p className="ml-3">
+                            Save time from managing your social{" "}
+                          </p>
+                        </div>
+                        <div className="flex mt-3 ">
+                          <img
+                            width="20"
+                            height="20"
+                            src="https://img.icons8.com/windows/32/FFFFFF/checkmark--v1.png"
+                            alt="checkmark--v1"
+                            className="mark"
+                          />
+                          <p className="ml-3">
+                            Build your brand as an Authority in Real estate{" "}
+                          </p>
+                        </div>
+                        <div className="flex mt-3 ">
+                          <img
+                            width="20"
+                            height="20"
+                            src="https://img.icons8.com/windows/32/FFFFFF/checkmark--v1.png"
+                            alt="checkmark--v1"
+                            className="mark"
+                          />
+                          <p className="ml-3">
+                            Increase engagement & following from your Target
+                            Market
+                          </p>
+                        </div>
+                      </div>
+
+                      <button className="getStarte">Get Started</button>
+                    </div>
+                  </div>
+                  <div className="video_div">
+                    <img src="./soc.png" />
+                  </div>
+                </div>
+              </motion.div>
+            }
           </div>
         </div>
         <div className="div port_div">
@@ -286,104 +593,8 @@ export default function LandingPage() {
               </motion.div>
             </div>
           </div>
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{
-              type: "easeIn",
-              stiffness: 100,
-              damping: 10,
-              duration: 0.4,
-              delay: 0,
-            }}
-          >
-            <div className="flex testimonal_Div ">
-              <div className="round_dot"></div>
-              <p className="what_we_do ">Testimonial</p>
-            </div>
-          </motion.div>
-
-          <hr className="what_we_do_line test_line" />
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{
-              type: "easeIn",
-              stiffness: 100,
-              damping: 10,
-              duration: 0.4,
-              delay: 0,
-            }}
-          >
-            <div class="slider">
-              <input type="radio" name="testimonial" id="t-1" />
-              <input type="radio" name="testimonial" id="t-2" />
-              <input type="radio" name="testimonial" id="t-3" checked />
-              <input type="radio" name="testimonial" id="t-4" />
-              <input type="radio" name="testimonial" id="t-5" />
-              <div class="testimonials">
-                <label class="item item_1 flex justify-around" for="t-1">
-                  <img
-                    src="https://ik.imagekit.io/juwoncaleb/l1_5rFMnqERe.webp?updatedAt=1693944815115"
-                    alt="picture"
-                  />
-                  <p className="testimoal_text">
-                    We are a new agency and do not have testimial YET . We are a
-                    new agency and do not have testimial YET .
-                  </p>
-                </label>
-                <label class="item  flex justify-around item_2" for="t-2">
-                  <img
-                    src="https://ik.imagekit.io/juwoncaleb/l2_K-W-ZCZ7s.webp?updatedAt=1693944815085"
-                    alt="picture"
-                  />
-                  <p className="testimoal_text">
-                    We are a new agency and do not have testimial YET . We are a
-                    new agency and do not have testimial YET .
-                  </p>
-                </label>
-                <label class="item  flex justify-around item_3" for="t-3">
-                  <img
-                    src="https://ik.imagekit.io/juwoncaleb/l3_FYpkL-Q3M.webp?updatedAt=1693944815245"
-                    alt="picture"
-                  />
-                  <p className="testimoal_text">
-                    We are a new agency and do not have testimial YET . We are a
-                    new agency and do not have testimial YET .
-                  </p>
-                </label>
-                <label class="item item_4  flex justify-around" for="t-4">
-                  <img
-                    className="luka"
-                    src="https://ik.imagekit.io/juwoncaleb/luka_qqjvf113E.webp?updatedAt=1693944814681"
-                    alt="picture"
-                  />
-                  <p className="testimoal_text">
-                    We are a new agency and do not have testimial YET . We are a
-                    new agency and do not have testimial YET .
-                  </p>
-                </label>
-                <label class="item flex justify-around item_5" for="t-5">
-                  <img
-                    src="https://ik.imagekit.io/juwoncaleb/ff_nAie7FD-r.webp?updatedAt=1693944815035"
-                    alt="picture"
-                  />
-                  <p className="testimoal_text">
-                    We are a new agency and do not have testimial YET . We are a
-                    new agency and do not have testimial YET .
-                  </p>
-                </label>
-              </div>
-              <div class="dots">
-                <label for="t-1"></label>
-                <label for="t-2"></label>
-                <label for="t-3"></label>
-                <label for="t-4"></label>
-                <label for="t-5"></label>
-              </div>
-            </div>
-          </motion.div>
         </div>
+
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -747,7 +958,7 @@ export default function LandingPage() {
               delay: 0.4,
             }}
           >
-            <Link  href='./contact'>
+            <Link href="./contact">
               <div className="booked_div_available">
                 <p className="text-left sloo">
                   SLOT <br /> <span className="small_">[05] </span>{" "}
