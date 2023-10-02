@@ -429,7 +429,7 @@ export default function LandingPage() {
                 <div className="mt-10 md:flex collapse_grid sub_Serv justify-between">
                   <div>
                     <p className="tag_header ">
-                      Establish your brand on social media.
+                      Establish your brand on social media
                       as an Authority in Real estate
                     </p>
                     <div className="serv_text">
