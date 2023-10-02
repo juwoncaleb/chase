@@ -342,7 +342,11 @@
 #t-5:checked ~ .testimonials label[for="t-5"] {
   z-index: 4;
 }
+.solo {
+  font-size: 34px !important;
+  font-family: "Archivo", sans-serif !important;
 
+}
 .testimonal_Div {
   margin-top: 80px;
 }
@@ -866,6 +870,7 @@
     width: 400px;
   }
   .solo {
+
     font-size: 29px !important;
   }
 

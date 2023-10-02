@@ -186,7 +186,7 @@ export default function LandingPage() {
         <div className="">
           <center>
             <div className="suiteService mb-10">
-              <p className="text-center solo growth">
+              <p className="text-center solo ">
                 Grow your business with our suite of digital product & services
                 ,attract leads organically & convinently increasing your{" "}
                 <span className="ought"> YEARLY </span>revenue.
