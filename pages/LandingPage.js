@@ -430,7 +430,7 @@ export default function LandingPage() {
                   <div>
                     <p className="tag_header ">
                       Establish your brand on social media.
-                      <br /> as an Authority in Real estate
+                      as an Authority in Real estate
                     </p>
                     <div className="serv_text">
                       <div className="mt-12">
