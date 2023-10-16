@@ -127,7 +127,7 @@ export default function LandingPage() {
                     alt="picture"
                   />
                   <p className="testimoal_text">
-                    "CHASE , Automated all the mundane tasks that took 50% of our time "
+                    CHASE , Automated all the mundane tasks that took 50% of our time 
                   </p>
                 </label>
                 <label class="item  flex justify-around item_2" for="t-2">
