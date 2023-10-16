@@ -127,8 +127,7 @@ export default function LandingPage() {
                     alt="picture"
                   />
                   <p className="testimoal_text">
-                    We are a new agency and do not have testimial YET . We are a
-                    new agency and do not have testimial YET .
+                    "CHASE , Automated all the mundane tasks that took 50% of our time "
                   </p>
                 </label>
                 <label class="item  flex justify-around item_2" for="t-2">
@@ -137,8 +136,7 @@ export default function LandingPage() {
                     alt="picture"
                   />
                   <p className="testimoal_text">
-                    We are a new agency and do not have testimial YET . We are a
-                    new agency and do not have testimial YET .
+                   i really enjoyed the customer service from juwoncaleb and his enginners from CHASE
                   </p>
                 </label>
                 <label class="item  flex justify-around item_3" for="t-3">
@@ -147,8 +145,7 @@ export default function LandingPage() {
                     alt="picture"
                   />
                   <p className="testimoal_text">
-                    We are a new agency and do not have testimial YET . We are a
-                    new agency and do not have testimial YET .
+                   My website accurately represents my company well and i spend less on ADS 
                   </p>
                 </label>
                 <label class="item item_4  flex justify-around" for="t-4">
@@ -158,8 +155,7 @@ export default function LandingPage() {
                     alt="picture"
                   />
                   <p className="testimoal_text">
-                    We are a new agency and do not have testimial YET . We are a
-                    new agency and do not have testimial YET .
+                   I love the CRM , that was integrated to the backend , it helped all our agents
                   </p>
                 </label>
                 <label class="item flex justify-around item_5" for="t-5">
