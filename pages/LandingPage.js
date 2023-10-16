@@ -164,8 +164,8 @@ export default function LandingPage() {
                     alt="picture"
                   />
                   <p className="testimoal_text">
-                    We are a new agency and do not have testimial YET . We are a
-                    new agency and do not have testimial YET .
+                   I love the use of AI to automate our Businesses
+                 
                   </p>
                 </label>
               </div>
