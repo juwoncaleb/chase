@@ -17,7 +17,7 @@ export default function LandingPage() {
           <center>
             <div className="about_head soooop">
               <p className="about_head_text">
-                <span className="ought"> Helping </span> Important Real estate Businesses <br/> Close more Deals , Doing Less
+                <span className="ought"> Helping </span> Important Real estate Businesses <br/> Close more Deals , While Doing Less
                 
               </p>
             </div>
@@ -60,9 +60,9 @@ export default function LandingPage() {
           >
             <div className="mt-10 hadliner">
               <p>Our website and makerting solutions </p>
-              <p>allows you Grow you business and </p>
+              <p>allows Grow your business and </p>
               <p>Focus on what matters most</p>
-              <p className="ought">Closing Deals</p>
+              <p className="ought"> - Closing Deals</p>
             </div>
           </motion.div>
         </div>
