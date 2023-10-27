@@ -59,7 +59,7 @@ export default function LandingPage() {
             }}
           >
             <div className="mt-10 hadliner">
-              <p>Our website and makerting solutions </p>
+              <p>Our website and Marketing solutions </p>
               <p>allows Grow your business and </p>
               <p>Focus on what matters most</p>
               <p className="ought"> - Closing Deals</p>
