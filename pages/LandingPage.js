@@ -96,7 +96,7 @@ export default function LandingPage() {
               delay: 0,
             }}
           >
-            <div className="flex testimonal_Div ">
+            {/* <div className="flex testimonal_Div ">
               <div className="round_dot"></div>
               <p className="what_we_do ">Testimonial</p>
             </div>
@@ -177,7 +177,7 @@ export default function LandingPage() {
                 <label for="t-5"></label>
               </div>
             </div>
-          </motion.div>
+          </motion.div> */}
         </div>
         <div className="">
           <center>
