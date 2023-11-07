@@ -96,14 +96,14 @@ export default function LandingPage() {
               delay: 0,
             }}
           >
-            {/* <div className="flex testimonal_Div ">
+             <div className="flex testimonal_Div ">
               <div className="round_dot"></div>
-              <p className="what_we_do ">Testimonial</p>
+              <p className="what_we_do ">What we do</p>
             </div>
           </motion.div>
 
           <hr className="what_we_do_line test_line" />
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{
@@ -177,7 +177,7 @@ export default function LandingPage() {
                 <label for="t-5"></label>
               </div>
             </div>
-          </motion.div> */}
+          </motion.div>  */}
         </div>
         <div className="">
           <center>
@@ -638,7 +638,7 @@ export default function LandingPage() {
                   />
                   <p>
                     {" "}
-                    Homepage, property listings page, contact form, and blog.
+Web Design & Development
                   </p>
                 </div>
                 <div className="flex point">
@@ -650,7 +650,7 @@ export default function LandingPage() {
                     alt="approval"
                   />
 
-                  <p> Content management system for properties and Blogs.</p>
+                  <p>Lead Capturing</p>
                 </div>
 
                 <div className="flex point">
@@ -664,7 +664,7 @@ export default function LandingPage() {
 
                   <p>
                     {" "}
-                    SEO services, keyword research and page speed optimization.
+                    Propert Inventory
                   </p>
                 </div>
                 <div className="flex point">
@@ -676,7 +676,7 @@ export default function LandingPage() {
                     alt="approval"
                   />
 
-                  <p> Analytics email performance Tracking .</p>
+                  <p> Clent Pipeline CRM</p>
                 </div>
                 <div className="flex point">
                   <img
