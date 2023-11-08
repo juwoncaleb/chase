@@ -270,7 +270,7 @@ export default function LandingPage() {
                   delay: 0,
                 }}
               >
-                <div className="mt-10 sub_Serv collapse_grid md:flex justify-between">
+                <div className="md:mt-10 sub_Serv collapse_grid md:flex justify-between">
                   <div className="video_div mr-20">
                     <video autoPlay loop muted preload="auto">
                       <source
@@ -280,7 +280,7 @@ export default function LandingPage() {
                     </video>
                   </div>
 
-                  <div className="ml-14">
+                  <div className="md:ml-14">
                     <p className="tag_header quick_Search ">
                       Quick Search with an <span className="ought">IDX</span>{" "}
                       tool,fetching listings Quicky from the{" "}
@@ -343,16 +343,15 @@ export default function LandingPage() {
                   delay: 0,
                 }}
               >
-                <div className="sub_Serv collapse_grid">
-                 <div className="effort">
-                 <p className="tag_header text-center mb-20  ">
+                <div className="effort">
+                  <p className="tag_header mt-16 text-center  ">
                     Effortlessly engage, qualify, and gather information from
                     potential customers using our seamless VideoChat and text
                     chatbots.
                   </p>
-                 </div>
-
-                  <div className="mt-16 md:flex justify-between ">
+                </div>
+                <div className="sub_Serv collapse_grid">
+                  <div className="mt-4 md:flex justify-between ">
                     <div>
                       <div className="serv_text ">
                         <div className="mt-12">
@@ -397,6 +396,7 @@ export default function LandingPage() {
                       </div>
                     </div>
                     <iframe
+                    className="iframe"
                       width="560"
                       height="315"
                       src="https://imagekit.io/player/embed/juwoncaleb/Untitled_Project_V1%20(1)_0-Oo2sOYF.mp4?thumbnail=https%3A%2F%2Fik.imagekit.io%2Fjuwoncaleb%2FUntitled_Project_V1%2520%281%29_0-Oo2sOYF.mp4%2Fik-thumbnail.jpg&updatedAt=1699439076852"
@@ -423,9 +423,9 @@ export default function LandingPage() {
                   delay: 0,
                 }}
               >
-                <div className="mt-10 md:flex collapse_grid sub_Serv justify-between">
+                <div className="mt-24 md:flex collapse_grid sub_Serv ape justify-between">
                   <div>
-                    <p className="tag_header ">
+                    <p className="tag_header mt-8 ">
                       Establish your brand on social media as an Authority in
                       Real estate
                     </p>

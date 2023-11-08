@@ -227,7 +227,6 @@
   font-family: "Cormorant", serif;
 }
 .sub_Serv {
-  margin-top: 180px;
 }
 .serv_text {
   font-family: "Archivo", sans-serif;
@@ -345,7 +344,6 @@
 .solo {
   font-size: 34px !important;
   font-family: "Archivo", sans-serif !important;
-
 }
 .testimonal_Div {
   margin-top: 80px;
@@ -824,10 +822,7 @@
   .price_Card {
     margin-top: 70px;
   }
-  .effort{
-    margin-bottom: 100px;
-  }
-
+  
   .about_head {
     padding-left: 3%;
     padding-right: 3%;
@@ -840,6 +835,9 @@
     text-align: center;
     font-size: 30px !important;
     font-weight: 800;
+  }
+  .ape{
+    flex-direction: column-reverse !important;
   }
 
   .what_we_do {
@@ -873,7 +871,6 @@
     width: 400px;
   }
   .solo {
-
     font-size: 29px !important;
   }
 
@@ -913,7 +910,16 @@
     display: grid;
     grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
   }
-
+  .sub_Serv {
+    flex-direction: column-reverse;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+  }
+  .iframe{
+    width: 100%;
+  }
   .slot {
     font-size: 18px !important;
     font-weight: 300;
