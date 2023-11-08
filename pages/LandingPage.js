@@ -17,8 +17,8 @@ export default function LandingPage() {
           <center>
             <div className="about_head soooop">
               <p className="about_head_text">
-                <span className="ought"> Helping </span> Important Real estate Businesses <br/> Close more Deals , While Doing Less
-                
+                <span className="ought"> Helping </span> Important Real estate
+                Businesses <br /> Close more Deals , While Doing Less
               </p>
             </div>
           </center>
@@ -59,10 +59,9 @@ export default function LandingPage() {
             }}
           >
             <div className="mt-10 hadliner">
-              <p>Our website and Marketing solutions </p>
-              <p>allows Grow your business and </p>
-              <p>Focus on what matters most</p>
-              <p className="ought"> - Closing Deals</p>
+              Grow your business with our suite of digital product & services,
+              attract leads organically & convinently increasing your{" "}
+              <span className="ought"> YEARLY </span>revenue.
             </div>
           </motion.div>
         </div>
@@ -96,7 +95,7 @@ export default function LandingPage() {
               delay: 0,
             }}
           >
-             <div className="flex testimonal_Div ">
+            <div className="flex testimonal_Div ">
               <div className="round_dot"></div>
               <p className="what_we_do ">What we do</p>
             </div>
@@ -180,15 +179,6 @@ export default function LandingPage() {
           </motion.div>  */}
         </div>
         <div className="">
-          <center>
-            <div className="suiteService mb-10">
-              <p className="text-center solo ">
-                Grow your business with our suite of digital product & services
-                ,attract leads organically & convinently increasing your{" "}
-                <span className="ought"> YEARLY </span>revenue.
-              </p>
-            </div>
-          </center>
           <div className="div service_ptovide bg-black">
             <div className="flex top_service justify-between"></div>
             {
@@ -247,7 +237,7 @@ export default function LandingPage() {
                               className="mark"
                             />
                             <p className="ml-3">
-                              Automatic property inspection date scheduler
+                              Brand and position your agency as a professional{" "}
                             </p>
                           </div>
                         </div>
@@ -256,7 +246,7 @@ export default function LandingPage() {
                       </div>
                     </div>
                     <div className="video_div">
-                      <video autoPlay loop>
+                      <video autoPlay loop muted preload="auto">
                         <source
                           src="https://ik.imagekit.io/juwoncaleb/Jade-Mills-Frame-13-1440x900_H.264_chJ27IPIR.mp4?updatedAt=1695588505036"
                           type="video/mp4"
@@ -282,7 +272,7 @@ export default function LandingPage() {
               >
                 <div className="mt-10 sub_Serv collapse_grid md:flex justify-between">
                   <div className="video_div mr-20">
-                    <video autoPlay loop>
+                    <video autoPlay loop muted preload="auto">
                       <source
                         src="https://ik.imagekit.io/juwoncaleb/IDX-Brokerages-1168x821-ver-3-mp4-fallback_H.264_DvWNGHdQl.mp4?updatedAt=1695589641024"
                         type="video/mp4"
@@ -354,13 +344,17 @@ export default function LandingPage() {
                 }}
               >
                 <div className="sub_Serv collapse_grid">
-                  <p className="tag_header text-center  ">
-                    Generate qualified leads with On-Demand Ads & discovered on
-                    Google with SEO
+                 <div className="effort">
+                 <p className="tag_header text-center mb-20  ">
+                    Effortlessly engage, qualify, and gather information from
+                    potential customers using our seamless VideoChat and text
+                    chatbots.
                   </p>
-                  <div className="mt-10 md:flex justify-between ">
+                 </div>
+
+                  <div className="mt-16 md:flex justify-between ">
                     <div>
-                      <div className="serv_text">
+                      <div className="serv_text ">
                         <div className="mt-12">
                           <div className="flex ">
                             <img
@@ -402,9 +396,16 @@ export default function LandingPage() {
                         <button className="getStarte st">Get Started</button>
                       </div>
                     </div>
-                    <div className="video_div">
-                      <img src="./lap.png" />
-                    </div>
+                    <iframe
+                      width="560"
+                      height="315"
+                      src="https://imagekit.io/player/embed/juwoncaleb/Untitled_Project_V1%20(1)_0-Oo2sOYF.mp4?thumbnail=https%3A%2F%2Fik.imagekit.io%2Fjuwoncaleb%2FUntitled_Project_V1%2520%281%29_0-Oo2sOYF.mp4%2Fik-thumbnail.jpg&updatedAt=1699439076852"
+                      title="ImageKit video player"
+                      frameBorder="0"
+                      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
+                    >
+                      {" "}
+                    </iframe>
                   </div>
                 </div>
               </motion.div>
@@ -425,8 +426,8 @@ export default function LandingPage() {
                 <div className="mt-10 md:flex collapse_grid sub_Serv justify-between">
                   <div>
                     <p className="tag_header ">
-                      Establish your brand on social media
-                      as an Authority in Real estate
+                      Establish your brand on social media as an Authority in
+                      Real estate
                     </p>
                     <div className="serv_text">
                       <div className="mt-12">
@@ -636,10 +637,7 @@ export default function LandingPage() {
                     src="https://img.icons8.com/quill/50/FFFFFF/approval.png"
                     alt="approval"
                   />
-                  <p>
-                    {" "}
-Web Design & Development
-                  </p>
+                  <p> Web Design & Development</p>
                 </div>
                 <div className="flex point">
                   <img
@@ -662,10 +660,7 @@ Web Design & Development
                     alt="approval"
                   />
 
-                  <p>
-                    {" "}
-                    Propert Inventory
-                  </p>
+                  <p> Propert Inventory</p>
                 </div>
                 <div className="flex point">
                   <img

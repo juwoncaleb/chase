@@ -16,6 +16,9 @@ export default function Contact() {
                     <Image src='/pt.png' width='450' height='450' />
                 </div>
                 <div className='bg-black form_fel flex justify-between'>
+             
+<div class="calendly-inline-widget" data-url="https://calendly.com/calebomojuwon/15min" style="min-width:320px;height:700px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
 
                     <div>
                         <div className='flex '>
