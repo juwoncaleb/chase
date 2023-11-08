@@ -193,7 +193,7 @@ export default function LandingPage() {
                   delay: 0,
                 }}
               >
-                <div className="">
+                <div className=" mb-16">
                   <div className="mt-10 collapse_grid grid  md:grid-cols-2 gap-8">
                     <div>
                       <p className="tag_header ">
@@ -270,7 +270,7 @@ export default function LandingPage() {
                   delay: 0,
                 }}
               >
-                <div className="md:mt-10 sub_Serv collapse_grid md:flex justify-between">
+                <div className="mlx sub_Serv collapse_grid md:flex justify-between">
                   <div className="video_div mr-20">
                     <video autoPlay loop muted preload="auto">
                       <source
@@ -280,7 +280,7 @@ export default function LandingPage() {
                     </video>
                   </div>
 
-                  <div className="md:ml-14">
+                  <div className="md:ml-14 mt-14">
                     <p className="tag_header quick_Search ">
                       Quick Search with an <span className="ought">IDX</span>{" "}
                       tool,fetching listings Quicky from the{" "}

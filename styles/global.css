@@ -376,6 +376,15 @@ body {
   transition-duration: 0.2s;
 }
 
+.mlx {
+  margin-top: 140px;
+}
+
+.effort {
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+
 #t-1:checked ~ .dots label[for=t-1],
 #t-2:checked ~ .dots label[for=t-2],
 #t-3:checked ~ .dots label[for=t-3],
