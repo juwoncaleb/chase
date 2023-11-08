@@ -934,6 +934,10 @@ body {
     font-size: 30px !important;
     font-weight: 800;
   }
+  .widget {
+    width: 300px;
+    height: 300px;
+  }
   .ape {
     flex-direction: column-reverse !important;
   }
@@ -1995,8 +1999,14 @@ body {
   margin-top: 20px;
 }
 
+.widget {
+  width: 500px;
+  height: 500px;
+}
+
 .form_fel {
   font-family: "Archivo", sans-serif;
+  justify-content: center;
   padding: 80px;
   color: white;
   margin-top: 150px;
