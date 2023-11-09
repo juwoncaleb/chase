@@ -241,8 +241,9 @@ export default function LandingPage() {
                             </p>
                           </div>
                         </div>
-
-                        <button className="getStarte">Get Started</button>
+                        <Link href="./contact">
+                          <button className="getStarte">Get Started</button>
+                        </Link>
                       </div>
                     </div>
                     <div className="video_div">
@@ -323,8 +324,9 @@ export default function LandingPage() {
                           </p>
                         </div>
                       </div>
-
-                      <button className="getStarte">Get Started</button>
+                      <Link href="./contact">
+                        <button className="getStarte">Get Started</button>
+                      </Link>{" "}
                     </div>
                   </div>
                 </div>
@@ -391,12 +393,13 @@ export default function LandingPage() {
                             </p>
                           </div>
                         </div>
-
-                        <button className="getStarte st">Get Started</button>
+                        <Link href="./contact">
+                          <button className="getStarte">Get Started</button>
+                        </Link>{" "}
                       </div>
                     </div>
                     <iframe
-                    className="iframe"
+                      className="iframe"
                       width="560"
                       height="315"
                       src="https://imagekit.io/player/embed/juwoncaleb/Untitled_Project_V1%20(1)_0-Oo2sOYF.mp4?thumbnail=https%3A%2F%2Fik.imagekit.io%2Fjuwoncaleb%2FUntitled_Project_V1%2520%281%29_0-Oo2sOYF.mp4%2Fik-thumbnail.jpg&updatedAt=1699439076852"
@@ -469,8 +472,9 @@ export default function LandingPage() {
                           </p>
                         </div>
                       </div>
-
-                      <button className="getStarte">Get Started</button>
+                      <Link href="./contact">
+                        <button className="getStarte">Get Started</button>
+                      </Link>{" "}
                     </div>
                   </div>
                   <div className="video_div">
@@ -627,7 +631,9 @@ export default function LandingPage() {
           >
             <div>
               <p className="package">Silver </p>
-              <button className="start">Get Started</button>
+              <Link href="./contact">
+                <button className="start">Get Started</button>
+              </Link>
               <div className="price_con">
                 <div className="flex point">
                   <img
@@ -637,7 +643,7 @@ export default function LandingPage() {
                     src="https://img.icons8.com/quill/50/FFFFFF/approval.png"
                     alt="approval"
                   />
-                  <p> Web Design & Development</p>
+                  <p> Custom Website Design & Development</p>
                 </div>
                 <div className="flex point">
                   <img
@@ -648,7 +654,7 @@ export default function LandingPage() {
                     alt="approval"
                   />
 
-                  <p>Lead Capturing</p>
+                  <p>Engaging Lead Capturing funnel system</p>
                 </div>
 
                 <div className="flex point">
@@ -660,7 +666,7 @@ export default function LandingPage() {
                     alt="approval"
                   />
 
-                  <p> Propert Inventory</p>
+                  <p> Property document Inventory</p>
                 </div>
                 <div className="flex point">
                   <img
@@ -671,35 +677,7 @@ export default function LandingPage() {
                     alt="approval"
                   />
 
-                  <p> Clent Pipeline CRM</p>
-                </div>
-                <div className="flex point">
-                  <img
-                    className="ver"
-                    width="25"
-                    height="20"
-                    src="https://img.icons8.com/quill/50/FFFFFF/approval.png"
-                    alt="approval"
-                  />
-
-                  <p>
-                    Inspection Date Schedule, Keep track of clients inspection
-                    appointments, date, time, and location.
-                  </p>
-                </div>
-                <div className="flex point">
-                  <img
-                    className="ver"
-                    width="25"
-                    height="20"
-                    src="https://img.icons8.com/quill/50/FFFFFF/approval.png"
-                    alt="approval"
-                  />
-
-                  <p>
-                    Standard maintenance website backups, security updates, and
-                    bug fixes .
-                  </p>
+                  <p> Homebuyer , sellers CRM system</p>
                 </div>
               </div>
             </div>
@@ -717,7 +695,10 @@ export default function LandingPage() {
           >
             <div className="price_Card md:mr-6">
               <p className="package_godl">Gold</p>
-              <button className="start">Get Started</button>
+              <Link href='./contact'>
+                            <button className="start">Get Started</button>
+
+              </Link>
               <div className="price_con">
                 <div className="flex point">
                   <img
@@ -728,10 +709,7 @@ export default function LandingPage() {
                     alt="approval"
                   />
 
-                  <p>
-                    Complex website features, such as a property search, virtual
-                    tours, and mortgage calculators.
-                  </p>
+                  <p>Reputation Control & Testimonial Collection</p>
                 </div>
                 <div className="flex point">
                   <img
@@ -742,7 +720,7 @@ export default function LandingPage() {
                     alt="approval"
                   />
 
-                  <p> Content management system for properties and Blogs.</p>
+                  <p> 360 degree virtual Home Tour.</p>
                 </div>
                 <div className="flex point">
                   <img
@@ -753,7 +731,7 @@ export default function LandingPage() {
                     alt="approval"
                   />
 
-                  <p> Analytics email performance Tracking .</p>
+                  <p> Social Media content calender</p>
                 </div>
 
                 <div className="flex point">
@@ -765,70 +743,7 @@ export default function LandingPage() {
                     alt="approval"
                   />
 
-                  <p>
-                    {" "}
-                    SEO services, keyword research and page speed optimization.
-                  </p>
-                </div>
-
-                <div className="flex point">
-                  <img
-                    className="ver"
-                    width="25"
-                    height="20"
-                    src="https://img.icons8.com/quill/50/FFFFFF/approval.png"
-                    alt="approval"
-                  />
-
-                  <p>
-                    Client Management System , track Clients, contact
-                    information, interests, and progress in the home buying
-                    process.
-                  </p>
-                </div>
-
-                <div className="flex point">
-                  <img
-                    className="ver"
-                    width="25"
-                    height="20"
-                    src="https://img.icons8.com/quill/50/FFFFFF/approval.png"
-                    alt="approval"
-                  />
-
-                  <p>
-                    Employee Tracking System Track employee time, tasks, and
-                    performance. .
-                  </p>
-                </div>
-
-                <div className="flex point">
-                  <img
-                    className="ver"
-                    width="25"
-                    height="20"
-                    src="https://img.icons8.com/quill/50/FFFFFF/approval.png"
-                    alt="approval"
-                  />
-
-                  <p>
-                    Inspection Date Schedule, Keep track of clients inspection
-                    appointments, date, time, and location.
-                  </p>
-                </div>
-                <div className="flex point">
-                  <img
-                    className="ver"
-                    width="25"
-                    height="20"
-                    src="https://img.icons8.com/quill/50/FFFFFF/approval.png"
-                    alt="approval"
-                  />
-
-                  <p className="mb-6">
-                    Standard maintenance, website backups, security updates, and
-                    bug fixes .
-                  </p>
+                  <p>Email campaign & lead nuturing funnel</p>
                 </div>
               </div>
             </div>
@@ -847,7 +762,10 @@ export default function LandingPage() {
             }}
           >
             <div className="work_ect">
-              <p className="text-1xl">WORK WITH US ?</p>
+              <Link href='./contact'>
+                            <p className="text-1xl">WORK WITH US ?</p>
+
+              </Link>
             </div>
             <p className="slot md:mt-14 mt-4">
               APPLY FOR A SLOT TO BECOME ONE OF FIVE{" "}

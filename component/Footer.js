@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import Link from "next/link";
 
 export default function Footer() {
   const images = ['https://ik.imagekit.io/juwoncaleb/ho3_g8S4ENWCL.webp?updatedAt=1693945103456', 'https://ik.imagekit.io/juwoncaleb/ho1_yCoYqt0JQ.webp?updatedAt=1693945103515', 'https://ik.imagekit.io/juwoncaleb/ho2_7g2qslYlW.webp?updatedAt=1693945103567'];
@@ -20,9 +21,12 @@ export default function Footer() {
           <p>Everything you need to grow your
           </p>
           <p>  Real Estate business.</p>
-          <button className='start_now'>
+          <Link href='./contact'>
+             <button className='start_now'>
             Talk to Us
           </button>
+          </Link>
+       
         </div>
         <div>
           <img src={images[currentImageIndex]} />

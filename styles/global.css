@@ -551,6 +551,8 @@ body {
   max-width: 650px;
   border-radius: 10px;
   padding: 30px;
+  width: 470px;
+  padding-bottom: 200px;
 }
 
 .bill {
@@ -920,6 +922,14 @@ body {
   }
 }
 @media only screen and (max-width: 430px) {
+  .price_Card {
+    background-color: black;
+    max-width: 650px;
+    border-radius: 10px;
+    padding: 30px;
+    width: 400px;
+    padding-bottom: 200px;
+  }
   .packages {
     display: grid;
   }
@@ -1113,7 +1123,15 @@ body {
     margin-bottom: 70px;
     height: 250px;
   }
-  .hadliner {
+  .price_Card {
+    background-color: black;
+    max-width: 650px;
+    border-radius: 10px;
+    padding: 30px;
+    width: 350px;
+    padding-bottom: 200px;
+  }
+  .pac .hadliner {
     font-family: "Italiana", serif;
     font-size: 24px;
     font-weight: 600;
