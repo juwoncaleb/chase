@@ -770,7 +770,7 @@ export default function LandingPage() {
             <p className="slot md:mt-14 mt-4">
               APPLY FOR A SLOT TO BECOME ONE OF FIVE{" "}
             </p>
-            <p className="slot mb-10">NEW CLIENTS WE SELECT 3 months</p>
+            <p className="slot mb-10">NEW CLIENTS WE SELECT 3 MONTHS </p>
           </motion.div>
         </center>
         <div className="  book_slot">
