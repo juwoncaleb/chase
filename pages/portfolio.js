@@ -28,7 +28,7 @@ export default function Portfolio() {
           <p className="porthead">
             {" "}
             WE don’t believe in representing just any client because it pays the
-            bills. We choose to work with only 5 new clients a year, so we can
+            bills. We choose to work with only 5 new clients 3 months, so we can
             focus all our resources and attention in giving the best quality
             work , customer service . We CHASE Perfection & Excellence{" "}
           </p>
