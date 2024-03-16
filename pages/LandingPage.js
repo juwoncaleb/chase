@@ -847,7 +847,7 @@ export default function LandingPage() {
           >
             <Link href="./contact">
               <div className="booked_div_available">
-                <p className="text-left sloo">
+                <p className="text-left sloo ">
                   SLOT <br /> <span className="small_">[04] </span>{" "}
                 </p>
                 <div className="bk_div">
