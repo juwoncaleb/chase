@@ -60,7 +60,7 @@ export default function LandingPage() {
           >
             <div className="mt-10 hadliner">
               Grow your business with our suite of digital product & services,
-              attract leads organically & convinently increasing your{" "}
+              attract leads organically & conveniently increasing your{" "}
               <span className="ought"> YEARLY </span>revenue.
             </div>
           </motion.div>
