@@ -10,7 +10,10 @@ export default function Portfolio() {
       <Header />
       <p className="portheade">OUR PORTOLIO</p>
       <center>
-        <img className="port_img" src="https://ik.imagekit.io/juwoncaleb/str_lMBoV9E3r.webp?updatedAt=1693946646652" />
+        <img
+          className="port_img"
+          src="https://ik.imagekit.io/juwoncaleb/str_lMBoV9E3r.webp?updatedAt=1693946646652"
+        />
       </center>
 
       <center className="port div">
@@ -71,8 +74,7 @@ export default function Portfolio() {
                 delay: 0,
               }}
             >
-              <img                       src="https://ik.imagekit.io/juwoncaleb/nextp_uTru8aWvc.webp?updatedAt=1693944049478"
- />
+              <img src="https://ik.imagekit.io/juwoncaleb/nextp_uTru8aWvc.webp?updatedAt=1693944049478" />
             </motion.div>
           </a>
           <motion.div
@@ -130,8 +132,7 @@ export default function Portfolio() {
           }}
         >
           <a href="https://homez-five.vercel.app/" className="ppp">
-            <img                     src="https://ik.imagekit.io/juwoncaleb/home__gFPKHO9x.webp?updatedAt=1693944049491"
- />
+            <img src="https://ik.imagekit.io/juwoncaleb/home__gFPKHO9x.webp?updatedAt=1693944049491" />
           </a>
         </motion.div>
         <motion.div
@@ -185,8 +186,7 @@ export default function Portfolio() {
         >
           <a href="https://hot-desk-safiyah07.vercel.app/">
             <div className="port_content">
-              <img                     src="https://ik.imagekit.io/juwoncaleb/hot_TmWAugePM.webp?updatedAt=1693944049498"
- />
+              <img src="https://ik.imagekit.io/juwoncaleb/hot_TmWAugePM.webp?updatedAt=1693944049498" />
             </div>
           </a>
         </motion.div>
@@ -225,23 +225,25 @@ export default function Portfolio() {
         </motion.div>
 
         <center>
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{
-              type: "easeIn",
-              stiffness: 100,
-              damping: 10,
-              duration: 0.4,
-              delay: 0.1,
-            }}
-          >
-            <div className="flex top_pro  ">
-              <div className="round_dot"></div>
-              <p className="what_we_do ">REALITY</p>
-            </div>
-            <hr className="what_we_do_line mb-12" />
-          </motion.div>
+          <a href="https://realty-template.webflow.io/">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{
+                type: "easeIn",
+                stiffness: 100,
+                damping: 10,
+                duration: 0.4,
+                delay: 0.1,
+              }}
+            >
+              <div className="flex top_pro  ">
+                <div className="round_dot"></div>
+                <p className="what_we_do ">REALITY</p>
+              </div>
+              <hr className="what_we_do_line mb-12" />
+            </motion.div>
+          </a>
         </center>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -255,8 +257,7 @@ export default function Portfolio() {
           }}
         >
           <div className="port_content">
-            <img                     src="https://ik.imagekit.io/juwoncaleb/sop_91JOjYH6b.webp?updatedAt=1693944049511"
- />
+            <img src="https://ik.imagekit.io/juwoncaleb/sop_91JOjYH6b.webp?updatedAt=1693944049511" />
             <div className="flex mt-10">
               <button className="live_link">LIVE LINK</button>
               <button className="case">CASE STUDY</button>

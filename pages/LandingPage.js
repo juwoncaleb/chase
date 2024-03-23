@@ -564,12 +564,16 @@ export default function LandingPage() {
               >
                 {" "}
                 <div>
+                  <a href="https://realty-template.webflow.io/">
                   <Image
-                    className="cursor-pointer"
-                    width="600"
-                    height="550"
-                    src="https://ik.imagekit.io/juwoncaleb/sop_91JOjYH6b.webp?updatedAt=1693944049511"
-                  />
+                 
+                 className="cursor-pointer"
+                 width="600"
+                 height="550"
+                 src="https://ik.imagekit.io/juwoncaleb/sop_91JOjYH6b.webp?updatedAt=1693944049511"
+               />
+                  </a>
+                
                 </div>
               </motion.div>
               <motion.div
