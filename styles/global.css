@@ -164,6 +164,11 @@ body {
   margin-top: 12px;
 }
 
+.testimoal_text {
+  font-family: "Archivo", sans-serif;
+  font-size: 25px;
+}
+
 .slot {
   font-size: 35px;
   font-weight: 300;
@@ -351,6 +356,7 @@ body {
   margin-bottom: 100px;
   color: white;
   padding-bottom: 70px;
+  background-color: black;
 }
 
 .video_div {
@@ -504,11 +510,16 @@ body {
 }
 
 .item_2 {
-  background-color: darkcyan;
+  background-color: rgb(139, 83, 0);
 }
 
 .item_3 {
-  background-color: firebrick;
+  background-color: rgb(47, 255, 224);
+}
+
+.amarlux {
+  text-decoration: underline;
+  font-size: 20px;
 }
 
 .item_4 {
@@ -681,7 +692,7 @@ body {
   margin: 10px;
   height: 250px;
   width: 250px;
-  background-color: #A3FBA2;
+  background-color: #a3fba2;
   border: 1px solid rgba(128, 128, 128, 0.505);
   padding: 5px;
   color: black;

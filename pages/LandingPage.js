@@ -97,12 +97,12 @@ export default function LandingPage() {
           >
             <div className="flex testimonal_Div ">
               <div className="round_dot"></div>
-              <p className="what_we_do ">What we do</p>
+              <p className="what_we_do ">Testimonial</p>
             </div>
           </motion.div>
 
           <hr className="what_we_do_line test_line" />
-          {/* <motion.div
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{
@@ -126,7 +126,7 @@ export default function LandingPage() {
                     alt="picture"
                   />
                   <p className="testimoal_text">
-                    CHASE , Automated all the mundane tasks that took 50% of our time 
+                    My website is exactly howi wanted it . Really suits my brand{" "}
                   </p>
                 </label>
                 <label class="item  flex justify-around item_2" for="t-2">
@@ -135,26 +135,33 @@ export default function LandingPage() {
                     alt="picture"
                   />
                   <p className="testimoal_text">
-                   i really enjoyed the customer service from juwoncaleb and his enginners from CHASE
+                    i really enjoyed the customer service from juwoncaleb and
+                    his enginners from CHASE
                   </p>
                 </label>
-                <label class="item  flex justify-around item_3" for="t-3">
-                  <img
-                    src="https://ik.imagekit.io/juwoncaleb/l3_FYpkL-Q3M.webp?updatedAt=1693944815245"
-                    alt="picture"
-                  />
-                  <p className="testimoal_text">
-                   My website accurately represents my company well and i spend less on ADS 
-                  </p>
-                </label>
+                  <label class="item  flex justify-around item_3" for="t-3">
+                    <img src="./ape.png" alt="picture" />
+                    <p className="testimoal_text">
+                      I needed a facelift with my website. The Team at Chase
+                      Inc, were able to do just so. I LOVE IT{" "} <br/>
+                      <span href="https://amaarlux.com/" className="amarlux">
+                        LINK
+                      </span>
+                    </p>
+                  </label>
+
                 <label class="item item_4  flex justify-around" for="t-4">
                   <img
                     className="luka"
                     src="https://ik.imagekit.io/juwoncaleb/luka_qqjvf113E.webp?updatedAt=1693944814681"
                     alt="picture"
                   />
-                  <p className="testimoal_text">
-                   I love the CRM , that was integrated to the backend , it helped all our agents
+                  <p
+                    className="testimoal_text    ;
+"
+                  >
+                    The AI sales rep that was integrated , saved us time from
+                    chasing leads{" "}
                   </p>
                 </label>
                 <label class="item flex justify-around item_5" for="t-5">
@@ -163,8 +170,7 @@ export default function LandingPage() {
                     alt="picture"
                   />
                   <p className="testimoal_text">
-                   I love the use of AI to automate our Businesses
-                 
+                    I love the use of AI to automate our Businesses
                   </p>
                 </label>
               </div>
@@ -176,10 +182,30 @@ export default function LandingPage() {
                 <label for="t-5"></label>
               </div>
             </div>
-          </motion.div>  */}
+          </motion.div>
         </div>
-        <div className="">
-          <div className="div service_ptovide bg-black">
+
+        <div className="mt-20">
+          <motion.div
+            className="div"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{
+              type: "easeIn",
+              stiffness: 100,
+              damping: 10,
+              duration: 0.4,
+              delay: 0,
+            }}
+          >
+            <div className="flex  testimonal_Div ">
+              <div className="round_dot"></div>
+              <p className="what_we_do ">Testimonial</p>
+            </div>
+            <hr className="what_we_do_line test_line" />
+          </motion.div>
+
+          <div className="div service_ptovide ">
             <div className="flex top_service justify-between"></div>
             {
               <motion.div
@@ -542,12 +568,12 @@ export default function LandingPage() {
                   delay: 0.2,
                 }}
               >
-                <a href="https://homez-five.vercel.app/">
+                <a href="https://amaarlux.com/" >
                   <Image
                     className="cursor-pointer"
                     width="600"
                     height="550"
-                    src="https://ik.imagekit.io/juwoncaleb/home__gFPKHO9x.webp?updatedAt=1693944049491"
+                    src="/amar.png"
                   />
                 </a>
               </motion.div>
@@ -565,15 +591,13 @@ export default function LandingPage() {
                 {" "}
                 <div>
                   <a href="https://realty-template.webflow.io/">
-                  <Image
-                 
-                 className="cursor-pointer"
-                 width="600"
-                 height="550"
-                 src="https://ik.imagekit.io/juwoncaleb/sop_91JOjYH6b.webp?updatedAt=1693944049511"
-               />
+                    <Image
+                      className="cursor-pointer"
+                      width="600"
+                      height="550"
+                      src="https://ik.imagekit.io/juwoncaleb/sop_91JOjYH6b.webp?updatedAt=1693944049511"
+                    />
                   </a>
-                
                 </div>
               </motion.div>
               <motion.div
@@ -699,9 +723,8 @@ export default function LandingPage() {
           >
             <div className="price_Card md:mr-6">
               <p className="package_godl">Gold</p>
-              <Link href='./contact'>
-                            <button className="start">Get Started</button>
-
+              <Link href="./contact">
+                <button className="start">Get Started</button>
               </Link>
               <div className="price_con">
                 <div className="flex point">
@@ -766,9 +789,8 @@ export default function LandingPage() {
             }}
           >
             <div className="work_ect">
-              <Link href='./contact'>
-                            <p className="text-1xl">WORK WITH US ?</p>
-
+              <Link href="./contact">
+                <p className="text-1xl">WORK WITH US ?</p>
               </Link>
             </div>
             <p className="slot md:mt-14 mt-4">

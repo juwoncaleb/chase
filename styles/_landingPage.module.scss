@@ -60,7 +60,10 @@
   width: 20px;
   margin-top: 12px;
 }
-
+.testimoal_text {
+  font-family: "Archivo", sans-serif;
+  font-size: 25px;
+}
 .slot {
   font-size: 35px;
   font-weight: 300;
@@ -240,6 +243,7 @@
   margin-bottom: 100px;
   color: white;
   padding-bottom: 70px;
+  background-color: black;
 }
 .video_div {
   max-width: 500px;
@@ -264,7 +268,7 @@
 .mlx {
   margin-top: 140px;
 }
-.effort{
+.effort {
   margin-top: 130px;
   margin-bottom: 130px;
 }
@@ -380,11 +384,15 @@
 }
 
 .item_2 {
-  background-color: darkcyan;
+  background-color: rgb(139, 83, 0);
 }
 
 .item_3 {
-  background-color: firebrick;
+  background-color: rgb(47, 255, 224);
+}
+.amarlux {
+  text-decoration: underline;
+  font-size: 20px;
 }
 
 .item_4 {
@@ -558,7 +566,7 @@
   margin: 10px;
   height: 250px;
   width: 250px;
-  background-color: #A3FBA2;
+  background-color: #a3fba2;
   border: 1px solid rgba(128, 128, 128, 0.505);
   padding: 5px;
   color: black;
@@ -1045,11 +1053,9 @@
     width: 350px;
     padding-bottom: 200px;
   }
-  .pac
-  .hadliner {
+  .pac .hadliner {
     font-family: "Italiana", serif;
     font-size: 24px;
     font-weight: 600;
-
   }
 }
