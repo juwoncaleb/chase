@@ -140,7 +140,7 @@ export default function LandingPage() {
                   </p>
                 </label>
                   <label class="item  flex justify-around item_3" for="t-3">
-                    <img src="./ape.png" alt="picture" />
+                    <img src="./ama.png" alt="picture" />
                     <p className="testimoal_text">
                       I needed a facelift with my website. The Team at Chase
                       Inc, were able to do just so. I LOVE IT{" "} <br/>
@@ -309,9 +309,8 @@ export default function LandingPage() {
 
                   <div className="md:ml-14 mt-14">
                     <p className="tag_header quick_Search ">
-                      Quick Search with an <span className="ought">IDX</span>{" "}
-                      tool,fetching listings Quicky from the{" "}
-                      <span className="ought">MLS</span>
+                      You do not have  <span className="ought">JUMP</span>{" "}
+through hoops to get a consistent lead in your                       <span className="ought">PIPLINE</span>
                     </p>
                     <div className="serv_text">
                       <div className="mt-8">
@@ -323,7 +322,7 @@ export default function LandingPage() {
                             src="https://img.icons8.com/windows/32/FFFFFF/checkmark--v1.png"
                             alt="checkmark--v1"
                           />
-                          <p className="ml-3">Fast MLS sync time</p>
+                          <p className="ml-3">Google ads </p>
                         </div>
                         <div className="flex mt-3 ">
                           <img
@@ -334,8 +333,7 @@ export default function LandingPage() {
                             className="mark"
                           />
                           <p className="ml-3">
-                            Home search portal branded with your business
-                          </p>
+Social media brand awareness                          </p>
                         </div>
                         <div className="flex mt-3 ">
                           <img
@@ -346,8 +344,7 @@ export default function LandingPage() {
                             alt="checkmark--v1"
                           />
                           <p className="ml-3">
-                            Optimized for qualified buyer lead generation{" "}
-                          </p>
+Search engine optimization                          </p>
                         </div>
                       </div>
                       <Link href="./contact">
