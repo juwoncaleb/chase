@@ -42,7 +42,7 @@ export default function LandingPage() {
           >
             <div className="flex ">
               <div className="round_dooot hell"></div>
-              <p className="what_we_do hell">Chase</p>
+              <p className="what_we_do hell">Luxury Residential Projects</p>
             </div>
           </motion.div>
 
@@ -59,9 +59,9 @@ export default function LandingPage() {
             }}
           >
             <div className="mt-10 hadliner">
-              Grow your business with our suite of digital product & services,
-              attract leads organically & conveniently increasing your{" "}
-              <span className="ought"> YEARLY </span>revenue.
+              Realtors in Our Network Sell to High-End Clients weekly — They are
+              Ready to Refer You for Their Next{" "}
+              <span className="ought"> Project. </span>
             </div>
           </motion.div>
         </div>
@@ -76,10 +76,7 @@ export default function LandingPage() {
               duration: 0.4,
             }}
           >
-            <img
-              className="video_2"
-              src="https://ik.imagekit.io/juwoncaleb/BB_SYKP4DKq5.webp?updatedAt=1693943772593"
-            />
+            <img className="video_2" src="/lol.gif" />
           </motion.div>
         </center>
 
@@ -97,7 +94,7 @@ export default function LandingPage() {
           >
             <div className="flex testimonal_Div ">
               <div className="round_dot"></div>
-              <p className="what_we_do ">Testimonial</p>
+              <p className="what_we_do ">Our Clients</p>
             </div>
           </motion.div>
 
@@ -130,25 +127,17 @@ export default function LandingPage() {
                   </p>
                 </label>
                 <label class="item  flex justify-around item_2" for="t-2">
-                  <img
-                    src="https://ik.imagekit.io/juwoncaleb/l2_K-W-ZCZ7s.webp?updatedAt=1693944815085"
-                    alt="picture"
-                  />
+                  <img src="./TIO.png" alt="picture" />
                   <p className="testimoal_text">
-                    i really enjoyed the customer service from juwoncaleb and
-                    his enginners from CHASE
+                    <span className="amarlux">TYLER BURROWS </span>
                   </p>
                 </label>
-                  <label class="item  flex justify-around item_3" for="t-3">
-                    <img src="./ama.png" alt="picture" />
-                    <p className="testimoal_text">
-                      I needed a facelift with my website. The Team at Chase
-                      Inc, were able to do just so. I LOVE IT{" "} <br/>
-                      <span href="https://amaarlux.com/" className="amarlux">
-                        LINK
-                      </span>
-                    </p>
-                  </label>
+                <label class="item  flex justify-around item_3" for="t-3">
+                  <img src="./snip.png" alt="picture" />
+                  <p className="testimoal_text">
+                    <span className="amarlux">AMARACHI ODIFE </span>
+                  </p>
+                </label>
 
                 <label class="item item_4  flex justify-around" for="t-4">
                   <img
@@ -200,7 +189,7 @@ export default function LandingPage() {
           >
             <div className="flex  testimonal_Div ">
               <div className="round_dot"></div>
-              <p className="what_we_do ">Testimonial</p>
+              <p className="what_we_do ">How We help</p>
             </div>
             <hr className="what_we_do_line test_line" />
           </motion.div>
@@ -263,7 +252,7 @@ export default function LandingPage() {
                               className="mark"
                             />
                             <p className="ml-3">
-                              Brand and position your agency as a professional{" "}
+                              Brand and Showcase your Portfolio
                             </p>
                           </div>
                         </div>
@@ -298,19 +287,18 @@ export default function LandingPage() {
                 }}
               >
                 <div className="mlx sub_Serv collapse_grid md:flex justify-between">
-                  <div className="video_div mr-20">
-                    <video autoPlay loop muted preload="auto">
-                      <source
-                        src="https://ik.imagekit.io/juwoncaleb/IDX-Brokerages-1168x821-ver-3-mp4-fallback_H.264_DvWNGHdQl.mp4?updatedAt=1695589641024"
-                        type="video/mp4"
-                      />
-                    </video>
+                  <div className="video_div mr-2">
+                    <img
+                    src="./sap.gif"
+                    className="int"
+                    />
                   </div>
 
-                  <div className="md:ml-14 mt-14">
+                  <div className="porto">
                     <p className="tag_header quick_Search ">
-                      You do not have  <span className="ought">JUMP</span>{" "}
-through hoops to get a consistent lead in your                       <span className="ought">PIPLINE</span>
+                      You do not have <span className="ought">JUMP</span>{" "}
+                      through hoops to get a consistent lead in your{" "}
+                      <span className="ought">PIPLINE</span>
                     </p>
                     <div className="serv_text">
                       <div className="mt-8">
@@ -322,7 +310,7 @@ through hoops to get a consistent lead in your                       <span class
                             src="https://img.icons8.com/windows/32/FFFFFF/checkmark--v1.png"
                             alt="checkmark--v1"
                           />
-                          <p className="ml-3">Google ads </p>
+                          <p className="ml-3">Google Advertising </p>
                         </div>
                         <div className="flex mt-3 ">
                           <img
@@ -332,8 +320,7 @@ through hoops to get a consistent lead in your                       <span class
                             alt="checkmark--v1"
                             className="mark"
                           />
-                          <p className="ml-3">
-Social media brand awareness                          </p>
+                          <p className="ml-3">Social media Advertising </p>
                         </div>
                         <div className="flex mt-3 ">
                           <img
@@ -343,8 +330,7 @@ Social media brand awareness                          </p>
                             src="https://img.icons8.com/windows/32/FFFFFF/checkmark--v1.png"
                             alt="checkmark--v1"
                           />
-                          <p className="ml-3">
-Search engine optimization                          </p>
+                          <p className="ml-3">Search engine optimization </p>
                         </div>
                       </div>
                       <Link href="./contact">
@@ -565,7 +551,7 @@ Search engine optimization                          </p>
                   delay: 0.2,
                 }}
               >
-                <a href="https://amaarlux.com/" >
+                <a href="https://amaarlux.com/">
                   <Image
                     className="cursor-pointer"
                     width="600"
@@ -620,8 +606,7 @@ Search engine optimization                          </p>
             </div>
           </div>
         </div>
-       
-          
+
         <center>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
