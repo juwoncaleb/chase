@@ -81,11 +81,10 @@ export default function Header({ currentPage }) {
         style={headerStyle}
       >
         <Link href="./">
-          <Image
+           <img
             className="logoImage"
-            width="200"
-            height="100"
-            src="https://ik.imagekit.io/juwoncaleb/lg_WP8-49p-Y.webp?updatedAt=1693946507145"
+          
+            src="./lgp.png"
           />
         </Link>
         {menu == 0 ? (

@@ -18,7 +18,7 @@ export default function LandingPage() {
             <div className="about_head soooop">
               <p className="about_head_text">
                 <span className="ought"> Helping </span> Interior Design
-                Businesses <br /> Close more Deals , While Doing Less
+                Businesses <br /> Close more Deals , While Doing Less 
               </p>
             </div>
           </center>

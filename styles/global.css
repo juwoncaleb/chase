@@ -1046,6 +1046,11 @@ body {
     border: 2px solid rgba(128, 128, 128, 0.352);
     border-radius: 10px;
   }
+  .logoImage {
+    position: relative;
+    bottom: 20px;
+    right: 20px;
+  }
   .book_slot {
     font-family: "Archivo", sans-serif !important;
     display: grid;

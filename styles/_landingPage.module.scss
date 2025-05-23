@@ -119,7 +119,7 @@
 }
 
 .hadliner {
-    font-family: "Cormorant", serif;
+  font-family: "Cormorant", serif;
   font-size: 50px;
   font-weight: 600;
 }
@@ -151,7 +151,7 @@
   align-items: center;
   min-height: 100vh;
 }
-.logoImage{
+.logoImage {
   height: 70px;
   width: 150px;
 }
@@ -237,7 +237,7 @@
 .serv_text {
   font-family: "Archivo", sans-serif;
 }
-.porto{
+.porto {
   max-width: 500px;
 }
 .conv {
@@ -368,7 +368,7 @@
   text-align: center;
   font-size: 75px;
   font-weight: 900;
-    font-family: "Cormorant", serif;
+  font-family: "Cormorant", serif;
 }
 .soooop {
   padding-bottom: 50px;
@@ -588,8 +588,8 @@
 .small_ {
   font-size: 15px !important;
 }
-.int{
-  height:400px;
+.int {
+  height: 400px;
   width: 600px;
 }
 
@@ -627,7 +627,7 @@
   }
 
   .what_we_do {
-  font-family: "Archivo", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 25px !important;
     font-weight: 500;
   }
@@ -644,8 +644,7 @@
   .hadliner {
     font-size: 30px;
     font-weight: 600;
-        font-family: "Cormorant", serif;
-
+    font-family: "Cormorant", serif;
   }
 
   .video_2 {
@@ -768,7 +767,7 @@
   }
 
   .what_we_do {
-  font-family: "Archivo", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 25px !important;
     font-weight: 500;
   }
@@ -880,7 +879,7 @@
   }
 
   .what_we_do {
-  font-family: "Archivo", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 25px !important;
     font-weight: 500;
   }
@@ -943,7 +942,11 @@
     border: 2px solid rgba(128, 128, 128, 0.352);
     border-radius: 10px;
   }
-
+  .logoImage {
+    position: relative;
+    bottom: 20px;
+    right: 20px;
+  }
   .book_slot {
     font-family: "Archivo", sans-serif !important;
     display: grid;
