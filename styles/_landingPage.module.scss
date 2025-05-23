@@ -113,13 +113,13 @@
 }
 
 .what_we_do {
-  font-family: "Cormorant", serif;
+  font-family: "Archivo", sans-serif;
   font-size: 30px;
   font-weight: 700;
 }
 
 .hadliner {
-  font-family: "Italiana", serif;
+    font-family: "Cormorant", serif;
   font-size: 50px;
   font-weight: 600;
 }
@@ -151,7 +151,10 @@
   align-items: center;
   min-height: 100vh;
 }
-
+.logoImage{
+  height: 70px;
+  width: 150px;
+}
 .slider {
   width: 100%;
 }
@@ -363,9 +366,9 @@
 }
 .about_head_text {
   text-align: center;
-  font-size: 65px;
+  font-size: 75px;
   font-weight: 900;
-  font-family: "Italiana", serif;
+    font-family: "Cormorant", serif;
 }
 .soooop {
   padding-bottom: 50px;
@@ -624,7 +627,7 @@
   }
 
   .what_we_do {
-    font-family: "Cormorant", serif;
+  font-family: "Archivo", sans-serif;
     font-size: 25px !important;
     font-weight: 500;
   }
@@ -639,9 +642,10 @@
   }
 
   .hadliner {
-    font-family: "Italiana", serif;
     font-size: 30px;
     font-weight: 600;
+        font-family: "Cormorant", serif;
+
   }
 
   .video_2 {
@@ -764,7 +768,7 @@
   }
 
   .what_we_do {
-    font-family: "Cormorant", serif;
+  font-family: "Archivo", sans-serif;
     font-size: 25px !important;
     font-weight: 500;
   }
@@ -779,7 +783,7 @@
   }
 
   .hadliner {
-    font-family: "Italiana", serif;
+    font-family: "Cormorant", serif;
     font-size: 30px;
     font-weight: 600;
   }
@@ -855,8 +859,8 @@
   }
 
   .about_head {
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 1%;
+    padding-right: 1%;
   }
   .hell {
     margin-top: 120px;
@@ -876,7 +880,7 @@
   }
 
   .what_we_do {
-    font-family: "Cormorant", serif;
+  font-family: "Archivo", sans-serif;
     font-size: 25px !important;
     font-weight: 500;
   }
@@ -891,7 +895,7 @@
   }
 
   .hadliner {
-    font-family: "Italiana", serif;
+    font-family: "Cormorant", serif;
     font-size: 28px;
     font-weight: 600;
   }
@@ -1061,7 +1065,7 @@
     padding-bottom: 200px;
   }
   .pac .hadliner {
-    font-family: "Italiana", serif;
+    font-family: "Cormorant", serif;
     font-size: 24px;
     font-weight: 600;
   }

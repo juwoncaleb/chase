@@ -45,14 +45,13 @@ export default function Header({ currentPage }) {
         style={headerStyle}
       >
         <Link href="./">
-          <Image
+          <img
             className="logoImage"
-            width="200"
-            height="100"
-            src="https://ik.imagekit.io/juwoncaleb/lg_WP8-49p-Y.webp?updatedAt=1693946507145"
+          
+            src="./lgp.png"
           />
         </Link>
-        <div className="flex mt-2 ">
+        <div className="flex mt-7 ">
           <div className="flex">
             <div className={`nav_link_ `}>
               <Link href="./about">
@@ -71,7 +70,7 @@ export default function Header({ currentPage }) {
           </Link>
         </div>
         <Link href="./contact">
-          <div className="flex justify-evenly">
+          <div className="flex justify-evenly mt-4">
             <button className="start_btn">Get Started</button>
           </div>
         </Link>

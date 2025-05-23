@@ -217,13 +217,13 @@ body {
 }
 
 .what_we_do {
-  font-family: "Cormorant", serif;
+  font-family: "Archivo", sans-serif;
   font-size: 30px;
   font-weight: 700;
 }
 
 .hadliner {
-  font-family: "Italiana", serif;
+  font-family: "Cormorant", serif;
   font-size: 50px;
   font-weight: 600;
 }
@@ -254,6 +254,11 @@ body {
   display: flex;
   align-items: center;
   min-height: 100vh;
+}
+
+.logoImage {
+  height: 70px;
+  width: 150px;
 }
 
 .slider {
@@ -487,9 +492,9 @@ body {
 
 .about_head_text {
   text-align: center;
-  font-size: 65px;
+  font-size: 75px;
   font-weight: 900;
-  font-family: "Italiana", serif;
+  font-family: "Cormorant", serif;
 }
 
 .soooop {
@@ -752,7 +757,7 @@ body {
     font-weight: 700;
   }
   .what_we_do {
-    font-family: "Cormorant", serif;
+    font-family: "Archivo", sans-serif;
     font-size: 25px !important;
     font-weight: 500;
   }
@@ -765,9 +770,9 @@ body {
     margin-top: 12px;
   }
   .hadliner {
-    font-family: "Italiana", serif;
     font-size: 30px;
     font-weight: 600;
+    font-family: "Cormorant", serif;
   }
   .video_2 {
     margin-top: 70px;
@@ -882,7 +887,7 @@ body {
     font-weight: 800;
   }
   .what_we_do {
-    font-family: "Cormorant", serif;
+    font-family: "Archivo", sans-serif;
     font-size: 25px !important;
     font-weight: 500;
   }
@@ -895,7 +900,7 @@ body {
     margin-top: 12px;
   }
   .hadliner {
-    font-family: "Italiana", serif;
+    font-family: "Cormorant", serif;
     font-size: 30px;
     font-weight: 600;
   }
@@ -961,8 +966,8 @@ body {
     margin-top: 70px;
   }
   .about_head {
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 1%;
+    padding-right: 1%;
   }
   .hell {
     margin-top: 120px;
@@ -981,7 +986,7 @@ body {
     flex-direction: column-reverse !important;
   }
   .what_we_do {
-    font-family: "Cormorant", serif;
+    font-family: "Archivo", sans-serif;
     font-size: 25px !important;
     font-weight: 500;
   }
@@ -994,7 +999,7 @@ body {
     margin-top: 12px;
   }
   .hadliner {
-    font-family: "Italiana", serif;
+    font-family: "Cormorant", serif;
     font-size: 28px;
     font-weight: 600;
   }
@@ -1152,7 +1157,7 @@ body {
     padding-bottom: 200px;
   }
   .pac .hadliner {
-    font-family: "Italiana", serif;
+    font-family: "Cormorant", serif;
     font-size: 24px;
     font-weight: 600;
   }
