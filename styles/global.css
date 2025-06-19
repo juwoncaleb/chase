@@ -494,7 +494,6 @@ body {
   text-align: center;
   font-size: 75px;
   font-weight: 900;
-  font-family: "Cormorant", serif;
 }
 
 .soooop {
@@ -601,7 +600,6 @@ body {
 }
 
 .qustion_header {
-  font-family: "Italiana", serif;
   font-size: 46px;
   font-weight: 600;
 }
@@ -975,8 +973,8 @@ body {
   .about_head_text {
     margin-top: 100px;
     text-align: center;
-    font-size: 30px !important;
-    font-weight: 800;
+    font-size: 20px !important;
+    font-weight: 400;
   }
   .widget {
     width: 300px;
@@ -988,7 +986,7 @@ body {
   .what_we_do {
     font-family: "Archivo", sans-serif;
     font-size: 25px !important;
-    font-weight: 500;
+    font-weight: 300;
   }
   .round_dot {
     border-radius: 50%;
@@ -1001,7 +999,7 @@ body {
   .hadliner {
     font-family: "Cormorant", serif;
     font-size: 28px;
-    font-weight: 600;
+    font-weight: 400;
   }
   .tag_header {
     font-size: 28px;
