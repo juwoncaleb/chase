@@ -105,6 +105,8 @@
   border: 1px solid black;
   width: 100%;
   margin-top: 10px;
+    font-family: "Archivo", sans-serif;
+
 }
 
 .service_sub {
@@ -367,7 +369,9 @@
 .about_head_text {
   text-align: center;
   font-size: 75px;
-  font-weight: 900;
+      font-family: "Cormorant", serif;
+
+  font-weight: 600;
 }
 .soooop {
   padding-bottom: 50px;
@@ -865,7 +869,7 @@
   .about_head_text {
     margin-top: 100px;
     text-align: center;
-    font-size: 20px !important;
+    font-size: 30px !important;
     font-weight: 400;
   }
   .widget {
@@ -879,7 +883,7 @@
   .what_we_do {
     font-family: "Archivo", sans-serif;
     font-size: 25px !important;
-    font-weight: 300;
+    font-weight: 500;
   }
 
   .round_dot {
@@ -894,7 +898,7 @@
   .hadliner {
     font-family: "Cormorant", serif;
     font-size: 28px;
-    font-weight: 400;
+    font-weight: 600;
   }
   .tag_header {
     font-size: 28px;
