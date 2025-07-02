@@ -1399,7 +1399,7 @@ body {
 .intent_header {
   font-family: "Ovo", serif;
   font-size: 50px;
-  font-weight: 700;
+  font-weight: 500;
   margin-top: 28px;
 }
 
@@ -1571,7 +1571,7 @@ body {
   .intent_header {
     font-family: "Ovo", serif;
     font-size: 40px;
-    font-weight: 700;
+    font-weight: 500;
     margin-top: 28px;
   }
   .realImage {
@@ -1679,7 +1679,7 @@ body {
   .intent_header {
     font-family: "Ovo", serif;
     font-size: 30px;
-    font-weight: 700;
+    font-weight: 500;
     margin-top: 28px;
   }
   .int_div {
@@ -1817,7 +1817,7 @@ body {
   .intent_header {
     font-family: "Ovo", serif;
     font-size: 27px;
-    font-weight: 700;
+    font-weight: 500;
     margin-top: 28px;
     margin-bottom: 25px;
   }
@@ -1890,7 +1890,7 @@ body {
   .intent_header {
     font-family: "Ovo", serif;
     font-size: 27px;
-    font-weight: 700;
+    font-weight: 500;
     margin-top: 28px;
     margin-bottom: 25px;
   }
