@@ -7,9 +7,13 @@ export default function Document() {
       <link rel="icon" href="/lz.ico" />
       <title>Chase Inc</title>
       <meta name="description" content="Interior design marketing." />
+<meta property="og:title" content="Interior Design Agency" />
+<meta property="og:description" content="We help interior designers get luxury clients." />
+<meta property="og:image" content="https://ik.imagekit.io/juwoncaleb/sloo_db56g1lM-.png?updatedAt=1751419701012" />
+<meta property="og:url" content="http://www.chaseinc.co/" />
 
       {/* OG Tags for WhatsApp / Facebook */}
-      <meta property="og:title" content="Interior Design Agency in Lagos" />
+      <meta property="og:title" content="Interior Design Agency" />
       <meta
         property="og:description"
         content="We help interior designers get luxury clients."
