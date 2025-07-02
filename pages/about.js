@@ -3,6 +3,7 @@ import Header from "@/component/Header";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import React, { useState, useEffect } from "react";
+import Vin from "@/component/vin";
 
 export default function About() {
   const images = ["./nextp.png", "./home.png", "./hot.png", "./sop.png"];
@@ -28,8 +29,8 @@ export default function About() {
       <div className="about_hero flex justify-around">
         <div>
           <p>
-            {" "}
-            <span className="ought">We </span>make it Easy for real estate
+          
+            <span className="ought">Secret </span> to better marketing?
           </p>
         </div>
         <div className="about_image_1_div ml-1 flex">
@@ -56,19 +57,22 @@ export default function About() {
         </div>
       </div>
       <div className="flex div about_hero_sub">
-        <p> Businesses</p>
+        <p> Stop doing it by </p>
         <Image
           className="about_image_2"
           src="https://ik.imagekit.io/juwoncaleb/c2_XQ1iMgswT.webp?updatedAt=1693945332103"
           width="350"
           height="350"
         />
-        <p>to close deals</p>
+        <p> yourself.</p>
       </div>
 
       <div className="div process">
         <div className=" justify-between">
-          <img className="heap" src="https://ik.imagekit.io/juwoncaleb/heap_sAxottGO7.webp?updatedAt=1693945462190" />
+          <img
+            className="heap mb-20"
+            src="https://ik.imagekit.io/juwoncaleb/heap_sAxottGO7.webp?updatedAt=1693945462190"
+          />
         </div>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -83,7 +87,7 @@ export default function About() {
         >
           <div className="flex mb-4 mt-16  ">
             <div className="round_dot"></div>
-            <p className="what_we_do ">What You Get</p>
+            <p className="what_we_do ">Our Process</p>
           </div>
         </motion.div>
         <hr className="what_we_do_line" />
@@ -99,7 +103,7 @@ export default function About() {
           }}
         >
           <p className="intent_header">
-            Time is money . Lets help you spend it the right way !
+            Realtor & Building developer Collaboration{" "}
           </p>
         </motion.div>
         <div>
@@ -115,11 +119,7 @@ export default function About() {
                   duration: 0.4,
                   delay: 0,
                 }}
-              >
-                <div>
-                  <p className="what_we_do su mb-8 ">HURDLE</p>
-                </div>
-              </motion.div>
+              ></motion.div>
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -131,11 +131,16 @@ export default function About() {
                   delay: 0.1,
                 }}
               >
-                <p>
-                  In the fast-paced world of Business, It can be a struggle to
-                  keep your property listings updated on your website.
-                  Frustrating to manage client interactions, track property
-                  inspection dates, and employee information
+                <p className="mt-10">
+                  Realtors are the gatekeepers to homeowners who need design
+                  help right now—before listing, after buying, or during
+                  renovations Grace is a realtor who sells a new home every week
+                  or so. Her clients have money and usually want to furnish,
+                  renovate, or redesign right after they move in. By teaming up
+                  with Grace, your design business gets introduced to people who
+                  are already looking for someone to help make their new home
+                  beautiful. It's an easy way to get more of the right
+                  clients—without chasing them.
                 </p>
               </motion.div>
               <motion.div
@@ -150,14 +155,10 @@ export default function About() {
                 }}
               >
                 <p className="mt-10">
-                  Maintaining an up-to-date and engaging real estate website can
-                  feel like an insurmountable challenge. Manually editing,
-                  deleting, and adding properties eats away at your precious
-                  time. Coordinating property viewings with potential buyers and
-                  clients leaves you juggling endless schedules. The
-                  overwhelming task of managing employee information and
-                  tracking client data adds unnecessary stress to your already
-                  demanding workload
+                  Offer realtors a certain referral fee , for every home buyer
+                  that they send over to you . This incentives them to send all
+                  their clients exclusively to you. You get a steady inflow of
+                  lead every week .
                 </p>
               </motion.div>
             </div>
@@ -172,253 +173,62 @@ export default function About() {
                 delay: 0.1,
               }}
             >
-              <Image className="" src="https://ik.imagekit.io/juwoncaleb/real_FWdu0rYbm.webp?updatedAt=1693945598404" width="600" height="500" />
+              <img className="" src="./ff.png" />
+            </motion.div>
+          </div>
+          <center>
+            <p className="intent_header semrush">
+              Make it easier for those looking for you to find - YOU
+            </p>
+          </center>
+          <img className="heap" src="./semrush.png" />
+          <div className="">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{
+                type: "easeIn",
+                stiffness: 100,
+                damping: 10,
+                duration: 0.4,
+                delay: 0.1,
+              }}
+            >
+              <p className="mt-10 sem">
+                Your next client is already on Google, searching for someone
+                like you. Not in a few months—right now. While SEO can take
+                months to move the needle, Google Ads lets you skip the wait and
+                show up instantly at the top of search results. Imagine a
+                homeowner typing “luxury interior designer in Lagos”—and your
+                name appears first. That’s not luck. That’s what we do. We use
+                advanced keyword data like what you see here from Semrush to
+                target exactly what your ideal clients are searching for. Then
+                we craft high-converting Google Ads that position you as the
+                obvious choice. No algorithms to please. No guesswork. Just real
+                visibility—and real inquiries—fast. If you're serious about
+                landing high-end projects, it’s not enough to be talented. You
+                need to be seen. And we make sure you are.
+              </p>
             </motion.div>
           </div>
 
+          <p className="intent_header semrush">
+            We create compelling content and run targeted social media ads to
+            attract serious inquiries.
+          </p>
+          <Vin />
+          <p className="mt-10 sem">
+            We create compelling content and run targeted social media ads to
+            attract serious inquiries for your interior design business. From
+            concept to camera, we handle the entire content creation process —
+            shooting professional videos and visuals that showcase your style,
+            projects, and expertise. Once the content is ready, we strategically
+            distribute it through paid ads on platforms like Instagram and
+            Facebook, targeting high-income homeowners and property developers
+            actively looking for designers. This means you don’t just get views
+            or likes — you get real inquiries from people who are ready to hire.
+          </p>
           <div>
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{
-                type: "easeIn",
-                stiffness: 100,
-                damping: 10,
-                duration: 0.4,
-                delay: 0,
-              }}
-            >
-              <div className="flex top_pro  ">
-                <div className="round_dot"></div>
-                <p className="what_we_do ">Goal</p>
-              </div>
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{
-                type: "easeIn",
-                stiffness: 100,
-                damping: 10,
-                duration: 0.4,
-                delay: 0.09,
-              }}
-            >
-              <hr className="what_we_do_line" />
-              <p className="intent_header">
-                Creating trustworthy brands & Leading generating websites that
-                connects real estate businesses to their clients.
-              </p>
-            </motion.div>
-
-            <div className="flex  yab justify-between mb-10">
-              <div className="flex mt-10 justify-between">
-                <div className="Problem_point">
-                  <motion.div
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    transition={{
-                      type: "easeIn",
-                      stiffness: 100,
-                      damping: 10,
-                      duration: 0.4,
-                      delay: 0,
-                    }}
-                  >
-                    <div>
-                      <p className="what_we_do mb-4 mt-8"> MISSION</p>
-                    </div>
-                  </motion.div>
-                  <motion.div
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    transition={{
-                      type: "easeIn",
-                      stiffness: 100,
-                      damping: 10,
-                      duration: 0.4,
-                      delay: 0.1,
-                    }}
-                  >
-                    <p>
-                      At Chase, we understand the obstacles that prevents you
-                      from carrying out business . Our team of creative
-                      Designers , skilled Engineers & veteran SEO expertS ,
-                      craft tools that ensures these problems do not hold you
-                      back from being the best.{" "}
-                    </p>
-                  </motion.div>
-                  <motion.div
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    transition={{
-                      type: "easeIn",
-                      stiffness: 100,
-                      damping: 10,
-                      duration: 0.4,
-                      delay: 0.2,
-                    }}
-                  >
-                    <p className="int_text_two mt-14">
-                      {" "}
-                      Dynamic Property Management
-                    </p>
-                    <p>
-                      Say GOODBYE ! to the tedious task of manual property
-                      updates. Our tools empower you to effortlessly edit,
-                      delete, and add houses to your listings on the go from the
-                      comfort of your mobile phone . Your website remains
-                      current and vibrant without draining your time and energy.
-                    </p>
-                  </motion.div>
-                </div>
-              </div>
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{
-                  type: "easeIn",
-                  stiffness: 100,
-                  damping: 10,
-                  duration: 0.4,
-                  delay: 0,
-                }}
-              >
-                <img className="home_img" src="https://ik.imagekit.io/juwoncaleb/np_fSQjgIZa2.webp?updatedAt=1693945717862" />
-              </motion.div>
-            </div>
-            <center className=" mt-20">
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{
-                  type: "easeIn",
-                  stiffness: 100,
-                  damping: 10,
-                  duration: 0.4,
-                  delay: 0,
-                }}
-              >
-                <img className="bc mb-10" src="./bc.png" />
-              </motion.div>
-            </center>
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{
-                type: "easeIn",
-                stiffness: 100,
-                damping: 10,
-                duration: 0.4,
-                delay: 0,
-              }}
-            >
-              <div className="share_build mt-8">
-                <p className="int_text_two mt-12"> Easy Client Engagement</p>
-                <p>
-                  Share property links with interested clients effortlessly. Our
-                  tools provide a smooth experience for potential buyers to
-                  explore property details, gallery images, and relevant
-                  information. Captivate your audience with the beauty of your
-                  listings.
-                </p>
-              </div>
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{
-                type: "easeIn",
-                stiffness: 100,
-                damping: 10,
-                duration: 0.4,
-                delay: 0,
-              }}
-            >
-              <div className="flex mt-14  yabu justify-between">
-                <img className="inspec" src="https://ik.imagekit.io/juwoncaleb/poop_0osLRJ3Jo.webp?updatedAt=1693945888083" />
-
-                <div className="flex mt-10 justify-between">
-                  <div className="Problem_point md:mt-20 mt-6">
-                    <p className="int_text_two"> Inspection Date Tracker</p>
-                    <p>
-                      Our platform equips you with a smart inspection date
-                      tracker, ensuring that property viewings are scheduled at
-                      the optimal time for both you and your clients. No more
-                      back-and-forth, numerous emails, phone calls, and
-                      messages, leading to confusion, missed opportunities, and
-                      wasted time! <br /> Just seamless coordination.
-                    </p>
-                    <button className="startbtn mt-6">Get Started</button>
-                  </div>
-                </div>
-              </div>
-            </motion.div>
-
-            <center className="">
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{
-                  type: "easeIn",
-                  stiffness: 100,
-                  damping: 10,
-                  duration: 0.4,
-                  delay: 0,
-                }}
-              >
-                <img className="bc" src="https://ik.imagekit.io/juwoncaleb/hr_dHBj4p_Bw.webp?updatedAt=1693946055023" />
-              </motion.div>
-              <div className=" flex tabb justify-around mt-14">
-                <motion.div
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{
-                    type: "easeIn",
-                    stiffness: 100,
-                    damping: 10,
-                    duration: 0.4,
-                    delay: 0,
-                  }}
-                >
-                  <div className="hr_Card">
-                    <p className="int_text_two">
-                      {" "}
-                      Efficient Client Journey Management
-                    </p>
-                    <p>
-                      Track every step of your clients buying journey
-                      effortlessly. Our admin tool allows you to monitor client
-                      progress, from initial interest to closing the deal. Stay
-                      in control and never miss a beat.
-                    </p>
-                  </div>
-                </motion.div>
-                <motion.div
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{
-                    type: "easeIn",
-                    stiffness: 100,
-                    damping: 10,
-                    duration: 0.4,
-                    delay: 0.2,
-                  }}
-                >
-                  <div className="hr_Card">
-                    <p className="int_text_two">
-                      Streamlined Employee Information
-                    </p>
-                    <p>
-                      Simplify HR management with our employee information tool.
-                      Effortlessly manage and access vital employee data, making
-                      team coordination a breeze.
-                    </p>
-                  </div>
-                </motion.div>
-              </div>
-            </center>
-
             <center>
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -556,7 +366,7 @@ export default function About() {
                 <div className="flex work_process justify-between">
                   <div className="md:w-1/3 we_head flex p-4">
                     <span className="tiny_num">[04]</span>
-                    <p className="skill"> PERFORMANCE & SEO</p>
+                    <p className="skill"> Ads & Performance</p>
                   </div>
                   <div className="w-1/3 strategy p-4">
                     <p>Web perfomance optimization</p>
@@ -566,11 +376,11 @@ export default function About() {
                   </div>
                   <div className="w-1/3 p-4 dex">
                     <p>
-                      Our websites load faster and is easy to use. We do this by
-                      compressing images, reducing the number of things that
-                      need to be loaded, and storing some of the website on
-                      servers the user to you. We can help you with SEO and
-                      online marketing.
+                      While SEO can take months to move the needle, Google Ads
+                      lets you skip the wait and show up instantly at the top of
+                      search results. Imagine a homeowner typing “luxury
+                      interior designer in Lagos”—and your name appears first.
+                      That’s not luck.
                     </p>
                   </div>
                 </div>
@@ -625,7 +435,7 @@ export default function About() {
                   }}
                   className="we_card"
                 >
-                  <div >
+                  <div>
                     <p className="what_we_do we_head text-left ">REWARD</p>
                     <p className="text-justify sub_card">
                       Your success is our ultimate reward. We take immense pride
@@ -637,7 +447,8 @@ export default function About() {
                     </p>
                   </div>
                 </motion.div>
-                <motion.div className="we_card"
+                <motion.div
+                  className="we_card"
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{
@@ -648,7 +459,7 @@ export default function About() {
                     delay: 0.1,
                   }}
                 >
-                  <div >
+                  <div>
                     <p className="what_we_do we_head text-left">AWARENESS</p>
                     <p className="text-justify sub_card">
                       Our websites are optimized for search engines, making it
@@ -685,7 +496,6 @@ export default function About() {
                 </motion.div>
               </div>
             </center>
-        
           </div>
         </div>
       </div>

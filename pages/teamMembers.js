@@ -21,7 +21,7 @@ export default function Team() {
       <div className="team team_div">
         <div className="team_pic   gap-4  ">
           <div>
-            <img className="team_member" src="./cd.png" />
+            <img className="team_member" src="./aaj.png" />
             <div className="flex mt-4">
               <div className="round_dot"></div>
               <p className="what_we_do m ">Creative Director - Caleb </p>

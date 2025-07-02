@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&family=Habibi&family=Ovo&family=Unbounded:wght@200..900&family=Urbanist:ital,wght@0,100..900;1,100..900&family=Varela&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -51,7 +52,7 @@ body {
 }
 
 .logoImage {
-  height: 50px;
+  height: 40px;
 }
 
 .top_imag {
@@ -223,9 +224,9 @@ body {
 }
 
 .hadliner {
-  font-family: "Cormorant", serif;
-  font-size: 50px;
-  font-weight: 600;
+  font-family: "Archivo", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
 }
 
 .video_2 {
@@ -257,7 +258,7 @@ body {
 }
 
 .logoImage {
-  height: 70px;
+  height: 65px;
   width: 150px;
 }
 
@@ -336,6 +337,10 @@ body {
   margin-bottom: 80px;
 }
 
+.sold {
+  height: 400px;
+}
+
 .growth {
   font-family: "Cormorant", serif;
   font-size: 35px;
@@ -343,8 +348,8 @@ body {
 }
 
 .tag_header {
-  font-size: 43px;
-  font-family: "Cormorant", serif;
+  font-size: 40px;
+  font-family: "Ovo", serif;
 }
 
 .serv_text {
@@ -369,7 +374,7 @@ body {
 }
 
 .video_div {
-  max-width: 500px;
+  max-width: 600px;
   margin-top: 20px;
 }
 
@@ -392,7 +397,7 @@ body {
 }
 
 .mlx {
-  margin-top: 140px;
+  margin-top: 230px;
 }
 
 .effort {
@@ -492,9 +497,13 @@ body {
 
 .about_head_text {
   text-align: center;
-  font-size: 75px;
-  font-family: "Cormorant", serif;
-  font-weight: 600;
+  font-size: 65px;
+  font-family: "Ovo", serif;
+  font-weight: 800;
+}
+
+.header_hero_div {
+  max-width: 1200px;
 }
 
 .soooop {
@@ -718,8 +727,8 @@ body {
 }
 
 .int {
-  height: 400px;
-  width: 600px;
+  height: 300px;
+  width: 800px;
 }
 
 .book {
@@ -739,8 +748,8 @@ body {
 
 @media only screen and (max-width: 1024px) {
   .tag_header {
-    font-size: 33px;
-    font-family: "Cormorant", serif;
+    font-size: 35px;
+    font-family: "Ovo", serif;
   }
   .End_note {
     font-family: "Italiana", serif;
@@ -769,8 +778,7 @@ body {
   }
   .hadliner {
     font-size: 30px;
-    font-weight: 600;
-    font-family: "Cormorant", serif;
+    font-family: "Archivo", sans-serif;
   }
   .video_2 {
     margin-top: 70px;
@@ -896,10 +904,13 @@ body {
     width: 15px;
     margin-top: 12px;
   }
+  .logoImage {
+    height: 40px;
+    width: 80px;
+  }
   .hadliner {
-    font-family: "Cormorant", serif;
+    font-family: "Archivo", sans-serif;
     font-size: 30px;
-    font-weight: 600;
   }
   .video_2 {
     margin-top: 70px;
@@ -952,6 +963,11 @@ body {
     width: 400px;
     padding-bottom: 200px;
   }
+  .logoImage {
+    height: 40px;
+    width: 80px;
+    margin-top: 25px;
+  }
   .packages {
     display: grid;
   }
@@ -995,13 +1011,12 @@ body {
     margin-top: 12px;
   }
   .hadliner {
-    font-family: "Cormorant", serif;
+    font-family: "Archivo", sans-serif;
     font-size: 28px;
-    font-weight: 600;
   }
   .tag_header {
     font-size: 28px;
-    font-family: "Cormorant", serif;
+    font-family: "Ovo", serif;
   }
   .video_2 {
     margin-top: 70px;
@@ -1026,7 +1041,7 @@ body {
   .top_service {
     padding: 20px;
     padding-bottom: 20px;
-    font-family: "Cormorant", serif;
+    font-family: "Archivo", sans-serif;
     font-size: 14px;
     padding-top: 20px;
     margin-bottom: 80px;
@@ -1158,7 +1173,7 @@ body {
     padding-bottom: 200px;
   }
   .pac .hadliner {
-    font-family: "Cormorant", serif;
+    font-family: "Archivo", sans-serif;
     font-size: 24px;
     font-weight: 600;
   }
@@ -1195,14 +1210,14 @@ body {
   margin-top: 180px;
   padding-left: 5%;
   font-size: 67px;
-  font-family: "Italiana", serif;
+  font-family: "Ovo", serif;
   font-weight: 800;
 }
 
 .about_hero_sub {
   padding-left: 5%;
   font-size: 67px;
-  font-family: "Italiana", serif;
+  font-family: "Ovo", serif;
   font-weight: 600;
   position: relative;
   bottom: 80px;
@@ -1249,6 +1264,15 @@ body {
   bottom: 0;
   right: 0;
   left: 0;
+}
+
+.sem {
+  font-size: 20px;
+}
+
+.semrush {
+  margin-top: 180px !important;
+  margin-bottom: 80px;
 }
 
 .indvi {
@@ -1373,7 +1397,7 @@ body {
 }
 
 .intent_header {
-  font-family: "Italiana", serif;
+  font-family: "Ovo", serif;
   font-size: 50px;
   font-weight: 700;
   margin-top: 28px;
@@ -1491,12 +1515,11 @@ body {
   }
   .what_we_do {
     font-size: 30px;
-    font-weight: 800;
   }
   .about_hero_sub {
     padding-left: 5%;
     font-size: 45px;
-    font-family: "Italiana", serif;
+    font-family: "Ovo", serif;
     font-weight: 600;
     position: relative;
     bottom: 45px;
@@ -1506,7 +1529,7 @@ body {
     margin-top: 150px;
     padding-left: 5%;
     font-size: 45px;
-    font-family: "Italiana", serif;
+    font-family: "Ovo", serif;
     font-weight: 800;
   }
   .about_image_2 {
@@ -1546,7 +1569,7 @@ body {
     width: 20px;
   }
   .intent_header {
-    font-family: "Italiana", serif;
+    font-family: "Ovo", serif;
     font-size: 40px;
     font-weight: 700;
     margin-top: 28px;
@@ -1598,14 +1621,13 @@ body {
     font-weight: 700;
   }
   .what_we_do {
-    font-family: "Italiana", serif;
+    font-family: "Archivo", sans-serif;
     font-size: 30px;
-    font-weight: 800;
   }
   .about_hero_sub {
     padding-left: 5%;
     font-size: 35px;
-    font-family: "Italiana", serif;
+    font-family: "Ovo", serif;
     font-weight: 600;
     position: relative;
     bottom: 33px;
@@ -1615,7 +1637,7 @@ body {
     margin-top: 150px;
     padding-left: 5%;
     font-size: 35px;
-    font-family: "Italiana", serif;
+    font-family: "Ovo", serif;
     font-weight: 800;
   }
   .about_image_2 {
@@ -1655,7 +1677,7 @@ body {
     width: 20px;
   }
   .intent_header {
-    font-family: "Italiana", serif;
+    font-family: "Ovo", serif;
     font-size: 30px;
     font-weight: 700;
     margin-top: 28px;
@@ -1762,7 +1784,7 @@ body {
   .about_hero_sub {
     padding-left: 5%;
     font-size: 25px;
-    font-family: "Italiana", serif;
+    font-family: "Ovo", serif;
     font-weight: 600;
     position: relative;
     bottom: -5px;
@@ -1772,7 +1794,7 @@ body {
     margin-top: 150px;
     padding-left: 5%;
     font-size: 30px;
-    font-family: "Italiana", serif;
+    font-family: "Ovo", serif;
     font-weight: 800;
   }
   .about_image_2 {
@@ -1793,7 +1815,7 @@ body {
     margin-top: 50px;
   }
   .intent_header {
-    font-family: "Italiana", serif;
+    font-family: "Ovo", serif;
     font-size: 27px;
     font-weight: 700;
     margin-top: 28px;
@@ -1835,7 +1857,7 @@ body {
   .about_hero_sub {
     padding-left: 5%;
     font-size: 25px;
-    font-family: "Italiana", serif;
+    font-family: "Ovo", serif;
     font-weight: 600;
     position: relative;
     bottom: -5px;
@@ -1845,7 +1867,7 @@ body {
     margin-top: 150px;
     padding-left: 5%;
     font-size: 30px;
-    font-family: "Italiana", serif;
+    font-family: "Ovo", serif;
     font-weight: 800;
   }
   .about_image_2 {
@@ -1866,7 +1888,7 @@ body {
     margin-top: 50px;
   }
   .intent_header {
-    font-family: "Italiana", serif;
+    font-family: "Ovo", serif;
     font-size: 27px;
     font-weight: 700;
     margin-top: 28px;
@@ -1918,6 +1940,7 @@ body {
 .team_member {
   height: 300px;
   width: 300px;
+  border-radius: 50%;
 }
 
 .team {

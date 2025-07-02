@@ -16,10 +16,12 @@ export default function LandingPage() {
         <div className="about_div">
           <center>
             <div className="about_head soooop">
-              <p className="about_head_text">
-                <span className="ought"> Helping </span> Interior Design
-                Businesses <br /> Close more Deals , While Doing Less 
-              </p>
+              <div className="header_hero_div">
+                <p className="about_head_text">
+                  <span className="ought"> Chase - </span> Helping Interior
+                  Designers Close more Deals , While Doing Less
+                </p>
+              </div>
             </div>
           </center>
         </div>
@@ -42,7 +44,7 @@ export default function LandingPage() {
           >
             <div className="flex ">
               <div className="round_dooot hell"></div>
-              <p className="what_we_do hell">Luxury Residential Projects</p>
+              <p className="what_we_do hell">What we do</p>
             </div>
           </motion.div>
 
@@ -59,9 +61,9 @@ export default function LandingPage() {
             }}
           >
             <div className="mt-10 hadliner">
-              Realtors in Our Network Sell to High-End Clients weekly — They are
-              Ready to Refer You for Their Next{" "}
-              <span className="ought"> Project. </span>
+              Your job is to help people design their Space. Our job is to make
+              yours simple as
+              <span className="ought"> Possible. </span>
             </div>
           </motion.div>
         </div>
@@ -76,11 +78,11 @@ export default function LandingPage() {
               duration: 0.4,
             }}
           >
-            <img className="video_2" src="/lol.gif" />
+            <img className="video_2" src="/sapl.webp" />
           </motion.div>
         </center>
 
-        <div className="div">
+        {/* <div className="div">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -172,7 +174,7 @@ export default function LandingPage() {
               </div>
             </div>
           </motion.div>
-        </div>
+        </div> */}
 
         <div className="mt-20">
           <motion.div
@@ -257,17 +259,12 @@ export default function LandingPage() {
                           </div>
                         </div>
                         <Link href="./contact">
-                          <button className="getStarte">Get Started</button>
+                          <button className="getStarte">Let's talk</button>
                         </Link>
                       </div>
                     </div>
                     <div className="video_div">
-                      <video autoPlay loop muted preload="auto">
-                        <source
-                          src="https://ik.imagekit.io/juwoncaleb/Jade-Mills-Frame-13-1440x900_H.264_chJ27IPIR.mp4?updatedAt=1695588505036"
-                          type="video/mp4"
-                        />
-                      </video>
+                      <img src="./rep.png" />
                     </div>
                   </div>
                 </div>
@@ -286,12 +283,9 @@ export default function LandingPage() {
                   delay: 0,
                 }}
               >
-                <div className="mlx sub_Serv collapse_grid md:flex justify-between">
+                <div className="mlx mb-20 sub_Serv collapse_grid md:flex justify-between">
                   <div className="video_div mr-2">
-                    <img
-                    src="./sap.gif"
-                    className="int"
-                    />
+                    <img src="./skk.png" className="int" />
                   </div>
 
                   <div className="porto">
@@ -330,11 +324,11 @@ export default function LandingPage() {
                             src="https://img.icons8.com/windows/32/FFFFFF/checkmark--v1.png"
                             alt="checkmark--v1"
                           />
-                          <p className="ml-3">Search engine optimization </p>
+                          <p className="ml-3">Email Marketing</p>
                         </div>
                       </div>
                       <Link href="./contact">
-                        <button className="getStarte">Get Started</button>
+                        <button className="getStarte">Let's talk</button>
                       </Link>{" "}
                     </div>
                   </div>
@@ -355,14 +349,15 @@ export default function LandingPage() {
                 }}
               >
                 <div className="effort">
-                  <p className="tag_header mt-16 text-center  ">
-                    Effortlessly engage, qualify, and gather information from
-                    potential customers using our seamless VideoChat and text
-                    chatbots.
+                  <p className="tag_header mt-20 text-center  ">
+                    Realtors in our network sell to high-end clients weekly —
+                    they are ready to refer you for their clients' next project.
                   </p>
                 </div>
                 <div className="sub_Serv collapse_grid">
-                  <div className="mt-4 md:flex justify-between ">
+                  <div className="mt-4 md:flex justify-around gap-14 ">
+                    <img className="sold" src="./sold.jpg" />
+
                     <div>
                       <div className="serv_text ">
                         <div className="mt-12">
@@ -375,18 +370,8 @@ export default function LandingPage() {
                               className="mark"
                             />
                             <p className="ml-3">
-                              Drive quality organic traffic to your website
+                              Access to High-End Clients Without Chasing Them{" "}
                             </p>
-                          </div>
-                          <div className="flex mt-3 ">
-                            <img
-                              width="20"
-                              height="20"
-                              src="https://img.icons8.com/windows/32/FFFFFF/checkmark--v1.png"
-                              alt="checkmark--v1"
-                              className="mark"
-                            />
-                            <p className="ml-3">Lower cost per lead </p>
                           </div>
                           <div className="flex mt-3 ">
                             <img
@@ -397,27 +382,28 @@ export default function LandingPage() {
                               className="mark"
                             />
                             <p className="ml-3">
-                              Convert leads from Google, Facebook, and Instagram
-                              ads into close deals
+                              {" "}
+                              Build a Steady Pipeline Through Realtor Referrals
+                            </p>
+                          </div>
+                          <div className="flex mt-3 ">
+                            <img
+                              width="20"
+                              height="20"
+                              src="https://img.icons8.com/windows/32/FFFFFF/checkmark--v1.png"
+                              alt="checkmark--v1"
+                              className="mark"
+                            />
+                            <p className="ml-3">
+                              Eliminate Price-Sensitive Leads
                             </p>
                           </div>
                         </div>
                         <Link href="./contact">
-                          <button className="getStarte">Get Started</button>
+                          <button className="getStarte">Let's talk</button>
                         </Link>{" "}
                       </div>
                     </div>
-                    <iframe
-                      className="iframe"
-                      width="560"
-                      height="315"
-                      src="https://imagekit.io/player/embed/juwoncaleb/Untitled_Project_V1%20(1)_0-Oo2sOYF.mp4?thumbnail=https%3A%2F%2Fik.imagekit.io%2Fjuwoncaleb%2FUntitled_Project_V1%2520%281%29_0-Oo2sOYF.mp4%2Fik-thumbnail.jpg&updatedAt=1699439076852"
-                      title="ImageKit video player"
-                      frameBorder="0"
-                      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
-                    >
-                      {" "}
-                    </iframe>
                   </div>
                 </div>
               </motion.div>
@@ -438,8 +424,8 @@ export default function LandingPage() {
                 <div className="mt-24 md:flex collapse_grid sub_Serv ape justify-between">
                   <div>
                     <p className="tag_header mt-8 ">
-                      Establish your brand on social media as an Authority in
-                      Real estate
+                      Establish your brand on social media and get enquires for
+                      Luxury Residential Projects
                     </p>
                     <div className="serv_text">
                       <div className="mt-12">
@@ -452,7 +438,7 @@ export default function LandingPage() {
                             alt="checkmark--v1"
                           />
                           <p className="ml-3">
-                            Save time from managing your social{" "}
+                            Turn engagement into Real Inquiries{" "}
                           </p>
                         </div>
                         <div className="flex mt-3 ">
@@ -464,7 +450,7 @@ export default function LandingPage() {
                             className="mark"
                           />
                           <p className="ml-3">
-                            Build your brand as an Authority in Real estate{" "}
+                          Build Trust Without Needing to Sell Hard{" "}
                           </p>
                         </div>
                         <div className="flex mt-3 ">
@@ -476,13 +462,12 @@ export default function LandingPage() {
                             className="mark"
                           />
                           <p className="ml-3">
-                            Increase engagement & following from your Target
-                            Market
+                            Easily Test What Resonates With Your Ideal Clients
                           </p>
                         </div>
                       </div>
                       <Link href="./contact">
-                        <button className="getStarte">Get Started</button>
+                        <button className="getStarte">Let's talk</button>
                       </Link>{" "}
                     </div>
                   </div>
@@ -551,7 +536,7 @@ export default function LandingPage() {
                   delay: 0.2,
                 }}
               >
-                <a href="https://amaarlux.com/">
+                <a href="https://amarlux-realty.vercel.app/">
                   <Image
                     className="cursor-pointer"
                     width="600"

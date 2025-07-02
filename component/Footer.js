@@ -20,7 +20,7 @@ export default function Footer() {
         <div className='End_note'>
           <p>Everything you need to grow your
           </p>
-          <p>  Real Estate business.</p>
+          <p>  Interior Design Studio.</p>
           <Link href='./contact'>
              <button className='start_now'>
             Talk to Us

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&family=Habibi&family=Ovo&family=Unbounded:wght@200..900&family=Urbanist:ital,wght@0,100..900;1,100..900&family=Varela&display=swap');
 .hero_text {
   font-family: "Italiana", serif;
   text-align: center;
@@ -120,9 +121,9 @@
 }
 
 .hadliner {
-  font-family: "Cormorant", serif;
-  font-size: 50px;
-  font-weight: 600;
+    font-family: "Archivo", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
 }
 
 .video_2 {
@@ -153,7 +154,7 @@
   min-height: 100vh;
 }
 .logoImage {
-  height: 70px;
+  height: 65px;
   width: 150px;
 }
 .slider {
@@ -224,14 +225,17 @@
   padding-top: 50px;
   margin-bottom: 80px;
 }
+.sold{
+  height: 400px;
+}
 .growth {
   font-family: "Cormorant", serif;
   font-size: 35px;
   font-weight: 600;
 }
 .tag_header {
-  font-size: 43px;
-  font-family: "Cormorant", serif;
+  font-size: 40px;
+  font-family: "Ovo", serif;
 }
 .sub_Serv {
 }
@@ -253,7 +257,7 @@
   background-color: black;
 }
 .video_div {
-  max-width: 500px;
+  max-width: 600px;
   margin-top: 20px;
 }
 .getStarte {
@@ -273,7 +277,7 @@
   transition-duration: 0.2s;
 }
 .mlx {
-  margin-top: 140px;
+  margin-top: 230px;
 }
 .effort {
   margin-top: 130px;
@@ -367,10 +371,13 @@
 }
 .about_head_text {
   text-align: center;
-  font-size: 75px;
-      font-family: "Cormorant", serif;
+  font-size: 65px;
+  font-family: "Ovo", serif;
 
-  font-weight: 600;
+  font-weight: 800;
+}
+.header_hero_div{
+  max-width: 1200px;
 }
 .soooop {
   padding-bottom: 50px;
@@ -590,8 +597,8 @@
   font-size: 15px !important;
 }
 .int {
-  height: 400px;
-  width: 600px;
+  height: 300px;
+  width: 800px;
 }
 
 .book {
@@ -609,8 +616,8 @@
 }
 @media only screen and (max-width: 1024px) {
   .tag_header {
-    font-size: 33px;
-    font-family: "Cormorant", serif;
+    font-size: 35px;
+  font-family: "Ovo", serif;
   }
   .End_note {
     font-family: "Italiana", serif;
@@ -643,8 +650,7 @@
 
   .hadliner {
     font-size: 30px;
-    font-weight: 600;
-    font-family: "Cormorant", serif;
+    font-family: "Archivo", sans-serif;
   }
 
   .video_2 {
@@ -779,11 +785,13 @@
     width: 15px;
     margin-top: 12px;
   }
-
+.logoImage {
+  height: 40px;
+  width: 80px;
+}
   .hadliner {
-    font-family: "Cormorant", serif;
+    font-family: "Archivo", sans-serif;
     font-size: 30px;
-    font-weight: 600;
   }
 
   .video_2 {
@@ -843,6 +851,11 @@
     width: 400px;
     padding-bottom: 200px;
   }
+  .logoImage {
+  height: 40px;
+  width: 80px;
+  margin-top: 25px;
+}
   .packages {
     display: grid;
   }
@@ -892,13 +905,12 @@
   }
 
   .hadliner {
-    font-family: "Cormorant", serif;
+    font-family: "Archivo", sans-serif;
     font-size: 28px;
-    font-weight: 600;
   }
   .tag_header {
     font-size: 28px;
-    font-family: "Cormorant", serif;
+  font-family: "Ovo", serif;
   }
   .video_2 {
     margin-top: 70px;
@@ -924,7 +936,7 @@
   .top_service {
     padding: 20px;
     padding-bottom: 20px;
-    font-family: "Cormorant", serif;
+    font-family: "Archivo", sans-serif;
     font-size: 14px;
     padding-top: 20px;
     margin-bottom: 80px;
@@ -1066,7 +1078,7 @@
     padding-bottom: 200px;
   }
   .pac .hadliner {
-    font-family: "Cormorant", serif;
+    font-family: "Archivo", sans-serif;
     font-size: 24px;
     font-weight: 600;
   }

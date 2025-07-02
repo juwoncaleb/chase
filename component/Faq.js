@@ -53,25 +53,26 @@ const FaqsCard = (props) => {
 export default () => {
 
     const faqsList = [
-        {
-            q: "What services does Chase offer for real estate website development?",
-            a: "Chase specializes in creating custom real estate websites that are tailored to your business needs. We offer design, development, search engine optimization, and ongoing support."
+         {
+            q: "How do you actually help interior designers grow?",
+            a: "We help you get in front of the right people — fast. From running smart ads that bring in quality leads, to securing strategic referrals from realtors and developers, we plug you into a system that gets you seen, booked, and paid."
         },
         {
-            q: "How long does it take to develop a real estate website with Chase?",
-            a: "The timeframe for developing a real estate website depends on the complexity and specific requirements. Typically, the process takes between 3 to 6 weeks from design to launch."
+            q: " What do you mean by collaborating with realtors or developers?",
+            a: "We introduce you to realtors and property developers who are already working with high-net-worth clients. These professionals often need trusted designers to refer—and we make sure your name is the one they remember."
+        },
+       
+        {
+            q: " Why should I work with you instead of hiring a marketing person or building a team in-house?",
+            a: "Hiring in-house sounds smart — until you realize you’re paying full-time for someone who likely doesn’t have the strategy, systems, or network to actually bring in high-end clients. With us, you get a full team: ads, strategy, partnerships, and positioning — all tailored to interior designers. No training, no guessing, no wasted salary. Just a proven system that gets results faster, for less."
         },
         {
-            q: " What features can Chase include to improve user experience on our real estate website?",
-            a: "Chase can implement various features like advanced property search, MLS integration, interactive property maps, virtual tours, mortgage calculators, and lead generation forms to enhance user experience and engage potential clients."
+            q: "How long before I see results?",
+            a: "Some designers get inquiries in the first week — especially through our realtor network. For ads and full campaigns, most see momentum within 2–4 weeks. But we're not here for short-term spikes; we're building long-term growth."
         },
         {
-            q: " How does Chase approach search engine optimization (SEO) for real estate websites?",
-            a: "Chase employs proven SEO strategies, including optimized property descriptions, meta tags, page speed optimization, and local SEO techniques, to increase your website's visibility in search engine results and attract organic traffic."
-        },
-        {
-            q: "Does Chase provide ongoing support and maintenance after the website launch?",
-            a: "Absolutely! Chase offers comprehensive support and maintenance packages to ensure your real estate website remains secure, up-to-date, and runs smoothly post-launch."
+            q: "What kind of designers do you usually work with?",
+            a: "We work best with interior designers who are serious about growth — whether you're just starting or already booked but ready to scale. If your work is excellent but your leads are inconsistent, we’re for you."
         }
     ]
 

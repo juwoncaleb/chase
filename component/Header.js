@@ -48,7 +48,7 @@ export default function Header({ currentPage }) {
           <img
             className="logoImage"
           
-            src="./lgp.png"
+            src="./lz.png"
           />
         </Link>
         <div className="flex mt-7 ">
@@ -56,11 +56,14 @@ export default function Header({ currentPage }) {
             <div className={`nav_link_ `}>
               <Link href="./about">
                 <div className="flex cursor-pointer">
-                  <p>About</p>
+                  <p>Our Process</p>
                 </div>
               </Link>
             </div>
           </div>
+           <Link href="./portfolio">
+            <p className="nav_link cursor-pointer"></p>
+          </Link>
           <Link href="./portfolio">
             <p className="nav_link cursor-pointer">Portfolio</p>
           </Link>
@@ -71,7 +74,7 @@ export default function Header({ currentPage }) {
         </div>
         <Link href="./contact">
           <div className="flex justify-evenly mt-4">
-            <button className="start_btn">Get Started</button>
+            <button className="start_btn">Let's talk</button>
           </div>
         </Link>
       </div>
@@ -84,7 +87,7 @@ export default function Header({ currentPage }) {
            <img
             className="logoImage"
           
-            src="./lgp.png"
+            src="./lz.png"
           />
         </Link>
         {menu == 0 ? (
@@ -117,7 +120,7 @@ export default function Header({ currentPage }) {
           className="mt-16 miniii flex flex-col items-end fixed top-0 w-full z-10"
         >
           <Link href="./about">
-            <p className="cursor-pointer menu_link">About</p>
+            <p className="cursor-pointer menu_link">Our Process</p>
           </Link>
           <Link href="./portfolio">
             <p className="cursor-pointer mt-2 menu_link">Portfolio</p>
@@ -128,7 +131,7 @@ export default function Header({ currentPage }) {
 
           <Link href="./contact">
             <div className="mt-2">
-              <button className="start_btn">Get Started</button>
+              <button className="start_btn">Let's talk</button>
             </div>
           </Link>
         </div>
