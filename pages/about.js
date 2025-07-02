@@ -29,44 +29,11 @@ export default function About() {
       <div className="about_hero flex justify-around">
         <div>
           <p>
-          
-            <span className="ought">Secret </span> to better marketing?
+            <span className="ought">Secret </span> to better marketing? Stop
+            doing it by yourself.
           </p>
         </div>
-        <div className="about_image_1_div ml-1 flex">
-          <Image
-            className="about_image_1"
-            src="https://ik.imagekit.io/juwoncaleb/c1_FkYKK_t9Z.webp?updatedAt=1693945332980"
-            width="200"
-            height="200"
-          />
-          <div className="black_round">
-            <center>
-              <div className="flex">
-                <p>Get Started</p>
-                <img
-                  className="ml-1 tga_"
-                  width="30"
-                  height="64"
-                  src="https://img.icons8.com/glyph-neue/64/FFFFFF/long-arrow-right.png"
-                  alt="long-arrow-right"
-                />
-              </div>
-            </center>
-          </div>
-        </div>
       </div>
-      <div className="flex div about_hero_sub">
-        <p> Stop doing it by </p>
-        <Image
-          className="about_image_2"
-          src="https://ik.imagekit.io/juwoncaleb/c2_XQ1iMgswT.webp?updatedAt=1693945332103"
-          width="350"
-          height="350"
-        />
-        <p> yourself.</p>
-      </div>
-
       <div className="div process">
         <div className=" justify-between">
           <img
