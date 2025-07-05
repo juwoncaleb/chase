@@ -12,7 +12,7 @@ export default function Team() {
         <center>
           <div className="about_head mr-4">
             <p className="about_head_text">
-              <span className="ought"> Meet</span> the Team at
+              <span className="ought"> Meet</span> the Team 
             </p>
             <p className="about_head_text lov">C H A S E</p>
           </div>
