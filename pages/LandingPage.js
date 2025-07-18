@@ -18,8 +18,10 @@ export default function LandingPage() {
             <div className="about_head soooop">
               <div className="header_hero_div">
                 <p className="about_head_text">
-                  <span className="ought"> Chase - </span> 
-Position you as the obvious choice for interior design projects.                </p>
+                  <span className="ought"> Chase - </span>
+                  Position you as the obvious choice for Luxury interior design
+                  projects.{" "}
+                </p>
               </div>
             </div>
           </center>
@@ -209,8 +211,66 @@ Position you as the obvious choice for interior design projects.                
                   delay: 0,
                 }}
               >
-                <div className=" mb-16">
-                  <div className="mt-10 collapse_grid grid  md:grid-cols-2 gap-8">
+                <div className="effort">
+                  <p className="tag_header mt-1 text-center  ">
+                    Realtors in our network sell to high-end clients weekly —
+                    they are ready to refer you for their clients' next project.
+                  </p>
+                </div>
+                <div className="sub_Serv mb-20 collapse_grid">
+                  <div className="mt-4 md:flex justify-around gap-14 ">
+                    <img className="sold" src="./sold.jpg" />
+
+                    <div>
+                      <div className="serv_text ">
+                        <div className="mt-1">
+                          <div className="flex ">
+                            <img
+                              width="20"
+                              height="20"
+                              src="https://img.icons8.com/windows/32/FFFFFF/checkmark--v1.png"
+                              alt="checkmark--v1"
+                              className="mark"
+                            />
+                            <p className="ml-3">
+                              Access to High-End Clients Without Chasing Them{" "}
+                            </p>
+                          </div>
+                          <div className="flex mt-3 ">
+                            <img
+                              width="20"
+                              height="20"
+                              src="https://img.icons8.com/windows/32/FFFFFF/checkmark--v1.png"
+                              alt="checkmark--v1"
+                              className="mark"
+                            />
+                            <p className="ml-3">
+                              {" "}
+                              Build a Steady Pipeline Through Realtor Referrals
+                            </p>
+                          </div>
+                          <div className="flex mt-3 ">
+                            <img
+                              width="20"
+                              height="20"
+                              src="https://img.icons8.com/windows/32/FFFFFF/checkmark--v1.png"
+                              alt="checkmark--v1"
+                              className="mark"
+                            />
+                            <p className="ml-3">
+                              Eliminate Price-Sensitive Leads
+                            </p>
+                          </div>
+                        </div>
+                        <Link href="./contact">
+                          <button className="getStarte">Let's talk</button>
+                        </Link>{" "}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className=" mb-8 mt-32">
+                  <div className=" collapse_grid flex justify-between">
                     <div>
                       <p className="tag_header ">
                         Attract and convert clients <br /> with a compelling
@@ -289,9 +349,8 @@ Position you as the obvious choice for interior design projects.                
 
                   <div className="porto">
                     <p className="tag_header quick_Search ">
-                      You do not have <span className="ought">JUMP</span>{" "}
-                      through hoops to get a consistent lead in your{" "}
-                      <span className="ought">PIPLINE</span>
+                      Fill your <span className="ought">Pipeline</span> With
+                      qualified Leads{" "}
                     </p>
                     <div className="serv_text">
                       <div className="mt-8">
@@ -346,66 +405,7 @@ Position you as the obvious choice for interior design projects.                
                   duration: 0.4,
                   delay: 0,
                 }}
-              >
-                <div className="effort">
-                  <p className="tag_header mt-20 text-center  ">
-                    Realtors in our network sell to high-end clients weekly —
-                    they are ready to refer you for their clients' next project.
-                  </p>
-                </div>
-                <div className="sub_Serv collapse_grid">
-                  <div className="mt-4 md:flex justify-around gap-14 ">
-                    <img className="sold" src="./sold.jpg" />
-
-                    <div>
-                      <div className="serv_text ">
-                        <div className="mt-12">
-                          <div className="flex ">
-                            <img
-                              width="20"
-                              height="20"
-                              src="https://img.icons8.com/windows/32/FFFFFF/checkmark--v1.png"
-                              alt="checkmark--v1"
-                              className="mark"
-                            />
-                            <p className="ml-3">
-                              Access to High-End Clients Without Chasing Them{" "}
-                            </p>
-                          </div>
-                          <div className="flex mt-3 ">
-                            <img
-                              width="20"
-                              height="20"
-                              src="https://img.icons8.com/windows/32/FFFFFF/checkmark--v1.png"
-                              alt="checkmark--v1"
-                              className="mark"
-                            />
-                            <p className="ml-3">
-                              {" "}
-                              Build a Steady Pipeline Through Realtor Referrals
-                            </p>
-                          </div>
-                          <div className="flex mt-3 ">
-                            <img
-                              width="20"
-                              height="20"
-                              src="https://img.icons8.com/windows/32/FFFFFF/checkmark--v1.png"
-                              alt="checkmark--v1"
-                              className="mark"
-                            />
-                            <p className="ml-3">
-                              Eliminate Price-Sensitive Leads
-                            </p>
-                          </div>
-                        </div>
-                        <Link href="./contact">
-                          <button className="getStarte">Let's talk</button>
-                        </Link>{" "}
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </motion.div>
+              ></motion.div>
             }
 
             {
@@ -420,7 +420,7 @@ Position you as the obvious choice for interior design projects.                
                   delay: 0,
                 }}
               >
-                <div className="mt-24 md:flex collapse_grid sub_Serv ape justify-between">
+                <div className="mt-32 md:flex collapse_grid sub_Serv ape justify-between">
                   <div>
                     <p className="tag_header mt-8 ">
                       Establish your brand on social media and get enquires for
@@ -449,7 +449,7 @@ Position you as the obvious choice for interior design projects.                
                             className="mark"
                           />
                           <p className="ml-3">
-                          Build Trust Without Needing to Sell Hard{" "}
+                            Build Trust Without Needing to Sell Hard{" "}
                           </p>
                         </div>
                         <div className="flex mt-3 ">

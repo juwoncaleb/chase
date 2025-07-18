@@ -1,4 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&family=Habibi&family=Ovo&family=Unbounded:wght@200..900&family=Urbanist:ital,wght@0,100..900;1,100..900&family=Varela&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Great+Vibes&family=Parisienne&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -401,7 +403,7 @@ body {
 }
 
 .effort {
-  margin-top: 130px;
+  margin-top: 10px;
   margin-bottom: 130px;
 }
 
@@ -498,7 +500,9 @@ body {
 .about_head_text {
   text-align: center;
   font-size: 65px;
-  font-family: "Ovo", serif;
+  font-family: "Marcellus", serif;
+  font-weight: 400;
+  font-style: normal;
   font-weight: 800;
 }
 
