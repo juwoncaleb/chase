@@ -18,9 +18,8 @@ export default function LandingPage() {
             <div className="about_head soooop">
               <div className="header_hero_div">
                 <p className="about_head_text">
-                  <span className="ought"> Chase - </span> Helping Interior
-                  Designers Close more Deals , While Doing Less
-                </p>
+                  <span className="ought"> Chase - </span> 
+We position you as the obvious choice for luxury and commercial interior design projects.                </p>
               </div>
             </div>
           </center>
