@@ -45,11 +45,7 @@ export default function Header({ currentPage }) {
         style={headerStyle}
       >
         <Link href="./">
-          <img
-            className="logoImage"
-          
-            src="./lz.png"
-          />
+          <img className="logoImage" src="./lz.png" />
         </Link>
         <div className="flex mt-7 ">
           <div className="flex">
@@ -61,15 +57,16 @@ export default function Header({ currentPage }) {
               </Link>
             </div>
           </div>
-           <Link href="./portfolio">
-            <p className="nav_link cursor-pointer"></p>
-          </Link>
+
           <Link href="./portfolio">
             <p className="nav_link cursor-pointer">Portfolio</p>
           </Link>
-
+          
           <Link href="teamMembers">
             <p className="nav_link cursor-pointer">Team</p>
+          </Link>
+          <Link href="https://www.youtube.com/@Omojuwon">
+            <p className="nav_link cursor-pointer">Youtube</p>
           </Link>
         </div>
         <Link href="./contact">
@@ -84,11 +81,7 @@ export default function Header({ currentPage }) {
         style={headerStyle}
       >
         <Link href="./">
-           <img
-            className="logoImage"
-          
-            src="./lz.png"
-          />
+          <img className="logoImage" src="./lz.png" />
         </Link>
         {menu == 0 ? (
           <img
@@ -122,9 +115,15 @@ export default function Header({ currentPage }) {
           <Link href="./about">
             <p className="cursor-pointer menu_link">Our Process</p>
           </Link>
+
+         
           <Link href="./portfolio">
             <p className="cursor-pointer mt-2 menu_link">Portfolio</p>
           </Link>
+           <Link href="https://www.youtube.com/@Omojuwon">
+            <p className="nav_link cursor-pointer"> Youtube</p>
+          </Link>
+
           <Link href="teamMembers">
             <p className="nav_link cursor-pointer">Team</p>
           </Link>
