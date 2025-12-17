@@ -36,10 +36,23 @@ export default function About() {
       </div>
       <div className="div process">
         <div className=" justify-between">
-          <img
-            className="heap mb-20"
-            src="https://ik.imagekit.io/juwoncaleb/heap_sAxottGO7.webp?updatedAt=1693945462190"
-          />
+          <center>
+            <div className="flex justify-center my-10">
+              <iframe
+                style={{
+                  display: "block",
+                  margin: "auto",
+                  width: "1042px",
+                  maxWidth: "100%",
+                  aspectRatio: "1.7708830548926013",
+                }}
+                src="https://killerplayer.com/watch/video/2586e38e-302e-4472-9bdb-022a4f50beec"
+                frameBorder="0"
+                allow="autoplay; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </center>
         </div>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -179,22 +192,6 @@ export default function About() {
             </motion.div>
           </div>
 
-          <p className="intent_header semrush">
-            We create compelling content and run targeted social media ads to
-            attract serious inquiries.
-          </p>
-          <Vin />
-          <p className="mt-10 sem">
-            We create compelling content and run targeted social media ads to
-            attract serious inquiries for your interior design business. From
-            concept to camera, we handle the entire content creation process —
-            shooting professional videos and visuals that showcase your style,
-            projects, and expertise. Once the content is ready, we strategically
-            distribute it through paid ads on platforms like Instagram and
-            Facebook, targeting high-income homeowners and property developers
-            actively looking for designers. This means you don’t just get views
-            or likes — you get real inquiries from people who are ready to hire.
-          </p>
           <div>
             <center>
               <motion.div
