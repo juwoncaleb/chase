@@ -1,8 +1,10 @@
 import React from "react";
 import Image from "next/image";
 import Header from "@/component/Header";
+import Link from "next/link";
+
 import Footer from "@/component/Footer";
-import { Widget } from '@typeform/embed-react'
+import { Widget } from "@typeform/embed-react";
 
 export default function Contact() {
   return (
@@ -20,12 +22,9 @@ export default function Contact() {
           <Image src="/pt.png" width="450" height="450" />
         </div>
         <div className="bg-black form_fel flex justify-between">
-         
-
-        <Widget id="j14YAmqh"  className="widget" />
-
-
-          
+          <Link href="https://mainstack.com/marketing-consultations">
+            <button className="start_now">Book Now</button>
+          </Link>
         </div>
       </div>
       <Footer />
